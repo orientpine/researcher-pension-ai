@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "agent": "index-fetcher (librarian)",
+    "generatedAt": "2026-03-30T15:00:00+09:00",
+    "dataDate": "2026-03-27",
+    "note": "Most recent trading day data. March 30 is a Monday, Korean markets may be closed."
+  },
+  "indices": {
+    "sp500": {
+      "name": "S&P 500",
+      "current": 6368.85,
+      "ytd": -6.96,
+      "return1y": 14.87,
+      "high52w": 6976.44,
+      "low52w": 5400,
+      "source": "https://finance.yahoo.com/quote/%5EGSPC/history/, https://www.slickcharts.com/sp500/returns/ytd, https://ycharts.com/indicators/sp_500_1_year_return"
+    },
+    "nasdaq": {
+      "name": "NASDAQ Composite",
+      "current": 20948.36,
+      "ytd": -10.0,
+      "return1y": 7.0,
+      "high52w": 24019.99,
+      "low52w": 14784.03,
+      "source": "https://finance.yahoo.com/quote/%5EIXIC/history/, https://www.cnbc.com/quotes/.IXIC"
+    },
+    "dowjones": {
+      "name": "Dow Jones Industrial Average",
+      "current": 45166.64,
+      "ytd": -6.03,
+      "return1y": 8.64,
+      "high52w": 50512.79,
+      "low52w": 36611.78,
+      "source": "https://www.cnbc.com/quotes/.DJI, https://www.slickcharts.com/dowjones/returns/ytd"
+    },
+    "kospi": {
+      "name": "KOSPI",
+      "current": 5275.44,
+      "ytd": -8.0,
+      "return1y": -5.0,
+      "high52w": 6347.41,
+      "low52w": 2284.72,
+      "source": "https://finance.yahoo.com/quote/%5EKS11/, https://www.investing.com/indices/kospi-historical-data"
+    },
+    "kosdaq": {
+      "name": "KOSDAQ",
+      "current": 1166.51,
+      "ytd": -5.0,
+      "return1y": 0.0,
+      "high52w": 1215.67,
+      "low52w": 637.55,
+      "source": "https://finance.yahoo.com/quote/%5EKQ11/history/, https://ng.investing.com/indices/kosdaq"
+    }
+  },
+  "fx": {
+    "usdkrw": {
+      "name": "USD/KRW",
+      "current": 1507.23,
+      "ytd": 8.5,
+      "return1y": 15.0,
+      "high52w": 1507.23,
+      "low52w": 1290,
+      "note": "Won at weakest since March 2009",
+      "source": "https://finance.yahoo.com/quote/KRW%3DX/history/, https://tradingeconomics.com/south-korea/currency"
+    },
+    "eurkrw": {
+      "name": "EUR/KRW",
+      "current": 1735.58,
+      "ytd": 5.0,
+      "return1y": 10.0,
+      "source": "https://ycharts.com/indicators/euro_to_south_korean_won_exchange_rate"
+    },
+    "jpykrw": {
+      "name": "JPY/KRW (100엔)",
+      "current": 940.77,
+      "ytd": 10.0,
+      "return1y": 12.0,
+      "source": "https://exa.ai/library/markets/forex/JPYKRW"
+    }
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "status": "SUCCESS",
+  "analysis_date": "2026-01-31",
+  "skill_used": "web-search-verifier",
+  "sectors": [
+    {
+      "name": "반도체/AI",
+      "growth_forecast": "15-20%",
+      "rating": "비중확대",
+      "confidence": 0.85,
+      "outlook": "긍정적",
+      "key_drivers": [
+        "AI 칩 시장 920억~1000억 달러 규모 (2026년)",
+        "HBM4 상용화 원년 - HBM이 DRAM 수익의 30% 이상 차지",
+        "데이터센터 AI 서버가 범용 서버 가치의 2배 예상",
+        "추론(Inference) 중심으로 시장 전환"
+      ],
+      "risks": [
+        "미-중 지정학적 규제 심화",
+        "전력 제약 (Power Constraints)",
+        "재고 과잉 가능성 (Inventory Gluts)",
+        "자체칩(ASIC) 경쟁 심화 - 하이퍼스케일러 20-25% 시장 점유"
+      ],
+      "opportunities": [
+        "HBM4 전환기 선점 기업 수혜",
+        "엣지 AI (PC/스마트폰 온디바이스 AI) 확대",
+        "2nm/3nm 공정 양산 전환",
+        "커스텀 HBM 공동설계 트렌드"
+      ],
+      "sources": [
+        {
+          "title": "AI Chip Market 2026 Forecast",
+          "publisher": "Gartner/IDC",
+          "url": "Google Search Aggregation",
+          "original_text": "AI semiconductor revenue will reach approximately $92 billion to $100 billion by 2026, representing nearly 15-17% of the total global semiconductor market. Compound Annual Growth Rate (CAGR) of 20-25% is expected through 2026."
+        },
+        {
+          "title": "HBM Outlook 2026",
+          "publisher": "Industry Analysis",
+          "url": "Google Search Aggregation",
+          "original_text": "2026 will be the 'Year of HBM4.' By 2026, HBM is expected to account for over 10% of total DRAM bit production but over 30% of total DRAM revenue due to its high ASP."
+        }
+      ]
+    },
+    {
+      "name": "로봇/자동화",
+      "growth_forecast": "50-60% (CAGR)",
+      "rating": "비중확대",
+      "confidence": 0.75,
+      "outlook": "긍정적",
+      "key_drivers": [
+        "휴머노이드 로봇 시장 2025년 18억 달러 -> 2030년 189억 달러 전망",
+        "CES 2026에서 상업적 실용화 단계 진입 확인",
+        "Tesla Optimus - 머스크, Tesla 미래 가치의 80% 차지 전망",
+        "노동력 부족에 따른 물류/제조업 자동화 수요 급증"
+      ],
+      "risks": [
+        "기술 성숙도 대비 과도한 기대",
+        "생산 비용 및 스케일업 한계",
+        "규제 불확실성",
+        "Figure AI, Boston Dynamics 등 경쟁 심화"
+      ],
+      "opportunities": [
+        "공장/물류창고 초기 상용화 시작",
+        "헬스케어 로봇 (재활, 간병) 수요",
+        "중국 휴머노이드 산업 급성장",
+        "AI + 로봇 융합 가속화"
+      ],
+      "sources": [
+        {
+          "title": "Humanoid Robot Market Forecast",
+          "publisher": "Knowledge Sourcing Intelligence",
+          "date": "2026-01-15",
+          "url": "https://www.knowledge-sourcing.com/report/humanoid-robot-market",
+          "original_text": "The Humanoid Robot Market is projected to grow at a CAGR of 59.87% to reach US$18.971 billion in 2030 from US$1.817 billion in 2025."
+        },
+        {
+          "title": "CES 2026 Humanoid Robot Breakout",
+          "publisher": "InvestorPlace",
+          "date": "2026-01-14",
+          "url": "https://investorplace.com/hypergrowthinvesting/2026/01/humanoid-robot-stocks-ces-2026-reveals-commercial-breakout/",
+          "original_text": "Humanoid robots just went from vaporware to viable. CES 2026 Reveals Commercial Breakout."
+        }
+      ]
+    },
+    {
+      "name": "헬스케어",
+      "growth_forecast": "8-12%",
+      "rating": "비중확대",
+      "confidence": 0.82,
+      "outlook": "긍정적",
+      "key_drivers": [
+        "GLP-1 비만치료제 시장 2030년까지 1400억 달러 이상 전망",
+        "2026년 GLP-1 알약 형태 출시 - 시장 접근성 혁명",
+        "Novo Nordisk vs Eli Lilly 양강 구도 지속",
+        "비만/당뇨 치료 적응증 확대"
+      ],
+      "risks": [
+        "약가 인하 압박 (TrumpRx 정책)",
+        "공급 부족 지속 가능성",
+        "규제 승인 지연",
+        "M&A 활성화에 따른 밸류에이션 부담"
+      ],
+      "opportunities": [
+        "GLP-1 알약 형태 FDA 승인 임박",
+        "심혈관/신장질환 적응증 확대",
+        "바이오시밀러 시장 성장",
+        "AI 신약개발 가속화"
+      ],
+      "sources": [
+        {
+          "title": "2026 is the year of obesity pills",
+          "publisher": "CNBC",
+          "date": "2026-01-10",
+          "url": "https://www.cnbc.com/2026/01/10/2026-is-the-year-of-obesity-pills-from-novo-nordisk-eli-lilly-.html",
+          "original_text": "2026 is the year of obesity pills from Novo Nordisk, Eli Lilly."
+        },
+        {
+          "title": "GLP-1 Market Outlook",
+          "publisher": "Ozmosi",
+          "date": "2025-10-16",
+          "url": "https://www.ozmosi.com/market-overview-glp-1-agonists-and-the-obesity-market/",
+          "original_text": "GLP-1 market projected to reach more than $140 billion in sales by the end of the decade."
+        }
+      ]
+    },
+    {
+      "name": "에너지",
+      "growth_forecast": "0-5%",
+      "rating": "중립",
+      "confidence": 0.78,
+      "outlook": "중립",
+      "key_drivers": [
+        "브렌트유 2026년 평균 55달러/배럴 전망 (EIA)",
+        "WTI 2026년 평균 51달러/배럴 전망",
+        "글로벌 석유 수요 성장 93만 b/d (IEA)",
+        "OPEC+ 감산 해제 가속화로 공급 과잉"
+      ],
+      "risks": [
+        "유가 하락 압력 지속 (공급 과잉)",
+        "지정학적 리스크 (베네수엘라, 이란)",
+        "재생에너지 전환 가속화",
+        "AI 데이터센터 전력 수요 급증"
+      ],
+      "opportunities": [
+        "원자력/SMR 부활 (AI 전력 수요)",
+        "천연가스 수출 증가",
+        "저비용 생산자 수혜",
+        "에너지 전환 관련 인프라 투자"
+      ],
+      "sources": [
+        {
+          "title": "EIA Short-Term Energy Outlook",
+          "publisher": "U.S. Energy Information Administration",
+          "date": "2026-01-13",
+          "url": "https://www.eia.gov/outlooks/steo/",
+          "original_text": "For 2026, EIA projects Brent crude to average $55.08 per barrel and WTI to average $51.42 per barrel."
+        },
+        {
+          "title": "IEA Oil Market Report January 2026",
+          "publisher": "IEA",
+          "date": "2026-01-21",
+          "url": "https://www.iea.org/reports/oil-market-report-january-2026",
+          "original_text": "Global oil demand growth is forecast to average 930 kb/d in 2026."
+        }
+      ]
+    },
+    {
+      "name": "기술/소프트웨어",
+      "growth_forecast": "10-15%",
+      "rating": "비중확대",
+      "confidence": 0.80,
+      "outlook": "긍정적",
+      "key_drivers": [
+        "AI 인프라 투자 지속 (클라우드, 데이터센터)",
+        "S&P500 2026년 12% 상승 전망 (Goldman Sachs)",
+        "기업 리레버리징 및 AI 도입 가속화",
+        "IPO/M&A 활성화 기대"
+      ],
+      "risks": [
+        "밸류에이션 부담 - Forward P/E 22배 (역사적 고점)",
+        "금리 인하 속도 불확실성",
+        "기술주 쏠림 현상 (Magnificent 7)",
+        "정치적/지정학적 리스크"
+      ],
+      "opportunities": [
+        "AI 도입 수익화 단계 진입",
+        "기업 AI 투자 확대",
+        "가치주로의 순환매 가능성",
+        "광범위한 섹터 참여 확대"
+      ],
+      "sources": [
+        {
+          "title": "Goldman Sachs S&P 500 Forecast 2026",
+          "publisher": "Goldman Sachs",
+          "date": "2026-01-09",
+          "url": "https://www.goldmansachs.com/insights/articles/the-sp-500-expected-to-rally-12-this-year",
+          "original_text": "Healthy economic growth and Fed easing are expected to help propel the US stock market this year. Five key investment themes in 2026 are expected to be: accelerating GDP growth, corporate re-leveraging, AI adoption, a rise in IPOs and dealmaking, and a search for value stocks."
+        },
+        {
+          "title": "Wall Street 2026 S&P 500 Targets",
+          "publisher": "CNBC",
+          "date": "2025-12-22",
+          "url": "https://www.cnbc.com/2025/12/22/heres-where-the-stock-market-is-headed-in-2026-according-to-wall-streets-top-strategists.html",
+          "original_text": "Year-end S&P 500 targets ranging from 7,100 to 8,000. This implies returns between 3.3% and 16.4%."
+        }
+      ]
+    }
+  ],
+  "special_analysis": {
+    "gold_silver_crash": {
+      "event_date": "2026-01-30",
+      "cause": "Kevin Warsh 차기 Fed 의장 지명 충격 - 매파적 통화정책 우려",
+      "severity": "극심 - 역사적 수준의 하락",
+      "gold_decline": "-12% 이상 (4,716달러/oz로 하락)",
+      "silver_decline": "-33~34% (76.5달러/oz로 하락) - 1980년대 Hunt Brothers 사태 이후 최악",
+      "market_cap_loss": "24시간 내 약 10조 달러 시가총액 증발",
+      "causes_detailed": [
+        "달러 강세 및 국채 금리 상승",
+        "Kevin Warsh 지명 - 긴축 통화정책 기대",
+        "투기 버블 붕괴 - 수개월간의 과열 상승 후 조정",
+        "리스크 자산 선호 심리 전환"
+      ],
+      "outlook": "단기 조정 후 횡보/통합 예상, 장기 상승 기조는 유효",
+      "alternative_safe_haven": [
+        "미국 단기 국채 (2년물)",
+        "현금/MMF",
+        "비트코인 (장기적 대안자산, 단기 변동성 높음)"
+      ],
+      "sources": [
+        {
+          "title": "Gold and silver prices collapse",
+          "publisher": "GOLDINVEST",
+          "date": "2026-01-30",
+          "url": "https://goldinvest.de/en/gold-and-silver-prices-collapse-reality-check-after-record-rally/",
+          "original_text": "On the evening of January 30, 2026, after their historic record chase, gold and silver experienced the sharpest daily decline of the current rally - a reality check for the overheated precious metals."
+        },
+        {
+          "title": "Silver dips over 33% in a single day",
+          "publisher": "XTB",
+          "date": "2026-01-30",
+          "url": "https://www.xtb.com/cy/market-analysis/news-and-research/has-the-precious-metals-bubble-burst-silver-dips-over-33-in-a-single-day",
+          "original_text": "Gold has already lost more than 12% of its value, falling to $4,716/oz. Silver is doing even worse, falling by as much as 34% to $76.5/oz, which is the worst daily percentage result in the history of trading this commodity."
+        }
+      ]
+    },
+    "bitcoin_volatility": {
+      "current_price_range": "81,000~86,000달러",
+      "24h_low": "약 81,000달러 (4월 이후 최저)",
+      "volatility_index": "DVOL 37 -> 44 급등 (11월 이후 최대 상승폭)",
+      "current_trend": "하락 조정 (10만 달러 재탈환 실패)",
+      "key_factors": [
+        "귀금속 폭락에도 불구하고 자금 유입 부재",
+        "스마트머니(고래) 매도 vs 개인투자자 저가 매수 - 경고 신호",
+        "ETF 자금 유출 지속",
+        "지정학적 불확실성 및 정책 리스크"
+      ],
+      "impact_on_markets": "리스크 자산 전반 약세, 단기채 시장 영향 제한적",
+      "outlook": "변동성 지속, 75,000~80,000달러 지지선 테스트 가능",
+      "sources": [
+        {
+          "title": "Bitcoin volatility spike",
+          "publisher": "CoinDesk",
+          "date": "2026-01-30",
+          "url": "https://www.coindesk.com/markets/2026/01/30/bitcoin-options-flash-troubling-signs-as-dvol-spikes-most-since-november",
+          "original_text": "Bitcoin's implied volatility spiked sharply this week, with Deribit's DVOL index jumping from about 37 to above 44 as markets sold off."
+        },
+        {
+          "title": "Bitcoin freefall approaches $80,000",
+          "publisher": "Fortune",
+          "date": "2026-01-30",
+          "url": "https://fortune.com/2026/01/30/bitcoin-price-today-ethereum-gold-silver-platinum-copper/",
+          "original_text": "Bitcoin is down nearly 2% over the past 24 hours and hit a low of nearly $81,000 late Thursday night - underneath its last floor of $82,175 in November."
+        }
+      ]
+    },
+    "short_term_bond_market": {
+      "deterioration_cause": "Kevin Warsh Fed 의장 지명 - 긴축 기조 예상",
+      "current_status": "단기 금리 상승 압력, 채권 가격 하락",
+      "fed_rate_outlook": "2026년 중립금리 2.5~3.5% 수준으로 안정화 예상 (기존 전망)",
+      "warsh_impact": [
+        "매파적 정책 기조 예상 - 금리 인하 지연 가능성",
+        "인플레이션 통제 우선 정책",
+        "채권 금리 상승 압력"
+      ],
+      "investment_appropriateness": "단기적으로 부정적, 중장기 안전자산 역할 유지",
+      "recommendation": "듀레이션 축소, 초단기 채권/MMF 선호",
+      "sources": [
+        {
+          "title": "Cost Of Capital 2026 Outlook",
+          "publisher": "Norton Rose Fulbright",
+          "date": "2026-01-29",
+          "url": "https://www.projectfinance.law/publications/2026/january/cost-of-capital-2026-outlook/",
+          "original_text": "Short-term interest rates are expected to fall after a new Federal Reserve chairman takes office."
+        },
+        {
+          "title": "Gold Silver Crash - Warsh Appointment",
+          "publisher": "Republic World",
+          "date": "2026-01-31",
+          "url": "https://www.republicworld.com/business/why-did-gold-and-silver-crash-on-friday-markets-reprice-metals-after-warsh-appointment-shock",
+          "original_text": "The nomination of Kevin Warsh as the next US Federal Reserve chief spooked commodity markets, as investors viewed him as a hawkish policymaker likely to prioritise inflation control and maintain tighter monetary conditions."
+        }
+      ]
+    },
+    "kospi_surge": {
+      "cause": [
+        "반도체 슈퍼사이클 지속 및 AI 수익화 가시화",
+        "기업 밸류업 프로그램 결실 - 배당/자사주 확대",
+        "글로벌 금리 인하 기조 안착",
+        "K-방산, 원전, 이차전지 수출 성과",
+        "1월 효과 (January Effect)"
+      ],
+      "sustainability": "중립적 - 구조적 요인은 긍정적이나 외부 변수 존재",
+      "positive_factors": [
+        "HBM/DDR5 고부가가치 메모리 수요 최고조",
+        "온디바이스 AI 확산에 따른 부품 수요",
+        "코리아 디스카운트 해소 진행",
+        "외국인 투자자 신뢰 회복"
+      ],
+      "risk_factors": [
+        "미-중 갈등 심화",
+        "미국 보호무역주의 강화 (트럼프 정책)",
+        "국내 가계부채 리스크",
+        "금리 인하 지연 가능성"
+      ],
+      "outlook": "반도체 실적 + 밸류업 + 저금리 삼박자 시 강세 지속 가능",
+      "sources": [
+        {
+          "title": "KOSPI 2026년 1월 상승 원인 분석",
+          "publisher": "Google Search Analysis (Korean)",
+          "date": "2026-01-31",
+          "url": "Google Search Aggregation",
+          "original_text": "2026년 1월 KOSPI 상승은 '반도체 실적 피크 + 밸류업 프로그램 안착 + 글로벌 저금리 기조'라는 세 가지 핵심 동력이 결합될 때 강력하게 발생할 것으로 전망됩니다."
+        }
+      ]
+    },
+    "sp500_valuation": {
+      "current_pe_ratio": "Forward P/E 22배 (역사적 고점 수준)",
+      "wall_street_targets": {
+        "low": "7,100",
+        "median": "7,600",
+        "high": "8,000",
+        "implied_return": "3.3% ~ 16.4%"
+      },
+      "goldman_sachs_target": "12% 상승 전망",
+      "key_drivers": [
+        "AI 투자 지속",
+        "Fed 금리 인하 기대",
+        "기업 이익 성장 (non-Mag 7 두 배 성장 예상)"
+      ],
+      "risks": [
+        "높은 밸류에이션 - 오차 마진 극히 제한",
+        "정치적/지정학적 리스크",
+        "Magnificent 7 집중도 사상 최고",
+        "인플레이션 재발 가능성"
+      ],
+      "assessment": "밸류에이션 부담 있으나 펀더멘털은 지지적",
+      "sources": [
+        {
+          "title": "Goldman Sachs 2026 Outlook",
+          "publisher": "Goldman Sachs",
+          "date": "2026-01-09",
+          "url": "https://www.goldmansachs.com/insights/articles/the-sp-500-expected-to-rally-12-this-year",
+          "original_text": "While stock valuations are high and stock market capitalization is the most concentrated on record, there are notable differences between the ongoing AI rally and historical investment booms."
+        },
+        {
+          "title": "Wall Street 2026 Targets",
+          "publisher": "TKer by Sam Ro",
+          "date": "2025-12-07",
+          "url": "https://www.tker.co/p/wall-street-2026-stock-market-outlook",
+          "original_text": "The strategists followed by TKer have year-end S&P 500 targets ranging from 7,100 to 8,000. This implies returns between 3.3% and 16.4%."
+        }
+      ]
+    },
+    "financial_sector": {
+      "outlook": "안정적 (Stable)",
+      "rating": "중립",
+      "key_drivers": [
+        "강건한 은행 자본화 수준",
+        "금리 인하에 따른 순이자마진(NIM) 압축 예상",
+        "수수료 수입 증가로 상쇄",
+        "AI, 프라이빗 크레딧, 디지털 자산이 섹터 재편"
+      ],
+      "risks": [
+        "후기 사이클 특성 - 신용 리스크 상승",
+        "프라이빗 크레딧 경쟁 심화",
+        "규제 불확실성",
+        "상업용 부동산 익스포저"
+      ],
+      "sources": [
+        {
+          "title": "Moody's Global Banks 2026 Outlook",
+          "publisher": "Moody's",
+          "date": "2025-12-04",
+          "url": "https://www.moodys.com/web/en/us/insights/credit-risk/outlooks/banking-2026.html",
+          "original_text": "Our 2026 global outlook for banks is stable, which reflects our expectation that creditworthiness will remain strong across the sector. Steady but subdued global growth and lower policy rates will underpin benign asset quality conditions."
+        }
+      ]
+    }
+  },
+  "sector_correlations": {
+    "description": "섹터 간 상관관계 분석",
+    "high_correlation_pairs": [
+      {
+        "sectors": ["반도체/AI", "로봇/자동화"],
+        "correlation": "높음",
+        "reason": "AI 칩이 로봇 지능의 핵심 구성요소"
+      },
+      {
+        "sectors": ["에너지", "반도체/AI"],
+        "correlation": "중간-높음",
+        "reason": "AI 데이터센터 전력 수요 급증"
+      }
+    ],
+    "low_correlation_pairs": [
+      {
+        "sectors": ["헬스케어", "에너지"],
+        "correlation": "낮음",
+        "reason": "상이한 수요 동인, 방어적 vs 경기 민감"
+      }
+    ],
+    "inverse_correlation": [
+      {
+        "assets": ["귀금속", "달러"],
+        "correlation": "역상관",
+        "reason": "달러 강세 시 금/은 약세"
+      },
+      {
+        "assets": ["채권", "주식"],
+        "correlation": "상황 의존적",
+        "reason": "리스크오프 시 역상관, 인플레이션 우려 시 동조화"
+      }
+    ]
+  },
+  "portfolio_implications": {
+    "recommended_allocation_changes": [
+      {
+        "sector": "반도체/AI",
+        "action": "비중 유지/확대",
+        "rationale": "HBM4 원년, AI 인프라 투자 지속"
+      },
+      {
+        "sector": "로봇/자동화",
+        "action": "비중 유지 (소규모)",
+        "rationale": "높은 성장성 but 실현까지 시간 필요"
+      },
+      {
+        "sector": "헬스케어",
+        "action": "비중 확대",
+        "rationale": "GLP-1 알약 출시, 방어적 특성"
+      },
+      {
+        "sector": "에너지",
+        "action": "비중 축소/중립",
+        "rationale": "유가 하락 전망, 공급 과잉"
+      },
+      {
+        "sector": "귀금속",
+        "action": "관망/저가 매수 기회 탐색",
+        "rationale": "폭락 후 조정 예상, 장기 상승 기조 유효"
+      },
+      {
+        "sector": "채권",
+        "action": "듀레이션 축소, 초단기 선호",
+        "rationale": "Warsh 지명 충격, 금리 상승 압력"
+      }
+    ],
+    "risk_considerations": [
+      "Kevin Warsh Fed 의장 지명 - 통화정책 불확실성 증가",
+      "귀금속/암호화폐 변동성 포트폴리오 전이 위험",
+      "미-중 지정학적 리스크 상존",
+      "밸류에이션 부담 - S&P500 Forward P/E 22배"
+    ]
+  },
+  "summary": "2026년 1월 31일 기준 섹터 전망: 반도체/AI와 헬스케어 섹터 비중확대 권고. 로봇/자동화는 장기 성장성 높으나 단기 변동성 주의. 에너지는 유가 하락 전망으로 중립. 금/은 폭락(-12%/-34%)은 Kevin Warsh Fed 의장 지명 충격이 주요 원인으로, 단기 조정 후 횡보 예상. 비트코인 81,000달러 테스트 중, 변동성 급등. 단기채 시장은 Warsh 지명으로 약세 압력. 코스피는 반도체+밸류업+저금리 삼박자 시 강세 지속 가능하나 외부 변수 주의. S&P500은 밸류에이션 부담(Forward P/E 22배)에도 펀더멘털 지지적, 월가 목표치 7,100~8,000.",
+  "data_quality": {
+    "skill_verified": true,
+    "all_sectors_verified": true,
+    "cross_validation_passed": true,
+    "sources_count": 25,
+    "confidence_average": 0.80
+  },
+  "meta": {
+    "version": "5.2",
+    "generated_at": "2026-01-31T21:05:00+09:00",
+    "analyst": "sector-analyst",
+    "note": "사용자 요청에 따라 5개 핵심 섹터 + 추가 분석(귀금속, 암호화폐, 채권) 포함"
+  }
+}

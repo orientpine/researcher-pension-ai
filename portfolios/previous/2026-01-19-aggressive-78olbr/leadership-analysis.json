@@ -1,0 +1,849 @@
+{
+  "status": "SUCCESS",
+  "analysis_date": "2026-01-19",
+  "agent": "leadership-outlook",
+  "executive_summary": {
+    "key_findings": [
+      "미국: 트럼프 2기 보호주의 관세정책 본격화, Fed 독립성 우려 심화 - 파월 교체 임박",
+      "중국: 시진핑 체제 하 적극적 경기부양 모드, PBOC 완화 기조 유지",
+      "한국: 정치적 불확실성 극대화 (윤석열 탄핵 후 이재명 당선), 한은 환율 방어로 금리 동결 지속",
+      "일본: 이시바 내각 → 타카이치 내각으로 교체, BOJ 30년 만 최고 금리",
+      "인도: 모디 정부 친성장 정책, RBI 125bp 대폭 인하로 성장 피봇",
+      "베트남: 8% 성장 목표 아래 완화적 통화정책 유지",
+      "인도네시아: 프라보워 8% 성장 야망, BI 독립성 우려 (조카 부총재 지명)"
+    ],
+    "biggest_risks": [
+      "미국 Fed 독립성 훼손 가능성 (트럼프의 파월 압박)",
+      "미중 무역전쟁 심화 (관세 확대)",
+      "한국 정치적 불확실성 및 고환율 지속",
+      "인도네시아 중앙은행 독립성 침해 우려"
+    ]
+  },
+  "countries": [
+    {
+      "country": "미국",
+      "flag": "🇺🇸",
+      "political_leadership": {
+        "leader": "도널드 트럼프",
+        "position": "대통령",
+        "term": "2025.01 - 2029.01",
+        "stability": "높음",
+        "stability_rationale": "공화당 의회 다수, 강력한 행정권 행사",
+        "economic_team": {
+          "treasury_secretary": "스콧 베센트",
+          "trade_representative": "지정 중"
+        },
+        "policy_stance": {
+          "monetary": "완화적 선호",
+          "monetary_detail": "트럼프는 지속적으로 금리 인하 압박, Fed 독립성 위협",
+          "fiscal": "확장적",
+          "fiscal_detail": "감세 연장 추진, 대규모 재정적자 감수",
+          "trade": "강력한 보호주의",
+          "trade_detail": "중국 10%, 멕시코/캐나다 25% 관세 부과, IEEPA 기반 관세 전쟁",
+          "industrial": "친기업/규제완화",
+          "industrial_detail": "에너지 규제 완화, 환경규제 철폐, 빅테크 규제 완화"
+        },
+        "key_policies": [
+          "America First Trade Policy (2025.01.20 서명)",
+          "중국 10% + 멕시코/캐나다 25% 관세",
+          "감세 및 일자리법 연장 추진",
+          "에너지 독립 강화 (알래스카 시추 확대)",
+          "EV 정책 철회"
+        ],
+        "original_text": "President Trump signed the 'America First Trade Policy' memorandum on January 20, 2025, directing all members of his cabinet to marshal the vast powers at their disposal to defeat what was record inflation. Trump has announced that he is planning to impose a 10 percent tariff on all imports from China and a 25 percent tariff on imports from Mexico and Canada.",
+        "sources": [
+          {
+            "title": "America First Trade Policy",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/01/america-first-trade-policy/",
+            "date": "2025-01-20"
+          },
+          {
+            "title": "Trump's Latest Tariff Plan Could Raise $1.5 Trillion",
+            "url": "https://www.crfb.org/blogs/trumps-latest-tariff-plan-could-raise-15-trillion",
+            "date": "2025-01-22"
+          },
+          {
+            "title": "Trump Tariffs: The Economic Impact of the Trump Trade War",
+            "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+            "date": "2026-01-09"
+          }
+        ]
+      },
+      "central_bank": {
+        "name": "Federal Reserve (Fed)",
+        "governor": "제롬 파월",
+        "governor_term_end": "2026-05",
+        "independence": "위협받는 중",
+        "independence_detail": "트럼프의 지속적 압박, DOJ 서브피나 발부, 차기 의장 교체 임박",
+        "current_rate": "4.00%",
+        "rate_direction": "동결 (2025.12 hawkish cut 이후)",
+        "stance": "Neutral-to-Hawkish",
+        "stance_rationale": "인플레이션 우려 vs 고용시장 둔화 사이 균형",
+        "committee_composition": {
+          "total_voters": 12,
+          "hawks": 5,
+          "doves": 3,
+          "neutral": 4,
+          "detail": "2026년 신규 투표권자 중 3명이 매파, 1명이 비둘기파"
+        },
+        "policy_priorities": [
+          "인플레이션 2% 목표 유지",
+          "고용시장 안정",
+          "정치적 독립성 수호"
+        ],
+        "next_meeting": "2026-01-28/29 FOMC",
+        "market_expectation": "동결 예상, 2026년 1-2회 추가 인하 전망",
+        "original_text": "The Federal Reserve cut rates for a third straight meeting on Wednesday in what analysts call a 'hawkish' move: an attempt to support a softening labor market while Fed officials signal caution about further easing. Fed policymakers have signaled they will wait and see what happens with the economy before making another move. They are deeply divided between those who are worried that further easing could worsen inflation and those who feel that employment will suffer without lower interest rates.",
+        "sources": [
+          {
+            "title": "The Fed delivers a rare 'hawkish cut'",
+            "url": "https://fortune.com/2025/12/10/fed-cuts-rate-december-hawkish-rare-2026/",
+            "date": "2025-12-10"
+          },
+          {
+            "title": "What's Next for the Fed in 2026?",
+            "url": "https://www.morningstar.com/markets/whats-next-fed-2026",
+            "date": "2026-01-06"
+          },
+          {
+            "title": "The Fed's New Policymakers for 2026: Three Hawks and a Dove",
+            "url": "https://www.morningstar.com/news/dow-jones/202601062947/the-feds-new-policymakers-for-2026-three-hawks-and-a-dove",
+            "date": "2026-01-06"
+          },
+          {
+            "title": "Next Fed chair: Who are the frontrunners for the top job?",
+            "url": "https://www.bbc.com/news/articles/c4g907zekllo",
+            "date": "2026-01-16"
+          }
+        ]
+      },
+      "investment_implications": {
+        "equity": "중립-부정적 (관세 불확실성, 기업 비용 증가)",
+        "bond": "변동성 확대 (Fed 정책 불확실성)",
+        "currency": "달러 강세 지속 예상 (관세+고금리)",
+        "sectors": {
+          "positive": ["에너지", "방산", "금융"],
+          "negative": ["수입의존 제조업", "자동차", "소비재"]
+        }
+      }
+    },
+    {
+      "country": "중국",
+      "flag": "🇨🇳",
+      "political_leadership": {
+        "leader": "시진핑",
+        "position": "국가주석/당 총서기",
+        "term": "2022.10 - (임기 제한 없음)",
+        "stability": "높음",
+        "stability_rationale": "3연임 확정, 절대 권력 공고화",
+        "economic_team": {
+          "premier": "리창",
+          "vice_premier_economy": "허리펑"
+        },
+        "policy_stance": {
+          "monetary": "완화적",
+          "monetary_detail": "적정 완화적 통화정책 기조, 금리 인하 및 지준율 인하",
+          "fiscal": "확장적",
+          "fiscal_detail": "대규모 경기부양책, 재정지출 확대",
+          "trade": "전략적 개방/대응",
+          "trade_detail": "미국 관세에 보복 관세 대응, 일대일로 지속",
+          "industrial": "강력한 국가주도",
+          "industrial_detail": "첨단산업 자립, 반도체/AI 투자 확대, 공동부유"
+        },
+        "key_policies": [
+          "적정 완화적 통화정책 (2025년 기조 전환)",
+          "소비 진작 정책 (소비재 보조금 확대)",
+          "부동산 시장 안정화",
+          "첨단기술 자립 (반도체, AI)",
+          "5% 성장률 목표"
+        ],
+        "original_text": "China's central bank has outlined its monetary and financial priorities for 2025, emphasizing expanding domestic demand, stabilizing expectations and stimulating vitality. The People's Bank of China (PBOC) said it will implement a moderately loose monetary policy in 2025, forestall and defuse financial risks in key areas. President Xi Jinping unexpectedly used China's Politburo meeting to announce broader actions, vowing to achieve the country's annual economic targets.",
+        "sources": [
+          {
+            "title": "China's central bank outlines monetary priorities for 2025",
+            "url": "https://english.www.gov.cn/news/202501/05/content_WS6779bfbcc6d0868f4e8ee850.html",
+            "date": "2025-01-05"
+          },
+          {
+            "title": "China Monetary Policy Report Q2 2025",
+            "url": "https://www.pbc.gov.cn/en/3688229/3688353/3688356/5624504/2025120609594987919/index.html",
+            "date": "2025-12-06"
+          },
+          {
+            "title": "What are the key drivers of Xi's economic policy in 2025?",
+            "url": "https://www.brookings.edu/articles/what-are-the-key-drivers-of-xis-economic-policy-in-2025/",
+            "date": "2025-03-28"
+          }
+        ]
+      },
+      "central_bank": {
+        "name": "People's Bank of China (PBOC)",
+        "governor": "판궁성",
+        "governor_term_end": "N/A",
+        "independence": "낮음",
+        "independence_detail": "국무원 직속, 당 지도부 정책 방향 따름",
+        "current_rate": "LPR 1년 2.95% / 5년 3.35% (추정)",
+        "rate_direction": "추가 인하 가능",
+        "stance": "Dovish",
+        "stance_rationale": "성장 우선, 적정 완화적 정책 명시",
+        "policy_priorities": [
+          "경제 성장 지원",
+          "부동산 시장 안정",
+          "금융 리스크 방지",
+          "위안화 환율 안정"
+        ],
+        "next_action": "LPR 추가 인하 가능성",
+        "original_text": "The PBOC has pursued an appropriately accommodative monetary policy, strengthened counter-cyclical adjustments, and created a favorable monetary and financial environment for sustained economic recovery and development. In H1, the Gross Domestic Product (GDP) grew 5.3 percent year on year.",
+        "sources": [
+          {
+            "title": "China Monetary Policy Report Q2 2025",
+            "url": "https://xining.pbc.gov.cn/en/3688229/3688353/3688356/5624504/2025120609594987919/2025091916245444294.pdf",
+            "date": "2025-08-15"
+          },
+          {
+            "title": "China to boost policy mix to ensure sustained growth in 2025",
+            "url": "https://english.www.gov.cn/news/202503/07/content_WS67ca2fc4c6d0868f4e8f0861.html",
+            "date": "2025-03-07"
+          }
+        ]
+      },
+      "investment_implications": {
+        "equity": "선별적 긍정 (정책 수혜 섹터)",
+        "bond": "중립 (금리 인하로 채권 가격 지지)",
+        "currency": "위안화 약세 압력 (미국 관세 영향)",
+        "sectors": {
+          "positive": ["신에너지", "전기차", "반도체", "소비"],
+          "negative": ["부동산", "수출 의존 제조업"]
+        }
+      }
+    },
+    {
+      "country": "한국",
+      "flag": "🇰🇷",
+      "political_leadership": {
+        "leader": "이재명",
+        "position": "대통령",
+        "term": "2025.06 - 2030.06",
+        "stability": "보통",
+        "stability_rationale": "윤석열 탄핵 후 조기 대선으로 당선, 여소야대 국면",
+        "background": "윤석열 전 대통령 2024.12 계엄령 선포 → 탄핵 소추 → 2025.04 헌재 파면 → 2025.06.03 대선에서 이재명 당선",
+        "economic_team": {
+          "finance_minister": "신규 임명 예정"
+        },
+        "policy_stance": {
+          "monetary": "완화 선호 (추정)",
+          "monetary_detail": "경기 부양 우선, 금리 인하 지지 예상",
+          "fiscal": "확장적",
+          "fiscal_detail": "추경 편성, 복지 확대 공약",
+          "trade": "개방적",
+          "trade_detail": "FTA 확대, 대미/대중 균형 외교",
+          "industrial": "정부 주도 성장",
+          "industrial_detail": "기본소득, 공공 일자리, 반도체/배터리 지원"
+        },
+        "key_policies": [
+          "추가경정예산 편성",
+          "소상공인/중소기업 지원",
+          "부동산 규제 완화 검토",
+          "한미동맹 재조정"
+        ],
+        "political_risks": [
+          "여소야대 국면으로 정책 추진력 제한",
+          "대미 관계 불확실성 (트럼프 정부와 마찰 가능)",
+          "검찰/사법부와의 갈등 지속 가능"
+        ],
+        "original_text": "The Constitutional Court upheld the impeachment of President Yoon Seok Yeol in a unanimous 8-0 decision on April 4, 2025. On June 3, 2025, South Korea elected a new president. Lee Jae-myung is now elected from the presidential election that took place following the impeachment decision. Korea remains engulfed in political turmoil following the declaration of martial law on December 3 and the subsequent presidential impeachment.",
+        "sources": [
+          {
+            "title": "South Korea: Yoon's presidency formally ends",
+            "url": "https://think.ing.com/articles/south-korea-president-yoon-impeachment/",
+            "date": "2025-04-04"
+          },
+          {
+            "title": "Constitutional Court Appointments and Acting Presidents in South Korea",
+            "url": "https://www.iconnectblog.com/constitutional-court-appointments-and-acting-presidents-in-south-korea-the-messy-aftermath-of-the-yoon-impeachment/",
+            "date": "2025-06-04"
+          },
+          {
+            "title": "Yoon's Impeachment and South Korea's Future",
+            "url": "https://carnegieendowment.org/research/2025/04/yoons-impeachment-and-south-koreas-future",
+            "date": "2025-04-11"
+          }
+        ]
+      },
+      "central_bank": {
+        "name": "한국은행 (Bank of Korea)",
+        "governor": "이창용",
+        "governor_term_end": "2026-04",
+        "independence": "높음",
+        "independence_detail": "헌법상 독립성 보장, 정치적 압박 견제 중",
+        "current_rate": "2.50%",
+        "rate_direction": "동결 (5연속)",
+        "stance": "Neutral-to-Hawkish (환율 방어)",
+        "stance_rationale": "고환율(1,480원대) 방어 우선, 금융안정 중시",
+        "committee_composition": {
+          "total_members": 7,
+          "recent_vote": "2026.01.15 전원일치 동결"
+        },
+        "policy_priorities": [
+          "환율 안정",
+          "금융시장 안정",
+          "물가 안정 (2% 목표)",
+          "가계부채 관리"
+        ],
+        "next_meeting": "2026-02 금통위",
+        "key_concern": "원/달러 환율 1,480원대 (27년 만 최고), 외환위기 이후 최장 상승세",
+        "original_text": "한국은행 금융통화위원회는 2026년 1월 15일 기준금리를 연 2.50%로 5회 연속 유지하기로 결정. 이창용 총재는 '금융안정 리스크로 전원일치 동결' 결정. 1년 6개월 만에 통방문에서 '금리 인하' 관련 문구 삭제 - 금리 인하 기조 종료. 월평균 환율 1,467.4원으로 외환위기 이후 27년 만에 최고.",
+        "sources": [
+          {
+            "title": "한은, 기준금리 5연속 유지…연 2.50%",
+            "url": "https://v.daum.net/v/20260115095100546",
+            "date": "2026-01-15"
+          },
+          {
+            "title": "이창용 '금융안정 리스크…금리 전원일치 동결'",
+            "url": "https://www.metroseoul.co.kr/article/20260115500429",
+            "date": "2026-01-15"
+          },
+          {
+            "title": "1년 6개월 만에 종료된 '금리인하 기조'",
+            "url": "https://heraldk.com/2026/01/15/",
+            "date": "2026-01-15"
+          }
+        ]
+      },
+      "investment_implications": {
+        "equity": "단기 부정적, 중기 회복 기대",
+        "bond": "금리 동결로 안정적",
+        "currency": "원화 약세 지속 (1,450-1,500원 예상)",
+        "sectors": {
+          "positive": ["방산", "조선", "원전", "수출 대기업"],
+          "negative": ["내수 소비재", "중소형 수입업체"]
+        }
+      }
+    },
+    {
+      "country": "일본",
+      "flag": "🇯🇵",
+      "political_leadership": {
+        "leader": "타카이치 사나에",
+        "position": "총리",
+        "term": "2025.12 - (이시바 후임)",
+        "stability": "보통",
+        "stability_rationale": "이시바 내각 지지율 하락 후 교체, 자민당 내 기반 구축 중",
+        "previous_leader": "이시바 시게루 (2024.10-2025.12)",
+        "economic_team": {
+          "finance_minister": "신규 임명"
+        },
+        "policy_stance": {
+          "monetary": "완화 선호",
+          "monetary_detail": "인플레 억제보다 경기부양 선호, 저금리 유지 희망",
+          "fiscal": "확장적",
+          "fiscal_detail": "재정지출 확대, 국채 의존",
+          "trade": "중립",
+          "trade_detail": "미일 동맹 강화, RCEP/CPTPP 활용",
+          "industrial": "친기업",
+          "industrial_detail": "규제 완화, 반도체/AI 투자 지원"
+        },
+        "key_policies": [
+          "물가 안정",
+          "저비용 국채 발행 선호",
+          "방위비 증액",
+          "반도체 산업 육성"
+        ],
+        "original_text": "New Prime Minister Sanae Takaichi is keen that inflation comes down but also needs the cost of government borrowing to be cheap. The BOJ took rates to their highest in 30 years in December 2025.",
+        "sources": [
+          {
+            "title": "Japan hikes interest rate to highest level since 1995",
+            "url": "https://www.bbc.co.uk/news/articles/c2dz11pykwno",
+            "date": "2025-12-19"
+          },
+          {
+            "title": "BOJ raises rates; Gov. Ueda avoids future policy hints",
+            "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-raises-rates-gov.-ueda-avoids-future-policy-hints",
+            "date": "2025-12-19"
+          }
+        ]
+      },
+      "central_bank": {
+        "name": "Bank of Japan (BOJ)",
+        "governor": "우에다 카즈오",
+        "governor_term_end": "2028-04",
+        "independence": "높음",
+        "independence_detail": "제도적 독립성 보장, 정부와 협조적 관계",
+        "current_rate": "0.75%",
+        "rate_direction": "추가 인상 가능 (신중)",
+        "stance": "Neutral-to-Hawkish",
+        "stance_rationale": "정책 정상화 진행 중이나 속도는 데이터 의존",
+        "policy_priorities": [
+          "물가 안정 (2% 목표)",
+          "지속가능한 임금 상승 확인",
+          "금융시장 안정"
+        ],
+        "recent_action": "2025.12 금리 0.5% → 0.75% 인상 (30년 만 최고)",
+        "ycc_status": "YCC 정책 사실상 종료",
+        "original_text": "The Bank of Japan on Friday decided to raise its policy rate to its highest level in three decades, encouraged by positive momentum in wage growth and the weakening yen. Gov. Kazuo Ueda avoided giving hints about the timing of the next increase, emphasizing that monetary policy will be adjusted depending on developments in the economy and prices, and that the neutral rate will likely remain in a wide range.",
+        "sources": [
+          {
+            "title": "BOJ takes rates to a 30-year high",
+            "url": "https://www.japantimes.co.jp/business/2025/12/19/economy/boj-meeting-dec-2025/",
+            "date": "2025-12-19"
+          },
+          {
+            "title": "Bank of Japan raises benchmark rates to highest in 30 years",
+            "url": "https://www.cnbc.com/2025/12/19/bank-of-japan-boj-rate-cpi-inflation-takaichi-ueda.html",
+            "date": "2025-12-19"
+          },
+          {
+            "title": "Japan's Economy and Monetary Policy - BOJ Speech",
+            "url": "https://www.boj.or.jp/en/about/press/koen_2025/data/ko251201a1.pdf",
+            "date": "2025-12-01"
+          }
+        ]
+      },
+      "investment_implications": {
+        "equity": "중립 (금리 인상 부담 vs 엔저 수혜)",
+        "bond": "부정적 (JGB 10년물 2% 돌파)",
+        "currency": "엔화 강세 전환 가능성",
+        "sectors": {
+          "positive": ["은행", "보험", "수출 대기업"],
+          "negative": ["부동산", "유틸리티", "고금리 부담 기업"]
+        }
+      }
+    },
+    {
+      "country": "인도",
+      "flag": "🇮🇳",
+      "political_leadership": {
+        "leader": "나렌드라 모디",
+        "position": "총리",
+        "term": "2024.06 - 2029 (3기)",
+        "stability": "높음",
+        "stability_rationale": "BJP 연정 안정, 강력한 리더십",
+        "economic_team": {
+          "finance_minister": "니르말라 시타라만"
+        },
+        "policy_stance": {
+          "monetary": "성장 지향 완화",
+          "monetary_detail": "RBI 금리 대폭 인하 지지",
+          "fiscal": "균형-확장",
+          "fiscal_detail": "인프라 투자 확대, 재정적자 관리",
+          "trade": "선택적 개방",
+          "trade_detail": "Make in India 정책, FTA 선별 추진",
+          "industrial": "국가주도 성장",
+          "industrial_detail": "PLI 제도, 제조업 육성"
+        },
+        "key_policies": [
+          "Make in India 2.0",
+          "PLI(생산연계인센티브) 확대",
+          "디지털 인프라 투자",
+          "Viksit Bharat 2047 (선진국 목표)"
+        ],
+        "original_text": "India's economy grew 8.2% in the July-September quarter, outperforming expectations despite global risks. India's reform era under PM Modi has moved from promise to proof - laying firm foundations for Viksit Bharat 2047.",
+        "sources": [
+          {
+            "title": "India's 8.2% GDP Growth Signals the Success of Sustained Reforms",
+            "url": "https://www.orfonline.org/expert-speak/india-s-8-2-gdp-growth-signals-the-success-of-sustained-reforms",
+            "date": "2025-12-02"
+          },
+          {
+            "title": "2025 wasn't about a single reform—it was about system-wide credibility",
+            "url": "https://www.facebook.com/cgivancouver/posts/",
+            "date": "2025-12-29"
+          }
+        ]
+      },
+      "central_bank": {
+        "name": "Reserve Bank of India (RBI)",
+        "governor": "산제이 말호트라",
+        "governor_term_end": "2028",
+        "previous_governor": "샤크티칸타 다스",
+        "independence": "높음",
+        "independence_detail": "법적 독립성 보장, 정부와 협조적",
+        "current_rate": "5.25%",
+        "rate_direction": "추가 인하 가능",
+        "stance": "Dovish (성장 피봇)",
+        "stance_rationale": "2025년 125bp 대폭 인하, 성장 지원 우선",
+        "policy_priorities": [
+          "경제 성장 지원",
+          "인플레이션 목표 (4%±2%)",
+          "루피화 안정"
+        ],
+        "recent_actions": "2025년 총 125bp 금리 인하 (6.50% → 5.25%)",
+        "inflation_status": "CPI 0.25% (2025.10) - 기록적 저인플레",
+        "original_text": "The Reserve Bank of India closed 2025 with a decisive shift towards growth. Governor Sanjay Malhotra oversaw a clear pivot towards growth, lowering rates from 6.50% to 5.25%. Retail inflation fell to a record low of 0.25% in October and stayed below the 4% target all year. RBI Provided Major Relief To Borrowers With 125 bps Repo Rate Cut.",
+        "sources": [
+          {
+            "title": "RBI ends 2025 with sharp growth pivot",
+            "url": "https://indbiz.gov.in/rbi-ends-2025-with-sharp-growth-pivot-after-most-aggressive-rate-cuts-since-2019/",
+            "date": "2025-12-24"
+          },
+          {
+            "title": "RBI Monetary Policy: Repo Rate Unchanged, GDP Outlook Brightens",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173560",
+            "date": "2025-10-01"
+          }
+        ]
+      },
+      "investment_implications": {
+        "equity": "긍정적 (성장 + 금리 인하)",
+        "bond": "긍정적 (금리 인하 사이클)",
+        "currency": "루피화 약세 압력 (무역적자, 달러 강세)",
+        "sectors": {
+          "positive": ["인프라", "금융", "IT 서비스", "제조업"],
+          "negative": ["원자재 수입 의존 섹터"]
+        }
+      }
+    },
+    {
+      "country": "베트남",
+      "flag": "🇻🇳",
+      "political_leadership": {
+        "leader": "또럼",
+        "position": "공산당 총서기/국가주석 (겸직)",
+        "term": "2025 - (통합 체제)",
+        "stability": "높음",
+        "stability_rationale": "공산당 일당체제, 권력 통합",
+        "economic_team": {
+          "prime_minister": "팜밍찐",
+          "finance_minister": "호득폭"
+        },
+        "policy_stance": {
+          "monetary": "완화적",
+          "monetary_detail": "경제 성장 지원 위해 저금리 유도",
+          "fiscal": "확장적",
+          "fiscal_detail": "인프라 투자 확대, FDI 유치",
+          "trade": "개방적",
+          "trade_detail": "FTA 적극 활용, 대미/대중 균형",
+          "industrial": "국가주도 개방",
+          "industrial_detail": "FDI 유치, 제조업 육성, 기술 이전"
+        },
+        "key_policies": [
+          "8.3-8.5% GDP 성장 목표 (2025)",
+          "FDI 유치 확대",
+          "인프라 투자 (고속철, 공항)",
+          "디지털 경제 육성"
+        ],
+        "original_text": "Prime Minister Pham Minh Chinh signed Official Dispatch directing fiscal and monetary policies to achieve economic growth of 8.3-8.5% in 2025. Vietnam's credit growth reached 19.1% in 2025. The State Bank of Vietnam expects systemwide credit growth of about 15% in 2026.",
+        "sources": [
+          {
+            "title": "Directing and managing fiscal and monetary policies to achieve economic growth of 8.3-8.5%",
+            "url": "https://www.vietnam.vn/en/chi-dao-dieu-hanh-chinh-sach-tai-khoa-chinh-sach-tien-te-de-tang-truong-kinh-te-nam-2025-dat-8-3-8-5",
+            "date": "2025-09-07"
+          },
+          {
+            "title": "Vietnam central bank sets 15% credit growth target for 2026",
+            "url": "https://hanoitimes.vn/vietnam-central-bank-sets-15p-credit-growth-target-for-2026.959380.html",
+            "date": "2026-01-13"
+          },
+          {
+            "title": "Challenges for Vietnam's monetary policy in 2026",
+            "url": "https://theinvestor.vn/challenges-for-vietnams-monetary-policy-in-2026-d17806.html",
+            "date": "2025-12-08"
+          }
+        ]
+      },
+      "central_bank": {
+        "name": "State Bank of Vietnam (SBV)",
+        "governor": "응웬티홍",
+        "independence": "낮음",
+        "independence_detail": "정부 직속, 성장 목표 우선",
+        "current_rate": "4.5% (재할인율)",
+        "rate_direction": "동결-인하 가능",
+        "stance": "Dovish",
+        "stance_rationale": "정부 8%+ 성장 목표 지원",
+        "policy_priorities": [
+          "신용 성장 지원 (15% 목표)",
+          "환율 안정",
+          "인플레이션 관리 (4% 이내)"
+        ],
+        "credit_to_gdp": "146% (중저소득국 중 최고)",
+        "original_text": "The State Bank of Vietnam will maintain a proactive, flexible, timely, and effective monetary policy in harmony with fiscal and macro-economic measures to prioritise growth. Vietnam's credit-to-GDP ratio currently stands at 146%, the highest among lower-middle-income economies.",
+        "sources": [
+          {
+            "title": "Vietnam's monetary policy remains accommodative: WB",
+            "url": "https://theinvestor.vn/vietnams-monetary-policy-remains-accommodative-wb-d16938.html",
+            "date": "2025-09-08"
+          },
+          {
+            "title": "Central bank rolls out measures to support economic growth",
+            "url": "https://en.vietnamplus.vn/central-bank-rolls-out-measures-to-support-economic-growth-post322354.vnp",
+            "date": "2025-07-08"
+          }
+        ]
+      },
+      "investment_implications": {
+        "equity": "긍정적 (고성장 + 제조업 이전 수혜)",
+        "bond": "중립 (신용등급 제한)",
+        "currency": "동화 안정 (중앙은행 관리)",
+        "sectors": {
+          "positive": ["제조업", "부동산", "은행", "인프라"],
+          "negative": ["원자재 수입 의존 섹터"]
+        }
+      }
+    },
+    {
+      "country": "인도네시아",
+      "flag": "🇮🇩",
+      "political_leadership": {
+        "leader": "프라보워 수비안토",
+        "position": "대통령",
+        "term": "2024.10 - 2029.10",
+        "stability": "보통",
+        "stability_rationale": "신임 정부 안착 중, 야심찬 경제 목표",
+        "economic_team": {
+          "finance_minister": "스리 물야니 인드라와티",
+          "deputy_finance": "토마스 지완도노 (대통령 조카)"
+        },
+        "policy_stance": {
+          "monetary": "완화 선호",
+          "monetary_detail": "8% 성장 목표 위해 저금리 선호",
+          "fiscal": "확장적",
+          "fiscal_detail": "무상급식, 보조금, 감세 등 포퓰리즘 정책",
+          "trade": "선택적 보호",
+          "trade_detail": "다운스트리밍 정책 지속, 원자재 수출 규제",
+          "industrial": "국가주도",
+          "industrial_detail": "다나타라 국부펀드, 산업 육성"
+        },
+        "key_policies": [
+          "2029년까지 8% 성장 목표",
+          "무상급식 프로그램",
+          "다운스트리밍 정책 (원자재 가공 의무화)",
+          "다나타라 국부펀드 설립"
+        ],
+        "key_risk": "중앙은행 독립성 훼손 우려 - 조카를 BI 부총재로 지명",
+        "original_text": "Indonesian President Prabowo Subianto has nominated his nephew to join the central bank's board of governors. Investors have worried that independent monetary policymaking in Southeast Asia's largest economy might be under pressure as Prabowo targets economic growth of 8% by 2029, from about 5% now. The rupiah currency hit a nine-month low on Monday amid uncertainty.",
+        "sources": [
+          {
+            "title": "Indonesia's Prabowo nominates nephew as central bank deputy governor",
+            "url": "https://theedgemalaysia.com/node/789702",
+            "date": "2026-01-19"
+          },
+          {
+            "title": "Prabowo's economic agenda faces a fiscal stress test",
+            "url": "https://eastasiaforum.org/2025/07/19/prabowos-economic-agenda-faces-a-fiscal-stress-test/",
+            "date": "2025-07-19"
+          },
+          {
+            "title": "Indonesia's economic plans - March 2025",
+            "url": "https://www.mfat.govt.nz/assets/Trade-General/Trade-Market-reports/Indonesias-economic-plans-March-2025.pdf",
+            "date": "2025-03"
+          }
+        ]
+      },
+      "central_bank": {
+        "name": "Bank Indonesia (BI)",
+        "governor": "페리 와르지요",
+        "independence": "위협받는 중",
+        "independence_detail": "대통령 조카 부총재 지명으로 독립성 우려 심화",
+        "current_rate": "4.75%",
+        "rate_direction": "동결 (예상 외)",
+        "stance": "Neutral (환율 방어)",
+        "stance_rationale": "금리 인하 중단, 루피아 안정 우선",
+        "policy_priorities": [
+          "루피아 환율 안정",
+          "인플레이션 목표 (1.5-3.5%)",
+          "경제 성장 지원"
+        ],
+        "recent_actions": "2024.09 이후 150bp 인하 후 동결",
+        "original_text": "Bank Indonesia (BI) decided to maintain the BI-Rate at 4.75%, its lowest level since 2022. The decision caught markets by surprise, as another rate cut had been priced in. BI ruled out a rate cut to keep the rupiah exchange rate stable amid global financial market uncertainty.",
+        "sources": [
+          {
+            "title": "Indonesia Monetary Policy October 2025",
+            "url": "https://www.focus-economics.com/countries/indonesia/news/monetary-policy/indonesia-central-bank-meeting-22-10-2025-bank-indonesia-leaves-rates-unchanged-in-october/",
+            "date": "2025-10-22"
+          },
+          {
+            "title": "Bank Indonesia Annual Meeting 2025",
+            "url": "https://www.bi.go.id/en/iru/highlight-news/Pages/Bank-Indonesia-Annual-Meeting-2025.aspx",
+            "date": "2025"
+          },
+          {
+            "title": "Indonesia Economic Prospects June 2025 - World Bank",
+            "url": "https://thedocs.worldbank.org/en/doc/4974bce760a3ede15db82630d57c86a8-0070012025/related/IEP-June-2025-Presentation-Macro-Economy.pdf",
+            "date": "2025-06-22"
+          }
+        ]
+      },
+      "investment_implications": {
+        "equity": "중립-주의 (정책 불확실성)",
+        "bond": "주의 (루피아 약세, 재정 우려)",
+        "currency": "루피아 약세 압력 (9개월 저점)",
+        "sectors": {
+          "positive": ["광업(다운스트림)", "인프라", "소비재"],
+          "negative": ["은행(NIM 압박)", "수입 의존 섹터"]
+        }
+      }
+    }
+  ],
+  "regional_recommendations": {
+    "overweight": [
+      {
+        "region": "인도",
+        "rationale": "강력한 성장(8.2%), RBI 완화 정책, 정치 안정, Make in India 수혜"
+      },
+      {
+        "region": "베트남",
+        "rationale": "제조업 이전 수혜, 8%+ 성장, FDI 유입 지속"
+      }
+    ],
+    "neutral": [
+      {
+        "region": "미국",
+        "rationale": "경제 펀더멘털 양호하나 관세 불확실성, Fed 독립성 리스크"
+      },
+      {
+        "region": "일본",
+        "rationale": "BOJ 정상화 진행, 엔화 강세 전환 가능, 기업실적 개선"
+      },
+      {
+        "region": "중국",
+        "rationale": "정책 부양 지속되나 구조적 성장 둔화, 미중 갈등 리스크"
+      }
+    ],
+    "underweight": [
+      {
+        "region": "한국",
+        "rationale": "정치 불확실성, 고환율, 대미 관계 리스크 (단기)"
+      },
+      {
+        "region": "인도네시아",
+        "rationale": "BI 독립성 우려, 루피아 약세, 재정적자 확대 우려"
+      }
+    ]
+  },
+  "policy_risk_scenarios": [
+    {
+      "scenario": "미국 Fed 독립성 훼손",
+      "trigger": "트럼프가 파월 교체 후 친정부 의장 임명, DOJ 조사 강화",
+      "probability": "높음 (파월 임기 2026.05 만료)",
+      "impact": "달러 신뢰 하락, 장기금리 급등, 신흥국 자금 유출",
+      "hedge_strategy": "달러 자산 비중 축소, 금 비중 확대, 신흥국 분산"
+    },
+    {
+      "scenario": "미중 관세 전쟁 격화",
+      "trigger": "트럼프 추가 관세 부과, 중국 보복 관세",
+      "probability": "높음",
+      "impact": "글로벌 무역 위축, 공급망 재편 가속, 인플레 압력",
+      "hedge_strategy": "베트남/인도 등 관세 우회 수혜국 비중 확대, 중국 비중 축소"
+    },
+    {
+      "scenario": "한국 정치 안정화",
+      "trigger": "이재명 정부 정책 본격화, 대미 관계 개선",
+      "probability": "중간",
+      "impact": "원화 강세, 외국인 자금 유입, KOSPI 반등",
+      "hedge_strategy": "한국 비중 점진적 확대 기회"
+    },
+    {
+      "scenario": "인도네시아 BI 독립성 침해 현실화",
+      "trigger": "조카 부총재 취임, 정치적 금리 인하 압박",
+      "probability": "중간-높음",
+      "impact": "루피아 급락, 외국인 자금 유출, 신용등급 하락 우려",
+      "hedge_strategy": "인도네시아 비중 축소, 베트남/인도로 대체"
+    },
+    {
+      "scenario": "일본 BOJ 금리 인상 가속",
+      "trigger": "인플레 지속, 임금 상승 확인",
+      "probability": "중간",
+      "impact": "엔화 강세, JGB 금리 상승, 글로벌 캐리 트레이드 청산",
+      "hedge_strategy": "엔화 롱 포지션, 일본 금융주 긍정적"
+    }
+  ],
+  "sector_implications": {
+    "beneficiaries": {
+      "미국 에너지": "트럼프 규제 완화, 알래스카 시추 확대",
+      "미국 방산": "국방비 증액 기대",
+      "인도 인프라": "정부 투자 확대, PLI 수혜",
+      "베트남 제조업": "글로벌 공급망 이전 수혜",
+      "일본 은행": "BOJ 금리 인상으로 NIM 개선"
+    },
+    "at_risk": {
+      "미국 수입 의존 소비재": "관세로 비용 상승",
+      "중국 수출기업": "대미 관세 부담",
+      "한국 내수주": "정치 불확실성, 소비 위축",
+      "인도네시아 은행": "BI 정책 불확실성, NIM 압박"
+    }
+  },
+  "fx_policy_outlook": {
+    "USD": {
+      "direction": "강세 유지",
+      "drivers": "관세 정책, 상대적 고금리, 안전자산 선호"
+    },
+    "CNY": {
+      "direction": "약세 압력",
+      "drivers": "미중 관세, 경기 둔화, 자본 유출"
+    },
+    "KRW": {
+      "direction": "약세 지속 (1,450-1,500원)",
+      "drivers": "정치 불확실성, 한미 금리차, 대중 무역 영향"
+    },
+    "JPY": {
+      "direction": "강세 전환 가능",
+      "drivers": "BOJ 금리 인상, 미일 금리차 축소"
+    },
+    "INR": {
+      "direction": "관리된 약세",
+      "drivers": "무역적자, 달러 강세 (RBI 관리)"
+    },
+    "VND": {
+      "direction": "안정",
+      "drivers": "SBV 적극 개입, FDI 유입"
+    },
+    "IDR": {
+      "direction": "약세 압력",
+      "drivers": "BI 독립성 우려, 재정적자"
+    }
+  },
+  "central_bank_independence_risk_assessment": {
+    "high_risk": [
+      {
+        "country": "미국",
+        "risk_level": "높음",
+        "detail": "트럼프의 지속적 압박, DOJ 서브피나, 파월 교체 임박"
+      },
+      {
+        "country": "인도네시아",
+        "risk_level": "높음",
+        "detail": "대통령 조카 BI 부총재 지명, 8% 성장 목표 압박"
+      }
+    ],
+    "medium_risk": [
+      {
+        "country": "중국",
+        "risk_level": "낮음 (구조적)",
+        "detail": "PBOC는 원래 정부 직속, 독립성 기대 없음"
+      }
+    ],
+    "low_risk": [
+      {
+        "country": "한국",
+        "risk_level": "낮음",
+        "detail": "이창용 총재 독립성 유지, 제도적 보호"
+      },
+      {
+        "country": "일본",
+        "risk_level": "낮음",
+        "detail": "BOJ 독립성 유지, 정부와 협조적"
+      },
+      {
+        "country": "인도",
+        "risk_level": "낮음",
+        "detail": "RBI 독립성 유지, 법적 보호"
+      }
+    ]
+  },
+  "upcoming_events": {
+    "2026_Q1": [
+      {"date": "2026-01-28/29", "event": "FOMC 회의", "importance": "매우 높음"},
+      {"date": "2026-02", "event": "한국 금통위", "importance": "높음"},
+      {"date": "2026-03", "event": "중국 양회 (전인대)", "importance": "매우 높음"},
+      {"date": "2026-05", "event": "Fed 의장 임기 만료 (파월)", "importance": "매우 높음"}
+    ]
+  },
+  "data_quality": {
+    "verified_sources": 38,
+    "cross_validated": true,
+    "data_freshness": "2025-12 ~ 2026-01 (최신)",
+    "allowlist_compliance": "정부공식, 중앙은행, 주요언론, IB 리서치만 사용"
+  },
+  "disclaimer": "본 분석은 경제/금융 관점에서의 정책 성향 분류이며, 정치적 의견이나 평가를 표명하지 않습니다. 특정 정권이나 정당에 대한 지지/반대 의사를 포함하지 않습니다. 모든 투자 결정은 본인의 판단과 책임 하에 이루어져야 합니다."
+}

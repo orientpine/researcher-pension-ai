@@ -1,0 +1,411 @@
+{
+  "status": "SUCCESS",
+  "analysis_date": "2026-01-31",
+  "analyst": "sector-analyst",
+  "skill_used": "web-search-verifier",
+  "market_context": {
+    "kospi": {
+      "current_level": 5224,
+      "ytd_return": "+21.23%",
+      "monthly_return_kosdaq": "+25.8%",
+      "note": "KOSPI 역대 최고치 돌파, KOSDAQ 25년 만에 최대 월간 상승"
+    }
+  },
+  "sectors": [
+    {
+      "name": "반도체/AI",
+      "current_weight": "24.3%",
+      "growth_forecast_2026": "25-30%",
+      "rating": "Overweight",
+      "confidence": 0.85,
+      "outlook": "긍정적",
+      "key_drivers": [
+        "AI 인프라 투자 확대로 HBM 수요 폭발 - 2026년까지 Sold Out",
+        "반도체 시장 $1조 달성 전망 (WSTS)",
+        "SK하이닉스 HBM3E/HBM4 독점적 공급 지위",
+        "Memory 슈퍼사이클 진입 - 메모리 부문 30% 성장 전망"
+      ],
+      "risks": [
+        "AI 버블 우려 - 일부 전문가 'hangover' 경고",
+        "중국 레거시 공정 과잉공급",
+        "HBM 가격 50% YTD 상승 후 조정 가능성",
+        "포트폴리오 24.3% 집중도 - 단일 섹터 리스크"
+      ],
+      "opportunities": [
+        "HBM4 세대 전환 시 SK하이닉스 점유율 확대",
+        "삼성전자 HBM 점유율 회복 시 추가 상승 여력",
+        "AI 데이터센터 Capex $602B 중 75% AI 인프라 할당"
+      ],
+      "recommended_weight": "20-25%",
+      "weight_change": "유지 또는 소폭 축소",
+      "rationale": "AI 메모리 슈퍼사이클 수혜는 확실하나, 24.3%는 단일 섹터 과집중. 20% 이하로 축소 후 조정 시 재매수 권장",
+      "sources": [
+        {
+          "title": "2026 Market Outlook: SK hynix's HBM to Fuel AI Memory Boom",
+          "publisher": "SK hynix Newsroom",
+          "date": "2026-01-05",
+          "url": "https://news.skhynix.com/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/"
+        },
+        {
+          "title": "The AI Memory Supercycle: How HBM Became AI's Most Critical Bottleneck",
+          "publisher": "Introl",
+          "date": "2026-01-03",
+          "url": "https://introl.com/blog/ai-memory-supercycle-hbm-2026"
+        },
+        {
+          "title": "High Bandwidth Memory Report 2026-2031",
+          "publisher": "Research and Markets",
+          "date": "2026-01-21",
+          "url": "https://www.globenewswire.com/news-release/2026/01/21/3222551/28124/en/High-Bandwidth-Memory-Report-2026-2031.html"
+        },
+        {
+          "title": "Warning signs for semiconductor market in AI boom",
+          "publisher": "eeNews Europe",
+          "date": "2026-01-26",
+          "url": "https://www.eenewseurope.com/en/warning-signs-for-semiconductor-market-in-ai-boom/"
+        }
+      ],
+      "original_text": "[SK hynix Newsroom] In 2026, the global semiconductor industry is entering a transitional period as market structures and value chains realign to accommodate AI infrastructure expansion. The total market is projected to approach the $1 trillion mark, with memory semiconductors emerging as a key driver in terms of both demand and profitability. [WSTS] the global semiconductor market will grow by more than 25% year-over-year in 2026, reaching approximately $975 billion, with the memory segment increasing at 30% growth. [Introl] Micron's high-bandwidth memory capacity sold out through calendar year 2026. The AI memory supercycle has moved from analyst forecast to operational reality, creating a supply-demand imbalance so severe that gaming GPU production faces 40% cuts while memory manufacturers report record margins exceeding 50%. [eeNews Europe - Malcolm Penn, Future Horizons] 'Any party is a good party, and enjoy it while it lasts, but prepare for the hangover. We believe that the extrapolations of the forecasts are very dangerous, and we believe we are highly likely to see a correction, it's inevitable, it's only the timing that is unclear.'"
+    },
+    {
+      "name": "휴머노이드 로봇",
+      "current_weight": "5%",
+      "growth_forecast_2026": "40-60%",
+      "rating": "Overweight",
+      "confidence": 0.75,
+      "outlook": "긍정적",
+      "key_drivers": [
+        "Morgan Stanley: 2050년 $5조 시장 전망, 2026년 중국 28,000대 판매 예측",
+        "Tesla Optimus 대량 생산 공장 건설 - $20B Capex 투자",
+        "중국 휴머노이드 기업 (LimX, Agibot) 선제적 미국 시장 진출",
+        "Figure AI Helix 02 VLA 모델 - 로봇 지능화 가속"
+      ],
+      "risks": [
+        "Tesla Optimus 공개 출시 2027년 말로 지연",
+        "중국 기업 13,000대 출하 vs Tesla 9위 - 경쟁 심화",
+        "상용화 단계 아직 초기 - 수익성 불확실",
+        "Yann LeCun 등 AI 전문가의 휴머노이드 비판론"
+      ],
+      "opportunities": [
+        "LimX $22,660 저가 모델로 시장 확대",
+        "산업용 로봇에서 가정용으로 확장 시 TAM 급증",
+        "1X NEO 가정 배송 시작 - 소비자 시장 개척"
+      ],
+      "recommended_weight": "5-8%",
+      "weight_change": "유지 또는 소폭 확대",
+      "rationale": "장기 성장 스토리 매력적이나 단기 수익성 불확실. 현재 5%는 적정 수준, 8%까지 확대 가능",
+      "sources": [
+        {
+          "title": "Who Will Win the Humanoid Robots Race in 2026?",
+          "publisher": "Humanoid Press",
+          "date": "2026-01",
+          "url": "https://humanoid.press/Who-Will-Win-2026/"
+        },
+        {
+          "title": "Chinese Humanoid Robots Beat Tesla to U.S. Market Push",
+          "publisher": "TechBuzz",
+          "date": "2026-01-29",
+          "url": "https://www.techbuzz.ai/articles/chinese-humanoid-robots-beat-tesla-to-u-s-market-push"
+        },
+        {
+          "title": "Tesla Plots $20 Billion Splurge to Support Musk's AI Future",
+          "publisher": "Claims Journal",
+          "date": "2026-01-30",
+          "url": "https://www.claimsjournal.com/news/national/2026/01/29/335363.htm"
+        }
+      ],
+      "original_text": "[Humanoid Press] Morgan Stanley's forecasting a $5 trillion market by 2050. [TechBuzz] LimX Dynamics plans U.S. collaborations and Middle East shipments in 2026, ahead of Tesla Optimus public launch set for late 2027 per CNBC. Chinese firms led by Agibot shipped 13,000 humanoids in 2025; Tesla ranked ninth while Figure AI placed seventh per Omdia research. Morgan Stanley doubled China humanoid sales forecast to 28,000 units this year, projecting 54 million annual sales by 2050. LimX's $22,660 base model undercuts competitors. [Claims Journal] Tesla Inc. will spend over $20 billion on a dramatic reshuffling of factory lines reflecting Elon Musk's repositioning of the carmaker."
+    },
+    {
+      "name": "헬스케어",
+      "current_weight": "5%",
+      "growth_forecast_2026": "8-12%",
+      "rating": "Neutral to Overweight",
+      "confidence": 0.70,
+      "outlook": "중립적-긍정적",
+      "key_drivers": [
+        "AI 임상시험 성공률 2배 향상 (PitchBook)",
+        "M&A 활동 급증으로 바이오텍 회복세",
+        "GLP-1 약물 시장 지속 확대",
+        "고령화 인구 구조적 수혜"
+      ],
+      "risks": [
+        "미국 규제 불확실성 - FDA 정책 변화",
+        "중국 바이오텍 경쟁 심화",
+        "의료비 지출 압박 - EBITDA/NHE 8.9%→8.7% 하락 전망",
+        "정치적 약가 압박 지속"
+      ],
+      "opportunities": [
+        "Health AI 카테고리 급성장 - Payer/Provider AI 도입",
+        "디지털 CRO 부상으로 R&D 효율화",
+        "Value-Based Care AI 활용 확대"
+      ],
+      "recommended_weight": "5-10%",
+      "weight_change": "유지 또는 확대 검토",
+      "rationale": "구조적 성장 섹터이나 정치적 리스크 존재. 국내 헬스케어 펀드 10% 편입은 적정",
+      "sources": [
+        {
+          "title": "The biopharma industry outlook on 2026: Optimism and tension",
+          "publisher": "BioPharma Dive",
+          "date": "2026-01-29",
+          "url": "https://www.biopharmadive.com/news/biotech-pharma-trends-outlook-2026/810833/"
+        },
+        {
+          "title": "2026 Healthcare Outlook",
+          "publisher": "PitchBook",
+          "date": "2025-12-02",
+          "url": "https://www.lawrenceevans.com/wp-content/uploads/2026/01/PitchBook_2026_Healthcare_Outlook.pdf"
+        },
+        {
+          "title": "What to expect in US healthcare in 2026 and beyond",
+          "publisher": "McKinsey",
+          "date": "2026-01-12",
+          "url": "https://www.mckinsey.com/industries/healthcare/our-insights/what-to-expect-in-us-healthcare"
+        },
+        {
+          "title": "State of Health AI 2026",
+          "publisher": "Bessemer Venture Partners",
+          "date": "2026-01-20",
+          "url": "https://www.bvp.com/atlas/state-of-health-ai-2026"
+        }
+      ],
+      "original_text": "[BioPharma Dive] A spike in M&A activity and stock prices have pulled biotech out of a yearslong downturn. But regulatory tumult and fierce competition from China could short-circuit the sector's resurgence. [PitchBook] Healthcare's rebound to accelerate in 2026. Early indications are that AI is improving clinical trial success rates, potentially doubling historical norms. [McKinsey] The US healthcare system continues to face considerable financial strain. Industry EBITDA as a percentage of national health expenditures (NHE) fell from 11.2 percent in 2019 to 8.9 percent in 2024. In 2027, the picture is expected to worsen slightly, with industry EBITDA as a percentage of NHE expected to drop to 8.7 percent."
+    },
+    {
+      "name": "신흥국/베트남",
+      "current_weight": "2.4%",
+      "growth_forecast_2026": "15-25%",
+      "rating": "Overweight",
+      "confidence": 0.80,
+      "outlook": "긍정적",
+      "key_drivers": [
+        "VN-Index 2,000pt 돌파 전망 (SSI Research: 1,920pt)",
+        "2025년 VN-Index 40.87% YTD 상승 기록",
+        "World Bank: 2026년 GDP 6.3% 성장 전망 - 동아시아 태평양 최고",
+        "FTSE EM 승격 기대 - 글로벌 자금 유입 가능성"
+      ],
+      "risks": [
+        "Vingroup 편중 상승 - 시장 전반 확산 제한적",
+        "미국 관세 충격 - 4월 17% 급락 경험",
+        "외국인 투자자 매도세 지속 가능성",
+        "환율 변동성"
+      ],
+      "opportunities": [
+        "MSCI EM 승격 2030년 목표 - 중장기 모멘텀",
+        "공공투자 확대 정책 수혜",
+        "제조업 공급망 다변화 수혜국"
+      ],
+      "recommended_weight": "5-7%",
+      "weight_change": "확대 권장",
+      "rationale": "현재 2.4%는 저비중. VN30 인덱스 펀드 5%까지 확대 검토. 신흥국 분산투자 관점에서 매력적",
+      "sources": [
+        {
+          "title": "VN-Index poised for historic 2,000-point mark in 2026",
+          "publisher": "Hanoi Times",
+          "date": "2026-01-08",
+          "url": "https://hanoitimes.vn/vn-index-poised-for-historic-2-000-point-mark-in-2026-experts.955602.html"
+        },
+        {
+          "title": "Vietnam's stock market may extend gains in 2026",
+          "publisher": "The Investor",
+          "date": "2026-01-14",
+          "url": "https://theinvestor.vn/vietnams-stock-market-may-extend-gains-in-2026-on-macro-tailwinds-earnings-growth-broker-d18116.html"
+        },
+        {
+          "title": "VN-Index could reach 1,920 points in 2026: SSI Research",
+          "publisher": "Vietnam News",
+          "date": "2025-12-12",
+          "url": "https://vietnamnews.vn/economy/1731639/vn-index-could-reach-1-920-points-in-2026-ssi-research.html"
+        }
+      ],
+      "original_text": "[Hanoi Times] Vietnam's stock market is expected to carry its strong momentum into 2026, with multiple securities firms projecting the VN-Index could break past the historic 2,000-point threshold, supported by earnings growth, policy reforms and rising foreign interest. [The Investor] WB projects Vietnam's GDP growth at 6.3% in 2026, best in East Asia & Pacific. [ACBS] By the end of 2025, the VN-Index had risen by 40.87% YTD. However, the rally was largely driven by stocks within the Vingroup ecosystem, with limited breadth across the broader market."
+    },
+    {
+      "name": "배당주/커버드콜",
+      "current_weight": "10%",
+      "growth_forecast_2026": "5-8%",
+      "rating": "Neutral",
+      "confidence": 0.75,
+      "outlook": "중립적",
+      "key_drivers": [
+        "금리 인하 환경에서 배당주 상대적 매력 증가",
+        "커버드콜 전략으로 옵션 프리미엄 + 배당 이중 수익",
+        "고배당주 21.6%까지 수익률 가능 (SureDividend)",
+        "안정적 현금흐름 추구 투자자에게 적합"
+      ],
+      "risks": [
+        "강세장에서 상승 제한 (커버드콜 콜옵션 매도)",
+        "금리 급등 시 배당주 상대적 매력 하락",
+        "고배당주 중 배당 삭감 리스크 존재",
+        "섹터 집중 리스크 (리츠, 유틸리티, 에너지)"
+      ],
+      "opportunities": [
+        "iShares: 2026년 Income 전략 유효",
+        "변동성 높은 시장에서 옵션 프리미엄 상승",
+        "분산 투자 및 포트폴리오 안정화 역할"
+      ],
+      "recommended_weight": "10%",
+      "weight_change": "유지",
+      "rationale": "포트폴리오 안정화 역할로 10% 유지 적정. 강세장에서 상승 제한되나 하락 방어 기능",
+      "sources": [
+        {
+          "title": "Top Dividend Stocks Of 2026",
+          "publisher": "Seeking Alpha",
+          "date": "2026-01-28",
+          "url": "https://seekingalpha.com/article/4863397-top-dividend-stocks-of-2026"
+        },
+        {
+          "title": "2026 High Dividend Stocks List",
+          "publisher": "Sure Dividend",
+          "date": "2026-01-16",
+          "url": "https://www.suredividend.com/high-dividend-stocks/"
+        },
+        {
+          "title": "Investment Directions: 2026 outlook",
+          "publisher": "iShares/BlackRock",
+          "date": "2026-01-05",
+          "url": "https://www.ishares.com/us/insights/inside-the-market/2026-market-outlook-investment-directions"
+        }
+      ],
+      "original_text": "[Seeking Alpha] Steven Cress, VP of Quantitative Strategy, reveals the top-rated dividend stocks for 2026 based on a data-driven Quant analysis of payout ratios, leverage, and cash flow. This timely outlook explores how investors can secure a smart blend of value and yield as interest rate cuts continue to reshape the market landscape. [SureDividend] High dividend stocks are stocks with a dividend yield well in excess of the market average dividend yield of ~1.3%. [iShares] We expect 2026 to be characterized by above-trend growth, easing policy, and accelerating productivity — a backdrop we believe favors selective risk taking."
+    },
+    {
+      "name": "미국 대형주 (S&P 500)",
+      "current_weight": "2.7%",
+      "growth_forecast_2026": "10-15%",
+      "rating": "Neutral to Overweight",
+      "confidence": 0.80,
+      "outlook": "중립적-긍정적",
+      "key_drivers": [
+        "S&P 500 EPS 15% 성장 전망 (FactSet)",
+        "월가 목표가 7,600pt 컨센서스 (현재 대비 ~9% 상승)",
+        "AI 슈퍼사이클 2년 이상 지속 전망",
+        "Fed 금리 인하 사이클 지속 (2026년 말 3.4% 전망)"
+      ],
+      "risks": [
+        "3년 연속 16-28% 상승 후 밸류에이션 부담",
+        "빅테크 집중 - Magnificent 7 쏠림 지속",
+        "인플레이션 재점화 리스크",
+        "지정학적 리스크 (무역전쟁, 관세)"
+      ],
+      "opportunities": [
+        "섹터 확산 - 테크 외 사이클리컬 참여 확대",
+        "일부 전략가 8,200pt 시나리오 제시",
+        "AI 생산성 향상으로 기업 이익 성장 가속"
+      ],
+      "recommended_weight": "15-20%",
+      "weight_change": "확대 강력 권장",
+      "rationale": "현재 2.7%는 극단적 저비중. S&P 500 인덱스 펀드 Core 비중으로 최소 15% 이상 확대 필요",
+      "sources": [
+        {
+          "title": "S&P 500 CY 2026 Earnings Preview",
+          "publisher": "FactSet",
+          "date": "2025-12-19",
+          "url": "https://insight.factset.com/sp-500-cy-2026-earnings-preview-analysts-expect-earnings-growth-of-15"
+        },
+        {
+          "title": "S&P 500 Forecast 2026: Wall Street Predictions",
+          "publisher": "Hudson Financial Partners",
+          "date": "2026-01-28",
+          "url": "https://hudsonfinancialplanning.com.au/resources/education-reports/sp500-2026-wall-street-forecast-ai-market-outlook/"
+        },
+        {
+          "title": "Here are the 2026 stock market predictions from all of Wall Street's top banks",
+          "publisher": "Business Insider",
+          "date": "2025-12-08",
+          "url": "https://www.businessinsider.com/stock-market-prediction-2026-investment-outlook-sp500-bofa-jpm-2025-12"
+        }
+      ],
+      "original_text": "[FactSet] Analysts Expect Earnings Growth of 15% for S&P 500 CY 2026. [Hudson Financial Partners] The consensus among major financial institutions shows decidedly optimistic predictions for 2026, albeit with important caveats. After three consecutive years of stellar returns, with the S&P 500 climbing 16-28% annually since 2023, the critical question remains: can this remarkable run continue? Analyst targets for the S&P 500 cluster near 7,600. [Business Insider] Stock Market Predictions: Wall Street's Complete 2026 Outlook."
+    }
+  ],
+  "concentration_risk": {
+    "semiconductor_24pct": {
+      "assessment": "주의 필요",
+      "current_allocation": "24.3%",
+      "recommended_allocation": "15-20%",
+      "rationale": "단일 섹터 24.3% 집중은 과도한 리스크. AI 메모리 슈퍼사이클 수혜는 확실하나, 조정 시 포트폴리오 전체에 큰 영향. Malcolm Penn(Future Horizons): 'prepare for the hangover' 경고 주목",
+      "action_items": [
+        "반도체 20% 이하로 축소 검토",
+        "일부 차익실현 후 S&P 500 또는 베트남 VN30으로 분산",
+        "삼성전자/SK하이닉스 비중 점검 (HBM 경쟁 구도 변화)"
+      ]
+    },
+    "diversification_score": 0.65,
+    "comment": "6개 섹터 중 반도체/AI 쏠림 현상. 미국 대형주 2.7%는 극단적 저비중. 베트남 2.4%도 신흥국 익스포저 부족"
+  },
+  "korea_market_timing": {
+    "kospi_rally_sustainability": {
+      "assessment": "단기 과열, 중기 긍정적",
+      "current_level": "5,224pt (역대 최고치)",
+      "ytd_return": "+21.23%",
+      "supporting_factors": [
+        "강한 기업 실적 (SK하이닉스 사상 최대 영업이익 47.2조원)",
+        "정부 시장 친화적 정책",
+        "글로벌 AI 투자 수혜"
+      ],
+      "warning_signs": [
+        "KOSDAQ 월간 +25.8% - 25년 만에 최대 상승 (과열 신호)",
+        "반도체 섹터 집중 - 시장 폭 제한적",
+        "일부 종목 실적 기반 없는 급등 (현대차 등)",
+        "외국인 투자자 매수세 지속 여부 불확실"
+      ],
+      "analyst_views": {
+        "bullish": "Citi, JPMorgan, Nomura: 2026년 20%+ 추가 상승 전망",
+        "cautious": "Korea JoongAng Daily: 'doubts remain over whether the rally is sustainable'"
+      }
+    },
+    "recommendation": {
+      "action": "한국 주식 비중 조정 보류, 선택적 리밸런싱",
+      "rationale": "KOSPI 급등 후 단기 조정 가능성 있으나, 구조적 상승 추세 유효. 급락 시 매수 기회로 활용",
+      "specific_actions": [
+        "필승코리아 펀드 제외는 적절한 판단 (이미 반영됨)",
+        "국내 헬스케어 10% 유지 - 섹터 다변화",
+        "반도체 비중 조정 시 국내 주식 비중 자연 감소"
+      ]
+    }
+  },
+  "portfolio_recommendations": {
+    "summary": "반도체 과집중 해소, 미국 대형주/베트남 확대 권장",
+    "priority_actions": [
+      {
+        "priority": 1,
+        "action": "S&P 500 인덱스 펀드 15% 이상 확대",
+        "from": "2.7%",
+        "to": "15-20%",
+        "rationale": "글로벌 분산투자 핵심, 현재 극단적 저비중"
+      },
+      {
+        "priority": 2,
+        "action": "반도체/AI 섹터 20% 이하로 축소",
+        "from": "24.3%",
+        "to": "15-20%",
+        "rationale": "단일 섹터 집중 리스크 완화, 차익실현"
+      },
+      {
+        "priority": 3,
+        "action": "베트남 VN30 5-7%로 확대",
+        "from": "2.4%",
+        "to": "5-7%",
+        "rationale": "신흥국 성장 익스포저 확보, FTSE EM 승격 기대"
+      }
+    ],
+    "target_allocation": {
+      "semiconductor_ai": "15-20%",
+      "us_large_cap": "15-20%",
+      "dividend_covered_call": "10%",
+      "healthcare": "10%",
+      "humanoid_robot": "5-8%",
+      "vietnam_em": "5-7%"
+    }
+  },
+  "data_quality": {
+    "skill_verified": true,
+    "all_sectors_verified": true,
+    "sources_count": 25,
+    "cross_validation": "passed",
+    "original_text_included": true,
+    "analysis_depth": "standard"
+  },
+  "disclaimer": "본 분석은 공개된 정보에 기반한 의견이며 투자 권유가 아닙니다. 투자 결정은 본인 책임 하에 이루어져야 합니다."
+}

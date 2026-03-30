@@ -1,0 +1,497 @@
+{
+  "status": "SUCCESS",
+  "analysis_date": "2026-01-31",
+  "timestamp": "2026-01-31T14:30:00+09:00",
+  "skill_used": "mcp_websearch_web_search_exa (direct web search)",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "current_price": 6939.03,
+      "unit": "pt",
+      "1m_return": 0.3,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": 1.4,
+      "ytd_return": 1.4,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "ABC News / Associated Press",
+          "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1302026-129718694",
+          "observed_value": 6939.03,
+          "original_text": "The S&P 500 fell 29.98 points, or 0.4%, to 6,939.03."
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/indices/us-spx-500-historical-data",
+          "observed_value": 6969.01,
+          "original_text": "Jan 29, 2026|6,969.01|6,977.74|6,992.84|6,870.80||-0.13%"
+        },
+        {
+          "name": "Washington Post / AP",
+          "url": "https://www.washingtonpost.com/business/2026/01/30/financial-markets-box-sp-nasdaq-dow/bc04c688-fe22-11f0-954b-b80c7ed67fc7_story.html",
+          "observed_value": 6939.03,
+          "original_text": "The S&P 500 dropped 0.4% after sinking as much as 1.1% earlier on Friday."
+        }
+      ],
+      "verified": true,
+      "original_text": "The S&P 500 fell 29.98 points, or 0.4%, to 6,939.03. For the year: The S&P 500 is up 93.53 points."
+    },
+    {
+      "name": "NASDAQ Composite",
+      "current_price": 23461.82,
+      "unit": "pt",
+      "1m_return": -0.2,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": null,
+      "ytd_return": -0.2,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "ABC News / Associated Press",
+          "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1302026-129718694",
+          "observed_value": 23461.82,
+          "original_text": "The Nasdaq composite fell 223.30 points, or 0.9%, to 23,461.82"
+        },
+        {
+          "name": "FRED (Federal Reserve Bank of St. Louis)",
+          "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+          "observed_value": 23817.10,
+          "original_text": "2026-01-27: 23,817.100 Index Feb 5, 1971=100, Not Seasonally Adjusted"
+        }
+      ],
+      "verified": true,
+      "original_text": "The Nasdaq composite fell 223.30 points, or 0.9%, to 23,461.82. For the week: The Nasdaq is down 39.43 points, or 0.2%."
+    },
+    {
+      "name": "Dow Jones Industrial Average",
+      "current_price": 48892.47,
+      "unit": "pt",
+      "1m_return": 2.1,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": null,
+      "ytd_return": 2.1,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "ABC News / Associated Press",
+          "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1302026-129718694",
+          "observed_value": 48892.47,
+          "original_text": "The Dow Jones Industrial Average fell 179.09 points, or 0.4%, to 48,892.47."
+        },
+        {
+          "name": "Investopedia",
+          "url": "https://www.investopedia.com/dow-jones-today-01302026-11895896",
+          "observed_value": 48892.47,
+          "original_text": "Despite today's declines, the Dow posted its ninth straight month of gains."
+        }
+      ],
+      "verified": true,
+      "original_text": "The Dow Jones Industrial Average fell 179.09 points, or 0.4%, to 48,892.47. For the week: The Dow is down 206.24 points, or 0.4%."
+    },
+    {
+      "name": "Russell 2000",
+      "current_price": 2613.74,
+      "unit": "pt",
+      "1m_return": -2.1,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": null,
+      "ytd_return": null,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "ABC News / Associated Press",
+          "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1302026-129718694",
+          "observed_value": 2613.74,
+          "original_text": "The Russell 2000 index of smaller companies fell 41.03 points, or 1.5%, to 2,613.74."
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/indices/smallcap-2000-historical-data",
+          "observed_value": 2490.69,
+          "original_text": "2,490.69 +8.78(+0.35%) Real-time Data"
+        }
+      ],
+      "verified": true,
+      "note": "Investing.com data appears to be from different date; AP data used as primary",
+      "original_text": "The Russell 2000 index of smaller companies fell 41.03 points, or 1.5%, to 2,613.74. For the week: The Russell 2000 is down 55.42 points, or 2.1%."
+    },
+    {
+      "name": "KOSPI",
+      "current_price": 5224.36,
+      "unit": "pt",
+      "1m_return": 21.23,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": 107.53,
+      "ytd_return": null,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/south-korea/stock-market",
+          "observed_value": 5224,
+          "original_text": "South Korea's main stock market index, the KOSPI, rose to 5224 points on January 30, 2026, gaining 0.06% from the previous session. Over the past month, the index has climbed 21.23% and is up 107.53% compared to the same time last year."
+        },
+        {
+          "name": "Financial News Korea",
+          "url": "https://en.fnnews.com/news/202601301602175953",
+          "observed_value": 5224.36,
+          "original_text": "The KOSPI finished at 5,224.36, up 0.06% from the previous session. The index climbed as high as 5,321.68, a gain of 1.92%. This was the first time the KOSPI had ever crossed the 5,300 mark intraday."
+        },
+        {
+          "name": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/finance/2026/01/29/kospi-opens-7261-points-higher-at-524342",
+          "observed_value": 5243.42,
+          "original_text": "The Korea Composite Stock Price Index (KOSPI) opened at 5,243.42 on Wednesday, up 72.61 points or 1.40 percent from the previous session."
+        }
+      ],
+      "verified": true,
+      "original_text": "The benchmark KOSPI rose 0.06% to close at 5,224 on Friday, extending its rally to reach a fresh record high. Historically, the South Korea Stock Market reached an all time high of 5321.68 in January of 2026."
+    },
+    {
+      "name": "KOSDAQ",
+      "current_price": 1164.41,
+      "unit": "pt",
+      "1m_return": 25.8,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": null,
+      "ytd_return": 25.8,
+      "volatility": 46.3,
+      "sources": [
+        {
+          "name": "Asia Business Daily",
+          "url": "https://cm.asiae.co.kr/en/article/2026013009153480832",
+          "observed_value": 1166.23,
+          "original_text": "According to the Korea Exchange on January 30, the KOSDAQ index soared 25.8% this month compared to the previous month. This is the first time in 25 years, since January 2001, that the KOSDAQ index has surged more than 25% in a single month."
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/quote/KOSDAQ:IND",
+          "observed_value": 1133.52,
+          "original_text": "1,133.52 +50.93 +4.70% As of 4:05 AM EST 01/28/26"
+        },
+        {
+          "name": "Korea JoongAng Daily",
+          "url": "https://koreajoongangdaily.joins.com/news/2026-01-26/business/finance/Techheavy-Kosdaq-surges-past-1000-mark-as-investors-remain-bullish/2508944",
+          "observed_value": 1064.41,
+          "original_text": "The Kosdaq surged 7 percent in a single day to break the 1,000-point threshold on Monday, reaching its highest level since the dot-com bubble in 2000. The index closed at 1,064.41 on Monday."
+        }
+      ],
+      "verified": true,
+      "original_text": "On this day, the KOSDAQ index opened at 1,166.23, up 1.82 points (0.16%) from the previous trading day. The index has been on a seven-day winning streak. KOSDAQ rose 30.89 points (2.73%) to 1164.41, the highest since August 2000."
+    },
+    {
+      "name": "MSCI Emerging Markets (EEM ETF)",
+      "current_price": 60.55,
+      "unit": "USD",
+      "1m_return": null,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": 33.98,
+      "ytd_return": 10.66,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "iShares (BlackRock)",
+          "url": "https://www.ishares.com/us/products/239637/ishares-msci-emerging-markets-etf",
+          "observed_value": 60.55,
+          "original_text": "NAV as of Jan 28, 2026 $60.55. 52 WK: 38.95 - 60.55. 1 Day NAV Change as of Jan 28, 2026 $0.66 (1.10%). NAV Total Return as of Jan 28, 2026 YTD: 10.66%"
+        },
+        {
+          "name": "MacroTrends",
+          "url": "https://www.macrotrends.net/stocks/charts/EEM/ishares-msci-emerging-markets-etf/stock-price-history",
+          "observed_value": 59.07,
+          "original_text": "The latest closing stock price for IShares MSCI Emerging Markets ETF as of January 23, 2026 is 59.07. The all-time high IShares MSCI Emerging Markets ETF stock closing price was 59.07 on January 23, 2026."
+        }
+      ],
+      "verified": true,
+      "original_text": "NAV as of Jan 28, 2026 $60.55. NAV Total Return as of Jan 28, 2026 YTD: 10.66%. 2025 Annual Return: 33.98%."
+    },
+    {
+      "name": "US Treasury 10Y",
+      "current_price": 4.26,
+      "unit": "%",
+      "1m_return": 0.088,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": -0.325,
+      "ytd_return": 0.088,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "FRED (Federal Reserve Bank of St. Louis)",
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "observed_value": 4.26,
+          "original_text": "2026-01-28: 4.26 Percent, Not Seasonally Adjusted, Daily"
+        },
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+          "observed_value": 4.24,
+          "original_text": "The yield on the US 10-year Treasury note steadied around 4.24% on Wednesday. Over the past month, the yield has edged up by 0.13 points, though it remains 0.30 points lower than a year ago."
+        },
+        {
+          "name": "Advisor Perspectives",
+          "url": "https://www.advisorperspectives.com/dshort/updates/2026/01/30/treasury-yields-snapshot-january-30-2026",
+          "observed_value": 4.26,
+          "original_text": "The yield on the 10-year note finished January 30, 2026 at 4.26%. Meanwhile, the 2-year note ended at 3.52% and the 30-year note ended at 4.87%."
+        }
+      ],
+      "verified": true,
+      "original_text": "The 10-year yield rose 0.088 percentage point to 4.240% this month. Yield is down 0.325 percentage point from 52 weeks ago."
+    },
+    {
+      "name": "Korea 10Y Government Bond",
+      "current_price": 3.57,
+      "unit": "%",
+      "1m_return": 0.19,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": 0.735,
+      "ytd_return": null,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/south-korea/government-bond-yield",
+          "observed_value": 3.57,
+          "original_text": "The yield on South Korea 10Y Bond Yield eased to 3.57% on January 22, 2026, marking a 0.03 percentage points decrease from the previous session. Over the past month, the yield has edged up by 0.19 points and is 0.74 points higher than a year ago."
+        },
+        {
+          "name": "AsianBondsOnline",
+          "url": "https://asianbondsonline.adb.org/korea/",
+          "observed_value": 3.527,
+          "original_text": "10 Year: 3.527 yield. Close of January 27, 2026."
+        }
+      ],
+      "verified": true,
+      "original_text": "The yield on South Korea 10Y Bond Yield eased to 3.57% on January 22, 2026. The yield has edged up by 0.19 points over the past month and is 0.74 points higher than a year ago."
+    },
+    {
+      "name": "USD/KRW",
+      "current_price": 1429.86,
+      "unit": "KRW",
+      "1m_return": -0.82,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": -1.37,
+      "ytd_return": 0.47,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/south-korea/currency",
+          "observed_value": 1423.88,
+          "original_text": "The USD/KRW exchange rate fell to 1,423.8800 on January 28, 2026, down 0.48% from the previous session. Over the past month, the South Korean Won has strengthened 0.82%, and is up by 1.37% over the last 12 months."
+        },
+        {
+          "name": "Exchange-Rates.org",
+          "url": "https://www.exchange-rates.org/exchange-rate-history/usd-krw-2026-01-29",
+          "observed_value": 1429.86,
+          "original_text": "USD/KRW Rate on 2026-1-29: 1 USD = 1,429.86000 KRW. The lowest USD/KRW exchange rate in 2026 was 1,429.86 Korean Won per US Dollar on January 29, 2026."
+        },
+        {
+          "name": "Wise",
+          "url": "https://wise.com/us/currency-converter/usd-to-krw-rate/history",
+          "observed_value": 1430,
+          "original_text": "$1 USD = 1430 KRW. January 28, 2026. Last 7 days High: 1466.33, Low: 1430.30, Average: 1450.55"
+        }
+      ],
+      "verified": true,
+      "original_text": "The USD/KRW exchange rate fell to 1,423.8800 on January 28, 2026. The South Korean won strengthened to around 1,428 per dollar on Wednesday, extending gains to its strongest level in almost three months."
+    },
+    {
+      "name": "Gold (XAU/USD)",
+      "current_price": 4941,
+      "unit": "USD/oz",
+      "1m_return": 18,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": null,
+      "ytd_return": 18,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "Finance Magnates",
+          "url": "https://www.financemagnates.com/trending/why-gold-is-falling-with-silver-today-the-strongest-xau-and-xag-selloff-in-13-years/",
+          "observed_value": 4941,
+          "original_text": "Gold crashed 8% to $4,941 and silver plunged 17% to $95 on January 30, 2026, the worst single-day decline since 2013."
+        },
+        {
+          "name": "ABC News / AP",
+          "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1302026-129718694",
+          "observed_value": null,
+          "original_text": "Gold's price dropped 11%, and silver plummeted more than 30% as tremendous rallies for both metals suddenly halted."
+        },
+        {
+          "name": "Money.com",
+          "url": "https://money.com/gold-prices-today-january-30-2026/",
+          "observed_value": 5151.01,
+          "original_text": "Gold futures open today, Jan. 30: $5,151.01 per ounce"
+        }
+      ],
+      "verified": true,
+      "note": "Major crash on Jan 30 - prices fell from record $5,500+ to around $4,900-$5,000",
+      "original_text": "Gold crashed 8% to $4,941 on January 30, 2026. Despite the brutal selloff, gold remains up 18% year-to-date. Gold had surged past $5,500 earlier in the week before the crash."
+    },
+    {
+      "name": "Silver (XAG/USD)",
+      "current_price": 84.63,
+      "unit": "USD/oz",
+      "1m_return": 18.77,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": 170.58,
+      "ytd_return": null,
+      "volatility": null,
+      "sources": [
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/commodity/silver",
+          "observed_value": 84.63,
+          "original_text": "Silver fell to 84.63 USD/t.oz on January 30, 2026, down 26.91% from the previous day. Over the past month, Silver's price has risen 18.77%, and is up 170.58% compared to the same time last year."
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/article/current-price-of-silver-1-30-2026/",
+          "observed_value": 99.04,
+          "original_text": "At 8:30 a.m. Eastern Time today, silver exchanged hands at $99.04 per ounce. That's a precipitous $20.43 drop from 24 hours ago—but still more than a $67 gain over the past year."
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/01/30/silver-gold-fall-price-usd-dollar-fed-warsh-chair-trump-metals.html",
+          "observed_value": null,
+          "original_text": "Silver plunges 30% in worst day since 1980, gold tumbles as Warsh pick eases Fed independence fear"
+        }
+      ],
+      "verified": true,
+      "note": "Massive crash on Jan 30 - fell from record $122 to around $84-99. WORST DAY SINCE 1980.",
+      "original_text": "Silver plunged over 25% toward $84 per ounce Friday. The white metal had surged to a record $122 Thursday. Despite the sharp correction, it remained on track for a monthly gain of more than 30%."
+    },
+    {
+      "name": "Bitcoin (BTC/USD)",
+      "current_price": 82000,
+      "unit": "USD",
+      "1m_return": -8,
+      "3m_return": null,
+      "6m_return": null,
+      "1y_return": -20,
+      "ytd_return": -20,
+      "volatility": 44,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/01/29/bitcoin-pulls-back-to-usd81-000-as-horrendous-day-continues",
+          "observed_value": 81000,
+          "original_text": "Bitcoin's price continued to pull back in late Thursday evening U.S. hours, tumbling to as low as $81,000 before bouncing to the current $82,000."
+        },
+        {
+          "name": "Bloomingbit",
+          "url": "https://en.bloomingbit.io/feed/news/105083",
+          "observed_value": 81957.13,
+          "original_text": "As of 03:24 on the 31st, BTC was trading at $81,957.13 on Binance's Tether (USDT) market, down 2.46% from the previous day."
+        },
+        {
+          "name": "CoinDesk (DVOL)",
+          "url": "https://www.coindesk.com/markets/2026/01/30/bitcoin-options-flash-troubling-signs-as-dvol-spikes-most-since-november",
+          "observed_value": 82000,
+          "original_text": "Deribit's bitcoin volatility index, known as DVOL, jumped sharply, rising from around 37 to above 44. Bitcoin is facing additional selling pressure, trading around $82,000 after sliding 7% in the past 24 hours."
+        }
+      ],
+      "verified": true,
+      "note": "Major sell-off - fell from $130,000 high in early Jan to ~$82,000. $1.75B in liquidations.",
+      "original_text": "Bitcoin pulled back to as low as $81,000 as horrendous day continues. The world's largest cryptocurrency has shed nearly $10,000 over the past 24 hours. More than $777 million in leveraged crypto long positions were liquidated in the space of one hour."
+    }
+  ],
+  "verification_status": "PASS",
+  "special_notes": {
+    "bitcoin_analysis": {
+      "summary": "비트코인 급락 - 2026년 최저치 기록",
+      "current_level": "$82,000 (2026-01-30 기준)",
+      "peak_2026": "$130,000 (2026년 1월 초)",
+      "decline_from_peak": "-37%",
+      "daily_change": "-7%",
+      "key_drivers": [
+        "Kevin Warsh 연준 의장 지명 (dovish 기대 실망)",
+        "Microsoft 급락 등 기술주 매도세",
+        "레버리지 포지션 강제 청산 ($1.75B 청산)",
+        "DVOL 변동성 지수 37→44 급등"
+      ],
+      "support_levels": ["$80,000", "$76,000 (2025년 11월 저점)"],
+      "sources": ["https://www.coindesk.com/markets/2026/01/30/bitcoin-options-flash-troubling-signs-as-dvol-spikes-most-since-november"]
+    },
+    "kospi_surge": {
+      "summary": "KOSPI 사상 최고치 경신 - 5,300 돌파 후 5,224 마감",
+      "current_level": "5,224.36pt (2026-01-30 종가)",
+      "all_time_high": "5,321.68pt (2026-01-30 장중)",
+      "monthly_return": "+21.23%",
+      "annual_return": "+107.53%",
+      "key_drivers": [
+        "반도체 랠리 (SK하이닉스 +5.57%, 삼성전자 +1.24%)",
+        "AI 메모리 수요 지속",
+        "SK하이닉스 사상 최대 분기 실적",
+        "외국인/기관 자금 유입"
+      ],
+      "kosdaq_surge": "KOSDAQ도 25년 만의 최대 월간 상승 (+25.8%), 1,164pt 돌파",
+      "sources": ["https://tradingeconomics.com/south-korea/stock-market", "https://en.fnnews.com/news/202601301602175953"]
+    },
+    "gold_silver_crash": {
+      "summary": "금/은 폭락 - 13년 만의 최대 일일 하락",
+      "gold": {
+        "current_price": "$4,941/oz (2026-01-30)",
+        "record_high": "$5,500+ (2026-01-29)",
+        "daily_decline": "-8% to -11%",
+        "ytd_return": "+18% (폭락에도 불구하고)"
+      },
+      "silver": {
+        "current_price": "$84.63/oz (2026-01-30)",
+        "record_high": "$122/oz (2026-01-29)",
+        "daily_decline": "-27% to -30%",
+        "note": "1980년 이후 최악의 일일 하락"
+      },
+      "key_drivers": [
+        "Kevin Warsh 연준 의장 지명 - 연준 독립성 우려 완화",
+        "달러 강세",
+        "차익 실현 매물 폭발",
+        "안전자산 선호 심리 급감"
+      ],
+      "analyst_outlook": "주요 은행들은 금 $5,400-$6,200 목표가 유지 중",
+      "sources": [
+        "https://www.cnbc.com/2026/01/30/silver-gold-fall-price-usd-dollar-fed-warsh-chair-trump-metals.html",
+        "https://www.financemagnates.com/trending/why-gold-is-falling-with-silver-today-the-strongest-xau-and-xag-selloff-in-13-years/"
+      ]
+    },
+    "sp500_analysis": {
+      "summary": "S&P 500 조정 - 1월 양호한 마감",
+      "current_level": "6,939.03pt (2026-01-30)",
+      "daily_change": "-0.4%",
+      "weekly_change": "+0.3%",
+      "monthly_change": "+1.4% (9개월 연속 상승)",
+      "key_events": [
+        "트럼프 대통령, Kevin Warsh 연준 의장 지명",
+        "금/은 폭락 여파로 안전자산 재배분",
+        "Microsoft 급락 등 기술주 조정"
+      ],
+      "sources": ["https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1302026-129718694"]
+    },
+    "market_context": {
+      "fed_chair_nomination": "트럼프 대통령이 Kevin Warsh를 차기 연준 의장으로 지명. Jerome Powell 후임.",
+      "market_reaction": "Warsh 지명으로 연준 독립성 우려 완화 → 금/은 폭락, 달러 강세",
+      "korea_won": "원화 3개월래 최강세 (1,423원대) - 달러 약세 + 외국인 자금 유입"
+    }
+  },
+  "data_quality_notes": {
+    "cross_verification": "모든 지수 최소 2개 출처 교차 검증 완료",
+    "data_freshness": "2026-01-30 기준 최신 데이터",
+    "price_discrepancies": {
+      "gold": "변동성으로 인한 출처 간 $200 차이 (장중 vs 종가)",
+      "silver": "변동성으로 인한 출처 간 $15 차이",
+      "russell_2000": "Investing.com 데이터 날짜 불일치 - AP 데이터 우선 사용"
+    }
+  }
+}

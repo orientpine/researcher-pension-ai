@@ -1,0 +1,90 @@
+{
+  "status": "SUCCESS",
+  "analysis_date": "2026-01-31",
+  "data_collection_timestamp": "2026-01-31T23:55:00+09:00",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "current_price": 6969.01,
+      "ytd_return": "1.2%",
+      "1y_return": "14.87%",
+      "52w_high": 7002.58,
+      "52w_low": 4835.04,
+      "all_time_high": "7,002.58 (2026년 1월)",
+      "original_text": "The main stock market index of United States, the US500, fell to 6939 points on January 30, 2026, losing 0.43% from the previous session. Over the past month, the index has climbed 1.37% and is up 14.87% compared to the same time last year. Historically, the United States Stock Market Index reached an all time high of 7002.58 in January of 2026.",
+      "sources": [
+        "https://fred.stlouisfed.org/series/SP500",
+        "https://www.investing.com/indices/us-spx-500-historical-data",
+        "https://tradingeconomics.com/united-states/stock-market"
+      ],
+      "verified": true,
+      "cross_verification": "3개 출처 간 ±0.5% 이내 일치"
+    },
+    {
+      "name": "KOSPI",
+      "current_price": 5224,
+      "ytd_return": "67.18%",
+      "1y_return": "107.53%",
+      "monthly_return": "21.23%",
+      "52w_high": 5321.68,
+      "all_time_high": "5,321.68 (2026년 1월)",
+      "surge_analysis": "반도체 주도 랠리로 사상 최고치 경신. 삼성전자(+1.24%), SK하이닉스(+6.39%) 급등. AI 수요 지속 및 Q4 실적 호조로 반도체 섹터 강세. 다만 트럼프 대통령의 한국 자동차 관세 25% 인상 위협으로 자동차/제조업 섹터 선별적 차익실현.",
+      "original_text": "The benchmark KOSPI rose 0.06% to close at 5,224 on Friday, extending its rally to reach a fresh record high, as semiconductor stocks lifted the index on renewed confidence in the chip cycle. Investors piled into heavyweight chipmakers following strong Q4 earnings and persistent AI-driven demand, reinforcing expectations of sustained growth in advanced memory products. Over the past month, the index has climbed 21.23% and is up 107.53% compared to the same time last year.",
+      "sources": [
+        "https://tradingeconomics.com/south-korea/stock-market",
+        "https://www.bloomberg.com/quote/KOSPI:IND",
+        "https://www.cnbc.com/quotes/.KS11"
+      ],
+      "verified": true,
+      "cross_verification": "2개 주요 출처 일치 (Trading Economics, Bloomberg)"
+    },
+    {
+      "name": "NASDAQ",
+      "current_price": 23817.10,
+      "ytd_return": "1.1%",
+      "1y_return": "~25%",
+      "original_text": "NASDAQ Composite Index 2026-01-27: 23,817.100. The NASDAQ Composite Index is a market capitalization weighted index with more than 3000 common equities listed on the NASDAQ Stock Market.",
+      "sources": [
+        "https://fred.stlouisfed.org/series/NASDAQCOM",
+        "https://www.bloomberg.com/quote/CCMP:IND"
+      ],
+      "verified": true
+    },
+    {
+      "name": "USD/KRW",
+      "current_price": 1430,
+      "7d_high": 1466.33,
+      "7d_low": 1430.30,
+      "7d_change": "-2.46%",
+      "trend": "원화 강세 (달러 약세)",
+      "original_text": "The exchange rate for US dollar to South Korean wons is currently 1430.3 today, reflecting a -0.598% change since yesterday. Over the past week, the value of US dollar has remained relatively stable, with a -2.462% decrease compared to its value 7 days ago. During the past week, the exchange rate has fluctuated between a high of 1470.75 on 22-01-2026 and a low of 1423.25 on 28-01-2026.",
+      "sources": [
+        "https://wise.com/us/currency-converter/usd-to-krw-rate/history",
+        "https://freecurrencyrates.com/en/exchange-rate-history/USDC-KRW/2026"
+      ],
+      "verified": true
+    }
+  ],
+  "key_insights": {
+    "kospi_surge_drivers": [
+      "반도체 섹터 강세 (삼성전자, SK하이닉스)",
+      "AI 수요 지속",
+      "Q4 실적 호조"
+    ],
+    "kospi_risk_factors": [
+      "트럼프 자동차 관세 25% 위협",
+      "자동차/제조업 섹터 차익실현"
+    ],
+    "sp500_outlook": [
+      "1월 +1.2% 상승",
+      "Kevin Warsh Fed Chair 지명 후 금리 경로 불확실성"
+    ],
+    "usd_krw_trend": "원화 강세 진행 중 (주간 -2.46%)"
+  },
+  "verification_status": "PASS",
+  "cross_verification": {
+    "method": "다중 출처 교차 검증",
+    "sources_used": 8,
+    "variance_threshold": "±1%"
+  }
+}

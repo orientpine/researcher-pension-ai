@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "agent": "sector-analyst (librarian)",
+    "generatedAt": "2026-03-30T15:00:00+09:00"
+  },
+  "sectors": [
+    {
+      "name": "반도체/AI",
+      "nameEn": "Semiconductor/AI",
+      "rating": 5,
+      "ratingLabel": "Strong Overweight",
+      "growthDrivers": [
+        "NVIDIA projects $1T inference market",
+        "TSMC expects 30% revenue surge in 2026",
+        "Hyperscaler AI infrastructure spending $700-720B in 2026",
+        "Samsung $73B AI chip investment",
+        "SK Hynix HBM market leadership"
+      ],
+      "risks": ["US-China export controls", "Supply glut in legacy chips", "High valuations"],
+      "koreanExposure": ["Samsung Electronics", "SK Hynix", "Samsung Electro-Mechanics"],
+      "sources": [
+        "https://www.ainvest.com/news/nvidia-tsmc-control-exponential-rails-ai-curve-catalyst-650b-2026-ai-spending-2603/",
+        "https://tech-insider.org/big-tech-ai-infrastructure-spending-2026/",
+        "https://www.ainvest.com/news/samsung-73b-ai-bet-hinges-closing-hbm-gap-sk-hynix-2603/"
+      ]
+    },
+    {
+      "name": "로봇/자동화",
+      "nameEn": "Robotics/Automation",
+      "rating": 4,
+      "ratingLabel": "Overweight",
+      "growthDrivers": [
+        "Industrial robot market growth toward 2035",
+        "AI integration accelerating cobot adoption",
+        "Manufacturing automation demand"
+      ],
+      "risks": ["Slower adoption during economic downturn", "Technology maturity in some subsectors"],
+      "koreanExposure": ["Hyundai Robotics", "Doosan Robotics"],
+      "sources": ["https://www.indexbox.io/blog/articulated-robots-market-forecast-points-higher-toward-2035-driven-by-ai-integration/"]
+    },
+    {
+      "name": "헬스케어",
+      "nameEn": "Healthcare",
+      "rating": 4,
+      "ratingLabel": "Overweight",
+      "growthDrivers": [
+        "GLP-1 market: $45.3B (2025) → $122.3B (2030)",
+        "Samsung Bioepis + G2GBIO obesity drug development",
+        "Aging demographics driving chronic disease demand",
+        "Digital health expansion"
+      ],
+      "risks": ["Drug pricing pressure", "GLP-1 competition intensifying", "Side effect reports"],
+      "koreanExposure": ["Samsung Biologics", "GC Pharma"],
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/03/03/3248093/28124/en/GLP-1-Analogues-Strategic-Business-Report-2026-Market-to-Reach-122-3-Billion-by-2030-from-45-3-Billion-in-2025.html",
+        "https://www.koreabiomed.com/news/articleView.html?idxno=31005"
+      ]
+    },
+    {
+      "name": "에너지",
+      "nameEn": "Energy",
+      "rating": 2,
+      "ratingLabel": "Underweight",
+      "growthDrivers": [
+        "Renewable energy investment increasing",
+        "Nuclear energy renewed interest",
+        "Geopolitical supply disruption potential"
+      ],
+      "risks": ["Structural oil oversupply", "JP Morgan sees $60/bbl ceiling", "EV reducing oil demand long-term"],
+      "koreanExposure": ["Renewable energy focused funds"],
+      "sources": ["https://www.ainvest.com/news/morgan-2026-oil-cycle-points-60-bbl-ceiling-geopolitical-volatility-2603/"]
+    },
+    {
+      "name": "원자재",
+      "nameEn": "Commodities/Materials",
+      "rating": 4,
+      "ratingLabel": "Overweight",
+      "growthDrivers": [
+        "Gold: central bank buying 585 tons/quarter, targeting $5,400/oz",
+        "Copper: 2.6% annual demand growth from EV/AI data centers, supply deficit",
+        "Lithium: 40% demand increase from electrification"
+      ],
+      "risks": ["Demand slowdown in recession", "Battery tech substitution for lithium"],
+      "koreanExposure": ["Commodity ETFs recommended"],
+      "sources": [
+        "https://www.ainvest.com/news/gold-5-400-target-flow-analysis-etfs-central-banks-debasement-demand-2603/",
+        "https://farmonaut.com/mining/copper-demand-supply-outlook-2026-key-trends-drivers"
+      ]
+    }
+  ]
+}

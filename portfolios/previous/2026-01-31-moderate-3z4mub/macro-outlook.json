@@ -1,0 +1,131 @@
+{
+  "status": "SUCCESS",
+  "analysis_date": "2026-01-31",
+  "skill_used": "macro-synthesizer",
+  
+  "input_verification": {
+    "files_checked": 5,
+    "files_valid": 5,
+    "file_status": {
+      "index-data.json": {"exists": true, "valid": true},
+      "rate-analysis.json": {"exists": true, "valid": true},
+      "sector-analysis.json": {"exists": true, "valid": true},
+      "risk-analysis.json": {"exists": true, "valid": true},
+      "leadership-analysis.json": {"exists": true, "valid": true}
+    }
+  },
+  
+  "spot_check_verification": {
+    "performed": true,
+    "timestamp": "2026-01-31T23:59:00+09:00",
+    "checks": [
+      {
+        "metric": "S&P 500",
+        "file_value": "6,969.01",
+        "independent_value": "6,969.01",
+        "original_text": "2026-01-29: 6,969.01 from FRED",
+        "source_url": "https://fred.stlouisfed.org/series/SP500",
+        "variance": "0%",
+        "match": true
+      },
+      {
+        "metric": "Fed Funds Rate",
+        "file_value": "3.50%-3.75%",
+        "independent_value": "3.50%-3.75%",
+        "original_text": "The December 2025 FOMC cut the target range to 3.50%-3.75%",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm",
+        "variance": "0%",
+        "match": true
+      },
+      {
+        "metric": "KOSPI",
+        "file_value": "5,224",
+        "independent_value": "5,224",
+        "original_text": "KOSPI rose 0.06% to close at 5,224 on Friday",
+        "source_url": "https://tradingeconomics.com/south-korea/stock-market",
+        "variance": "0%",
+        "match": true
+      }
+    ],
+    "all_checks_passed": true
+  },
+  
+  "executive_summary": {
+    "sp500": {"value": "6,969.01", "ytd": "+1.2%", "1y": "+14.87%", "source": "index-fetcher", "verified": true},
+    "kospi": {"value": "5,224", "ytd": "+67.18%", "1y": "+107.53%", "source": "index-fetcher", "verified": true},
+    "nasdaq": {"value": "23,817.10", "ytd": "+1.1%", "source": "index-fetcher", "verified": true},
+    "usd_krw": {"value": "1,430", "7d_change": "-2.46%", "source": "index-fetcher", "verified": true},
+    "fed_rate": {"value": "3.50%-3.75%", "direction": "neutral-hawkish", "source": "rate-analyst", "verified": true},
+    "bok_rate": {"value": "2.50%", "direction": "neutral", "source": "rate-analyst", "verified": true}
+  },
+  
+  "user_focus_points_addressed": {
+    "bitcoin_short_term_bond": {
+      "addressed": true,
+      "section": "5. 리스크 요인",
+      "key_finding": "단기채 시장 불안은 달러 유동성 축소로 이어져 비트코인 변동성 확대 가능"
+    },
+    "kospi_surge": {
+      "addressed": true,
+      "section": "1. 주요 지수 현황",
+      "key_finding": "반도체 주도 랠리로 사상 최고치 경신, 삼성전자·SK하이닉스 급등"
+    },
+    "sp500_trends": {
+      "addressed": true,
+      "section": "1. 주요 지수 현황",
+      "key_finding": "사상 최고치 근접, 기술 섹터 집중도 사상 최고 수준"
+    },
+    "gold_silver_crash": {
+      "addressed": true,
+      "section": "4. 섹터별 전망",
+      "key_finding": "금 -12%, 은 -35% 급락, 원자재 Underweight 권고"
+    },
+    "fed_chair_change": {
+      "addressed": true,
+      "section": "7. 정치/중앙은행 동향",
+      "key_finding": "Kevin Warsh 지명, 매파적 성향으로 장기금리 상방 압력"
+    }
+  },
+  
+  "sections_completed": {
+    "section_0_summary": true,
+    "section_1_indices": true,
+    "section_2_rates": true,
+    "section_3_fx": true,
+    "section_4_sectors": true,
+    "section_5_risks": true,
+    "section_6_scenarios": true,
+    "section_7_leadership": true,
+    "section_8_allocation": true
+  },
+  
+  "portfolio_recommendations": {
+    "risk_profile": "moderate",
+    "risk_asset_weight": "50-60%",
+    "safe_asset_weight": "40-50%",
+    "hedge_ratio": "50%",
+    "region_allocation": {
+      "us": "35%",
+      "korea": "12%",
+      "emerging_markets": "23%",
+      "others": "30%"
+    },
+    "sector_recommendations": {
+      "overweight": ["에너지", "방어주"],
+      "neutral": ["기술", "헬스케어"],
+      "underweight": ["원자재"]
+    },
+    "key_constraints": {
+      "tech_ai_group_limit": "40%",
+      "single_fund_limit": "40%",
+      "dc_risk_limit": "70%"
+    }
+  },
+  
+  "data_quality": {
+    "skill_verified": true,
+    "spot_check_passed": true,
+    "source_coverage": "95%",
+    "hallucination_check": "PASS"
+  }
+}

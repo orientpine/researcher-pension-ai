@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# AI tooling (local config)
+.claude/
+.opencode/
+.sisyphus/
+
+# Sensitive / personal data
+cbd.md
+resource/
+nouse/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated portfolio data (JSON intermediates)
+portfolios/*.json

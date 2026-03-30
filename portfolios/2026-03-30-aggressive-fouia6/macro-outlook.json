@@ -1,0 +1,66 @@
+{
+  "assetAllocation": {
+    "riskAssetWeight": "[데이터 없음]",
+    "safeAssetWeight": "15-20%",
+    "hedgingStrategy": "partial",
+    "rationale": "공격형(31년) 관점에서 위험자산 비중을 높게 유지하되, 리스크 분석의 안전자산 바닥(15-20%) 및 환율 변동성(USD/KRW 1,507.23, 연말 1,450-1,520 전망)을 반영해 안전자산 15-20%와 50% 부분 환헤지를 병행."
+  },
+  "regionalAllocation": {
+    "us": "[데이터 없음]",
+    "korea": "30% 이하",
+    "developed": "[데이터 없음]",
+    "emerging": "[데이터 없음]"
+  },
+  "sectorRecommendation": {
+    "overweight": [
+      "반도체/AI",
+      "로봇/자동화",
+      "헬스케어",
+      "원자재"
+    ],
+    "underweight": [
+      "에너지"
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "probability": "20%",
+      "sp500": "7,600+",
+      "kospi": "7,000+",
+      "usdkrw": "1,380-1,420",
+      "assumptions": [
+        "Middle East conflict de-escalation",
+        "Trade deal progress",
+        "AI productivity gains realized",
+        "Fed 3+ rate cuts",
+        "Soft landing"
+      ]
+    },
+    "base": {
+      "probability": "50%",
+      "sp500": "5,800-6,200",
+      "kospi": "4,500-5,000",
+      "usdkrw": "1,450-1,500",
+      "assumptions": [
+        "Limited trade war continuation",
+        "Mild/regional recession",
+        "Core PCE 2.5-2.8%",
+        "Fed 1-2 cuts",
+        "China limited impact"
+      ]
+    },
+    "bear": {
+      "probability": "30%",
+      "sp500": "4,200-4,600",
+      "kospi": "3,500-4,000",
+      "usdkrw": "1,550-1,650",
+      "assumptions": [
+        "Middle East war expansion",
+        "Oil $150+",
+        "Full recession GDP negative",
+        "Credit crunch from CRE",
+        "Fed unable to cut due to inflation"
+      ]
+    }
+  }
+}

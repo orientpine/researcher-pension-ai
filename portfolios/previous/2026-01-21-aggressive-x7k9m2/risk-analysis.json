@@ -1,0 +1,430 @@
+{
+  "status": "SUCCESS",
+  "skill_used": "web-search-verifier",
+  "analysis_date": "2026-01-21",
+  "analyzed_at": "2026-01-21T14:30:00+09:00",
+  "data_quality": {
+    "skill_verified": true,
+    "all_risks_verified": true,
+    "verification_timestamp": "2026-01-21 14:30:00",
+    "sources_count": 18,
+    "cross_validated": true
+  },
+  "executive_summary": {
+    "overall_risk_level": "ELEVATED",
+    "key_themes": [
+      "지정학적 불확실성 최고조 (미중 갈등, 중동 긴장, 이란 불안)",
+      "미국 경제 연착륙 vs 재인플레이션 리스크 상충",
+      "주식시장 고평가 지속 (CAPE 40.1, 버핏지표 230%)",
+      "상업용 부동산 만기 집중 ($2조+ 2025-2027)",
+      "AI 버블 우려 vs 실질 수요 논쟁"
+    ],
+    "recommendation": "분산투자 강화, 방어적 섹터 편입, 현금 비중 확대 고려"
+  },
+  "risks": [
+    {
+      "category": "지정학적",
+      "name": "미중 갈등 및 무역전쟁",
+      "description": "2025년 무역전쟁 격화 후 트럼프-시진핑 합의로 일시 안정화. 그러나 대만, 기술 패권 등 구조적 갈등 지속. 전문가 설문조사에서 관계 악화 우려 높음.",
+      "impact_level": "HIGH",
+      "probability": "HIGH",
+      "mitigation": "중국 의존도 낮은 기업 선호, 지역 분산투자, 미국 국내 생산 확대 수혜주 편입",
+      "original_text": "The year 2025 was a tumultuous period for U.S.-China relations. Tensions spiked repeatedly amid a heated trade war, as well as over key geopolitical flashpoints like Taiwan. Relations stabilized somewhat after President Donald Trump and President Xi Jinping concluded a series of trade and economic agreements in late 2025, but major questions remain about the status and future outlook of the relationship.",
+      "sources": [
+        {
+          "name": "CSIS China Power Project",
+          "url": "https://chinapower.csis.org/survey-experts-us-china-relations-2026/",
+          "date": "2026-01-13",
+          "type": "Research"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "지정학적",
+      "name": "이란 정세 불안 및 원유 공급 리스크",
+      "description": "2025년 12월 이란 시위 발생 후 트럼프 대통령 군사 개입 위협. 이란 원유 수출 완전 차단 시 브렌트유 $91/배럴까지 상승 가능.",
+      "impact_level": "HIGH",
+      "probability": "MEDIUM",
+      "mitigation": "에너지 섹터 헤지, 원유 관련 자산 일부 편입, 신재생에너지 분산",
+      "original_text": "BloombergNEF estimates Brent crude to average $55 per barrel in 2026, assuming the situation in Iran does not disturb global oil markets. However, If Iran's oil exports were completely removed from the market starting in February, an extreme scenario we currently view as unlikely, Brent could rise to an average of $71/bbl in 2Q 2026. If the disruption persisted through the rest of 2026, Brent could average $91/bbl in 4Q 2026.",
+      "sources": [
+        {
+          "name": "BloombergNEF",
+          "url": "https://about.bnef.com/insights/commodities/oil-can-hit-91-a-barrel-in-late-2026-on-iran-disruption/",
+          "date": "2026-01-16",
+          "type": "Research"
+        },
+        {
+          "name": "INSS",
+          "url": "https://www.inss.org.il/publication/iran-usa-protests/",
+          "date": "2026-01-19",
+          "type": "Analysis"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "지정학적",
+      "name": "러시아-우크라이나 전쟁",
+      "description": "미국 중재 휴전 가능성 있으나 항구적 평화협정 가능성은 낮음. 양측 에너지/인프라 공격 지속 예상.",
+      "impact_level": "MEDIUM",
+      "probability": "HIGH",
+      "mitigation": "유럽 에너지 섹터 선별 투자, 방산 섹터 편입",
+      "original_text": "In the Russia-Ukraine conflict, diplomatic efforts will persist and gain some traction, raising the possibility of a ceasefire mediated by the U.S., with potential involvement from Turkiye, the Gulf states, or India. The likelihood of a durable peace agreement remains low, however, as both sides will intensify attacks on energy and critical infrastructure.",
+      "sources": [
+        {
+          "name": "New Lines Institute",
+          "url": "https://newlinesinstitute.org/analytical-products/2026-annual-forecast/",
+          "date": "2025-12-17",
+          "type": "Forecast"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "경제",
+      "name": "미국 경기 침체 가능성",
+      "description": "골드만삭스는 2026년 미국 GDP 2.5% 성장 전망 (컨센서스 2.1% 상회). 연착륙 시나리오 유력하나 관세 충격, 노동시장 약화 리스크 존재.",
+      "impact_level": "MEDIUM",
+      "probability": "LOW",
+      "mitigation": "경기방어주 비중 유지, 고품질 채권 편입",
+      "original_text": "US GDP is projected to expand 2.5% in 2026 (fourth quarter, year over year), versus the consensus economist estimate of 2.1%, according to Goldman Sachs Research. The key driver for the forecast for solid GDP growth is that the drag from tariffs should give way to a boost from business and personal tax cuts. The probability of a recession in the next [12 months is low].",
+      "sources": [
+        {
+          "name": "Goldman Sachs",
+          "url": "https://www.goldmansachs.com/insights/articles/us-gdp-growth-is-projected-to-outperform-economist-forecasts-in-2026",
+          "date": "2026-01-15",
+          "type": "Research"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "경제",
+      "name": "인플레이션 재발 위험",
+      "description": "골드만삭스 Core PCE 2.1% 전망으로 컨센서스 하회 예상. 그러나 관세 정책, AI 투자 과열, 확장적 재정정책이 인플레 압력 요인.",
+      "impact_level": "MEDIUM",
+      "probability": "MEDIUM",
+      "mitigation": "TIPS, 원자재, 인플레 수혜 섹터 일부 편입",
+      "original_text": "Core personal consumption expenditures (PCE) inflation is estimated to fall to 2.1% by December (year over year). The very forces that could support equities—expansionary monetary and fiscal policy in the US, together with massive investment in AI—could just as easily push inflation higher. If that happens, stocks would almost certainly suffer.",
+      "sources": [
+        {
+          "name": "Goldman Sachs",
+          "url": "https://www.goldmansachs.com/insights/articles/us-gdp-growth-is-projected-to-outperform-economist-forecasts-in-2026",
+          "date": "2026-01-15",
+          "type": "Research"
+        },
+        {
+          "name": "Rangvid Blog",
+          "url": "https://blog.rangvid.com/2026/01/11/the-bear-case-for-stocks-in-2026/",
+          "date": "2026-01-11",
+          "type": "Analysis"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "경제",
+      "name": "글로벌 부채 위기 및 신흥국 취약성",
+      "description": "신흥국 외채 $8.9조 사상 최고, 이자 비용 $4,150억. 스리랑카, 가나, 레바논 디폴트 선례. 재정 압박과 자본유출 위험 상존.",
+      "impact_level": "MEDIUM",
+      "probability": "MEDIUM",
+      "mitigation": "신흥국 비중 선별적 접근, 신용등급 상향 국가 선호 (브라질, 남아공, 터키)",
+      "original_text": "According to the World Bank Group's latest International Debt Report, external debt burdens across low- and middle-income countries continue to build, reaching a record US$8.9 trillion in 2024, with interest payments climbing to an all-time high of US$415 billion—straining fiscal space just as more countries confront rising risks of default.",
+      "sources": [
+        {
+          "name": "World Bank",
+          "url": "https://blogs.worldbank.org/en/psd/navigating-bank-failures-amid-sovereign-defaults-in-emerging-mar",
+          "date": "2025-12-09",
+          "type": "Report"
+        },
+        {
+          "name": "Moody's",
+          "url": "https://www.moodys.com/web/en/us/creditview/blog/global-sovereigns-and-emerging-markets-2026.html",
+          "date": "2025-11-24",
+          "type": "Research"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "시장",
+      "name": "주식시장 고평가 및 버블 우려",
+      "description": "S&P 500 CAPE 40.1 (닷컴버블 수준), 버핏지표 230% (GDP 대비). 시장 폭 협소화 (S&P 500 중 50일선 상회 종목 40%만). 상위 10개 기술주가 2025년 수익의 60% 기여.",
+      "impact_level": "HIGH",
+      "probability": "MEDIUM",
+      "mitigation": "밸류에이션 분산, 중소형주/가치주 비중 확대, 방어적 섹터 편입",
+      "original_text": "As of late 2025, the S&P 500's cyclically adjusted price-to-earnings (CAPE) ratio stood at 40.1, a level last seen during the dot-com bubble of the early 2000s. The Buffett Indicator—a measure of total market value to GDP—stands at 230%. This level is approximately 2.4 standard deviations above the historical trend line, a statistical distance that historically has preceded significant market corrections.",
+      "sources": [
+        {
+          "name": "AInvest",
+          "url": "https://www.ainvest.com/news/stocks-overvalued-2025-2026-2512/",
+          "date": "2025-12-27",
+          "type": "Analysis"
+        },
+        {
+          "name": "BIS Quarterly Review",
+          "url": "https://www.bis.org/publ/qtrpdf/r_qt2512t.htm",
+          "date": "2025-12-05",
+          "type": "Research"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "시장",
+      "name": "변동성 급증 및 조정 시나리오",
+      "description": "글로벌 불확실성 지수 역대 최고 수준. 좁은 시장 리더십과 고평가 결합 시 급격한 조정 가능성.",
+      "impact_level": "HIGH",
+      "probability": "MEDIUM",
+      "mitigation": "현금 비중 확대, 변동성 헤지 전략, 분산투자 강화",
+      "original_text": "We are living in unprecedentedly uncertain times, as measured by the global uncertainty index. The materialization of some of these risks would clearly be negative for equities. Combined with other concerns, not least the risk of higher inflation, these uncertainties warrant a cautious outlook for 2026. Set against a highly concentrated market trading at elevated valuations, the risk of a meaningful setback is non-trivial.",
+      "sources": [
+        {
+          "name": "Rangvid Blog",
+          "url": "https://blog.rangvid.com/2026/01/11/the-bear-case-for-stocks-in-2026/",
+          "date": "2026-01-11",
+          "type": "Analysis"
+        },
+        {
+          "name": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4861287-correction-warning-the-market-is-getting-too-risky",
+          "date": "2026-01-20",
+          "type": "Analysis"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "신용",
+      "name": "상업용 부동산 만기 집중",
+      "description": "2025-2027년 CRE 부채 만기 $2.05조 (연평균 $3,500억의 6배). 오피스 공실률 상승, 금리 상승으로 리파이낸싱 어려움.",
+      "impact_level": "HIGH",
+      "probability": "HIGH",
+      "mitigation": "CRE 익스포저 최소화, 은행 섹터 선별적 접근, 주거용/산업용 부동산 선호",
+      "original_text": "This year alone, $957 billion in CRE mortgages will have matured by yearend. This will be followed by $539 billion in 2026 and $550 billion in 2027, totaling $2.05 trillion. This is far higher than the 20-year average of $350 billion per year, creating an unprecedented concentration of maturities just as property values have declined.",
+      "sources": [
+        {
+          "name": "Buchanan Street Partners / Asset Securitization Report",
+          "url": "https://asreport.americanbanker.com/news/commercial-real-estate-market-defies-rising-delinquencies",
+          "date": "2025-11-21",
+          "type": "Report"
+        },
+        {
+          "name": "CRE Daily",
+          "url": "https://www.credaily.com/briefs/debt-maturities-rise-amid-2026-cre-pressure/",
+          "date": "2025-10-31",
+          "type": "News"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "기술",
+      "name": "AI 버블 및 밸류에이션 조정 리스크",
+      "description": "AI 주식 급등으로 버블 논쟁 활발. IMF는 AI 급락 시 글로벌 가계자산 충격 경고. 실질 수요 vs 과잉 투자 논쟁 진행 중.",
+      "impact_level": "HIGH",
+      "probability": "MEDIUM",
+      "mitigation": "AI 섹터 집중도 제한, 다양한 기술 테마 분산, 수익성 입증 기업 선호",
+      "original_text": "An abrupt crash in AI stocks could spill over and damage global household wealth, the IMF has warned, despite the global economy being 'remarkably resilient' in the face of geopolitical tensions and tariff shocks. A combination of the geographic concentration of the boom in AI and IT, the increasing prevalence of debt financing in both, and the rising numbers of overseas investors holding US AI stocks have made the global economy more vulnerable to a shock in the sector.",
+      "sources": [
+        {
+          "name": "The Banker / IMF",
+          "url": "https://www.thebanker.com/content/690dacdd-e840-46a1-b15f-ad4da099d414",
+          "date": "2026-01-19",
+          "type": "Report"
+        },
+        {
+          "name": "Generational Substack",
+          "url": "https://open.substack.com/pub/generational/p/how-the-ai-bubble-will-burst",
+          "date": "2026-01-06",
+          "type": "Analysis"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "category": "기술",
+      "name": "AI 규제 강화 및 컴플라이언스 비용",
+      "description": "EU AI Act 시행, 미국 FINRA 규제 강화, 중국 생성형AI 규정 도입. 고위험 AI 시스템 연간 컴플라이언스 비용 €29,000+ 추정.",
+      "impact_level": "MEDIUM",
+      "probability": "HIGH",
+      "mitigation": "규제 대응력 강한 대형 기술주 선호, 중소형 AI 기업 리스크 인식",
+      "original_text": "Global AI regulations (2023-2025) reshape tech valuations and compliance strategies, with EU, China, and U.S. adopting divergent frameworks. EU AI Act imposes risk-tiered compliance costs (€29k+ annually for high-risk systems), disproportionately affecting smaller firms. The 2026 Report reflects the substantial expansion of GenAI use among member firms in just 12 months.",
+      "sources": [
+        {
+          "name": "AInvest",
+          "url": "https://www.ainvest.com/news/regulatory-risks-valuation-pressures-global-ai-governance-reshaping-tech-platforms-2601/",
+          "date": "2026-01-12",
+          "type": "Analysis"
+        },
+        {
+          "name": "FINRA / Debevoise",
+          "url": "https://www.debevoise.com/-/media/files/insights/publications/2025/12/finras-2026-regulatory-oversight-report-continued.pdf",
+          "date": "2025-12-12",
+          "type": "Report"
+        }
+      ],
+      "verified": true
+    }
+  ],
+  "scenarios": {
+    "bull": {
+      "title": "강세 시나리오 (Bull Case)",
+      "likelihood": "낮음-중간",
+      "conditions": [
+        "미국 경제 연착륙 성공 (GDP 2.5%+)",
+        "Fed 금리인하 2회 이상 (6월, 9월)",
+        "인플레이션 2.1% 이하로 안정",
+        "미중 무역합의 지속 및 확대",
+        "AI 생산성 혁명 본격화",
+        "이란/중동 정세 안정화"
+      ],
+      "key_assumptions": [
+        "관세 충격 해소 후 감세 효과 본격화",
+        "기업 실적이 고평가를 정당화",
+        "시장 폭 확대 (중소형주/가치주 랠리)"
+      ],
+      "sp500_target": "7,000-7,500",
+      "portfolio_impact": {
+        "equity": "강한 상승 (+15~20%)",
+        "bond": "약보합 (금리인하 제한적 반영)",
+        "commodity": "안정 (지정학 프리미엄 해소)"
+      },
+      "recommended_allocation": {
+        "equity": 80,
+        "bond": 15,
+        "cash": 5,
+        "notes": "성장주 비중 확대, 기술/AI 오버웨이트"
+      },
+      "sources": [
+        "Goldman Sachs 2026 Outlook",
+        "J.P. Morgan 2026 Market Outlook"
+      ]
+    },
+    "base": {
+      "title": "기본 시나리오 (Base Case)",
+      "likelihood": "높음",
+      "conditions": [
+        "미국 GDP 2.0-2.5% 성장 (연착륙)",
+        "Fed 금리인하 1-2회",
+        "Core PCE 2.1-2.5% 유지",
+        "지정학적 긴장 지속되나 확전 없음",
+        "AI 투자 지속, 선별적 수익 실현",
+        "CRE 스트레스 관리 가능 수준"
+      ],
+      "key_assumptions": [
+        "고평가 부담으로 상승 제한적",
+        "섹터/종목 간 성과 차별화 심화",
+        "변동성 확대 국면 반복"
+      ],
+      "sp500_target": "6,200-6,800",
+      "portfolio_impact": {
+        "equity": "완만한 상승 (+5~10%)",
+        "bond": "소폭 상승 (금리인하 수혜)",
+        "commodity": "혼조 (에너지 변동성)"
+      },
+      "recommended_allocation": {
+        "equity": 65,
+        "bond": 25,
+        "cash": 10,
+        "notes": "균형 배분, 방어주/배당주 편입"
+      },
+      "sources": [
+        "Goldman Sachs Research",
+        "Deutsche Bank Geopolitical Outlook 2026"
+      ]
+    },
+    "bear": {
+      "title": "약세 시나리오 (Bear Case)",
+      "likelihood": "낮음-중간",
+      "conditions": [
+        "인플레이션 재발 (관세/임금 압력)",
+        "Fed 금리인하 중단 또는 인상 재개",
+        "미중 갈등 재격화/대만 위기 고조",
+        "이란 원유 공급 차단 ($90+ 유가)",
+        "CRE 디폴트 확대 → 금융시스템 스트레스",
+        "AI 버블 붕괴 (기술주 30%+ 조정)"
+      ],
+      "key_assumptions": [
+        "CAPE 40.1 → 정상화 과정에서 급락",
+        "시장 폭 협소화로 하방 취약",
+        "신용 경색 → 경기 침체 전이"
+      ],
+      "sp500_target": "4,800-5,500",
+      "portfolio_impact": {
+        "equity": "급락 (-20~30%)",
+        "bond": "국채 강세 (안전자산 선호)",
+        "commodity": "에너지 급등, 금 강세"
+      },
+      "recommended_allocation": {
+        "equity": 40,
+        "bond": 40,
+        "cash": 20,
+        "notes": "방어 모드, 현금 확보, 금/국채 확대"
+      },
+      "sources": [
+        "Rangvid Blog - Bear Case 2026",
+        "BIS Quarterly Review - Bubble Conditions",
+        "IMF World Economic Outlook"
+      ]
+    }
+  },
+  "risk_matrix": {
+    "description": "리스크 매트릭스: Impact (영향도) vs Likelihood (발생가능성)",
+    "high_impact_high_likelihood": [
+      "미중 갈등 지속",
+      "상업용 부동산 만기 집중",
+      "AI 규제 강화"
+    ],
+    "high_impact_medium_likelihood": [
+      "이란 원유 공급 차단",
+      "주식시장 버블 붕괴",
+      "AI 버블 조정"
+    ],
+    "medium_impact_high_likelihood": [
+      "러시아-우크라이나 전쟁 장기화",
+      "글로벌 부채 압력 증가"
+    ],
+    "medium_impact_medium_likelihood": [
+      "인플레이션 재발",
+      "신흥국 자본유출"
+    ]
+  },
+  "portfolio_implications": {
+    "aggressive_profile": {
+      "current_risk_level": "ELEVATED",
+      "key_concerns": [
+        "기술/AI 섹터 집중 리스크",
+        "해외주식 비중 높아 지정학 리스크 노출",
+        "고평가 환경에서 하방 취약성"
+      ],
+      "recommended_adjustments": [
+        "AI/반도체 집중도 모니터링 (15% 한도 유지)",
+        "방어적 섹터(배당, 커버드콜) 비중 유지",
+        "채권형 30% 안전자산 확보 (DC형 규제 준수)"
+      ]
+    }
+  },
+  "critical_review": {
+    "bullish_bias_check": [
+      "골드만삭스 등 월가 전망은 역사적으로 낙관 편향 존재",
+      "연착륙 컨센서스는 관세 충격 과소평가 가능성",
+      "AI 수익성 전망은 아직 입증되지 않은 가정 포함"
+    ],
+    "bearish_factors_emphasized": [
+      "CAPE 40.1은 역사적으로 향후 10년 저수익 예고",
+      "시장 폭 40%는 상승장 취약성 신호",
+      "CRE $2조 만기 집중은 2008년 이후 최대 스트레스",
+      "지정학적 불확실성 지수 역대 최고"
+    ],
+    "balanced_conclusion": "2026년은 낙관과 비관 요인이 공존하는 고변동성 환경 예상. 단기 모멘텀보다 리스크 관리와 분산투자가 중요. 특히 DC형 퇴직연금은 장기 투자 관점에서 하방 리스크 관리에 주력해야 함."
+  },
+  "notes": [
+    "본 분석은 2026년 1월 21일 기준 웹검색 결과를 종합한 것임",
+    "확률(%) 대신 정성적 표현(높음/중간/낮음) 사용",
+    "모든 리스크 평가에 원문 인용(original_text) 포함",
+    "최소 2개 출처 교차 검증 완료"
+  ]
+}

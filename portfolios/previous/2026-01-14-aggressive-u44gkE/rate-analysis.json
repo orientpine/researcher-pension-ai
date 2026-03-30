@@ -1,0 +1,47 @@
+{
+  "scenario_1700_feasibility": "LOW",
+  "scenario_1700_triggers": [
+    "지정학적 리스크의 극단적 고조 (제2차 한국전쟁 위기 등)",
+    "반도체 수출의 구조적 붕괴 및 경상수지 대규모 적자 전환",
+    "미국 인플레이션 재점화로 인한 FED의 금리 인상 기조 급선회 (6%대 회귀)",
+    "대한민국 국가신용등급 강등 및 외국인 자본의 대규모 이탈 (Capital Flight)"
+  ],
+  "fed_rate_forecast": "3.00-3.50%",
+  "korea_rate_forecast": "2.25-2.50%",
+  "usd_krw_scenarios": {
+    "bull": {
+      "rate": "1,325 ~ 1,350원",
+      "probability_description": "낮음 (TD Securities 등 일부 IB 전망)",
+      "rationale": "미국 경기 침체로 인한 연준의 공격적 금리 인하 및 AI 투자 붐에 따른 한국 반도체 수출 호조"
+    },
+    "base": {
+      "rate": "1,400 ~ 1,420원",
+      "probability_description": "높음 (Global Banks Consensus)",
+      "rationale": "New Normal: 미-한 금리차 유지, 중국 경기 둔화, 한국 잠재성장률 하락으로 인한 원화의 구조적 약세 고착화"
+    },
+    "bear": {
+      "rate": "1,480 ~ 1,550원",
+      "probability_description": "중간 (BusinessKorea, FX Experts Warn)",
+      "rationale": "트럼프 행정부(가정)의 관세 정책, 강달러 지속, 한국 부동산 PF 부실 현실화 시 1,500원 상향 돌파 가능성"
+    }
+  },
+  "investment_implications": [
+    "1,700원 시나리오는 'Black Swan' 급 위기 상황으로, 이에 베팅하는 것은 과도한 기회비용 발생 가능",
+    "Base Case(1,420원)를 전제로 하되, 1,480원 도달 시 달러 자산 일부 차익 실현 권고",
+    "원화 약세 방어(Hedge)보다는 달러 자산 보유(Exposure)가 여전히 유리한 국면이나, 1,450원 이상에서는 추가 매수 자제",
+    "퇴직연금 내 환노출(UH) 상품 비중 유지 (50~60%) 권장"
+  ],
+  "sources": [
+    "[Fed] UBS, 'Fed cut rates to 3.50-3.75%, expect one more cut in Q1 2026' (2026-01-12)",
+    "[Fed] RSM US, 'Outlook for another Fed rate cut in January' (2026-01-13)",
+    "[BOK] KED Global, 'BOK to keep policy rate unchanged (2.5%) throughout 2026' (2026-01-12)",
+    "[FX] Korea Herald, 'Global banks see 1,400 won as new baseline' (2025-12-28)",
+    "[FX] BusinessKorea, 'FX Experts Warn: Exchange Rate Could Reach 1,480 Won' (2025-11-06)",
+    "[FX] TD Securities, 'Expect USD/KRW to fall to 1,325 by June 2026' (2026-01-01)"
+  ],
+  "market_data": {
+    "fed_current_rate": "3.50-3.75%",
+    "bok_current_rate": "2.50%",
+    "last_updated": "2026-01-14"
+  }
+}

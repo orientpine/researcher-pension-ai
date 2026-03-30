@@ -1,0 +1,45 @@
+{
+  "status": "SUCCESS",
+  "analysis_date": "2026-01-31",
+  "fed_outlook": {
+    "current_rate": "3.50%-3.75%",
+    "forecast_direction": "neutral",
+    "scenario": {
+      "optimistic": "Inflation cools faster and labor market rebalances; Fed keeps gradual cuts on the SEP path and eases financial conditions without disrupting liquidity.",
+      "base": "Data-dependence with limited cuts in 2026; Fed stays near neutral while monitoring liquidity and inflation persistence.",
+      "pessimistic": "Inflation re-accelerates or liquidity stress emerges; Fed pauses/tilts hawkish and maintains higher rates for longer."
+    },
+    "kevin_warsh_impact": "Warsh is widely viewed as an inflation hawk who previously criticized balance-sheet expansion; even if he signals openness to lower rates, his stance could tighten the reaction function and emphasize balance-sheet normalization, raising the risk of a more hawkish tilt versus the current baseline.",
+    "original_text": "The December 2025 FOMC cut the target range to 3.50%-3.75% and released the SEP with a path implying limited additional cuts. Market commentary notes a possible new chair in 2026 and uncertainty around the policy reaction function.",
+    "sources": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm",
+      "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20251210.pdf",
+      "https://www.cbsnews.com/news/federal-reserve-fomc-meeting-today-rate-cut-decision-jerome-powell/",
+      "https://www.cbsnews.com/news/kevin-warsh-fed-reserve-chair-questions-for-investors/"
+    ]
+  },
+  "bok_outlook": {
+    "current_rate": "2.50%",
+    "forecast_direction": "neutral",
+    "original_text": "The Bank of Korea kept the base rate at 2.50% and signaled a likely pause, removing language about further cuts as the won remains weak and financial stability risks persist.",
+    "sources": [
+      "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=10095713&menuNo=400423&relate=Y&depth=400423&programType=newsDataEng",
+      "https://www.reuters.com/world/asia-pacific/south-koreas-central-bank-holds-rates-safeguard-financial-stability-2026-01-15/"
+    ]
+  },
+  "short_term_bond_market": {
+    "analysis": "Short-term rates are anchored by the Fed’s target range, but liquidity conditions remain sensitive; recent commentary highlights the Fed’s use of short-term Treasury purchases to stabilize reserve balances, implying a preference to prevent funding market stress even as policy stays restrictive.",
+    "bitcoin_correlation": "When bond market volatility or liquidity stress rises, risk assets including Bitcoin tend to face short-term drawdowns; a sustained Treasury sell-off could pressure BTC via tighter liquidity and higher real rates.",
+    "original_text": "Analysts note the Fed began purchasing short-term Treasuries to address reserve balances, while market commentary links bond-market stress to near-term downside risk for Bitcoin during liquidity squeezes.",
+    "sources": [
+      "https://www.chathamfinancial.com/insights/fomc-recap-december-2025",
+      "https://m.economictimes.com/news/international/us/bond-market-turmoil-how-a-continued-treasury-sell-off-could-impact-bitcoin/articleshow/127403365.cms"
+    ]
+  },
+  "usd_krw_forecast": {
+    "current": 1430,
+    "6m_forecast": "1400-1480 range (base 1440)",
+    "hedge_recommendation": "부분 환헤지 (50% 내외)"
+  },
+  "skill_verified": true
+}

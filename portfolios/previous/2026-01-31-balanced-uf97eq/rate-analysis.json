@@ -1,0 +1,411 @@
+{
+  "status": "SUCCESS",
+  "timestamp": "2026-01-31 15:30:00",
+  "analysis_date": "2026-01-31",
+  "skill_used": "web-search-verifier",
+  
+  "fed_policy": {
+    "current_rate": "3.50-3.75%",
+    "original_text": "The Fed left the federal funds rate unchanged at the 3.5%-3.75% target range in its January 2026 meeting, in line with expectations, after three consecutive rate cuts last year that pushed borrowing costs to their lowest level since 2022.",
+    "rate_decision_date": "2026-01-28",
+    "fomc_projection": "동결 유지",
+    "forecast_1y": "3.25-3.75%",
+    "warsh_impact": {
+      "nomination_date": "2026-01-30",
+      "expected_start": "2026-05 (Powell 임기 만료 후)",
+      "policy_implications": [
+        "금리 인하에 더 유연한 접근 예상 (Warsh의 최근 발언 기반)",
+        "양적완화(QE) 사용에는 보수적 - 대차대조표 축소 선호",
+        "forward guidance 최소화 가능성 - 정책 불확실성 증가",
+        "AI 기반 구조적 생산성 향상 내러티브 수용"
+      ],
+      "market_reaction": "단기 금리 하락, 장기 금리 상승 (term premium 증가 예상)",
+      "original_text": "We believe markets should prepare for a Fed that is simultaneously more unpredictable and more orthodox - a blend that marks a genuine shift in the post-crisis monetary landscape. Following the announcement, front-end yields drifted lower on expectations that rate cuts may come sooner than previously projected, while longer-dated yields have risen as investors anticipate less willingness to use the Fed balance sheet to suppress term premiums.",
+      "sources": [
+        {
+          "name": "Janus Henderson",
+          "url": "https://www.janushenderson.com/en-us/advisor/article/quick-view-kevin-warshs-nomination-and-the-next-era-of-u-s-monetary-policy/",
+          "date": "2026-01-30"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/business/live-news/fed-chair-nominee-kevin-warsh-01-30-26",
+          "date": "2026-01-30"
+        },
+        {
+          "name": "Morningstar",
+          "url": "https://www.morningstar.com/economy/what-kevin-warsh-fed-chair-could-mean-interest-rates",
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "rate_cut_expectations": {
+      "2026_cuts_expected": "1회 (J.P. Morgan 전망)",
+      "march_cut_probability": "낮음",
+      "original_text": "The market sees low odds of the Fed choosing to cut at its March meeting, but our strategists still expect one rate cut in 2026.",
+      "dissent_notes": "Governors Stephen Miran and Christopher Waller voted against the hold, with both advocating another 25bps cut."
+    },
+    "verified": true,
+    "sources": [
+      {
+        "name": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+        "original_text": "Available indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, and the unemployment rate has shown some signs of stabilization. Inflation remains somewhat elevated."
+      },
+      {
+        "name": "Trading Economics",
+        "url": "https://tradingeconomics.com/united-states/interest-rate",
+        "original_text": "The benchmark interest rate in the United States was last recorded at 3.75 percent."
+      },
+      {
+        "name": "J.P. Morgan",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/fed-meeting-january-2026",
+        "original_text": "The Federal Reserve held its benchmark interest rate in a range of 3.5% to 3.75% at the January meeting, pausing its recent rate-cutting trend."
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/01/28/fed-rate-decision-january-2026.html",
+        "original_text": "Fed rate decision January 2026: Holds key rate steady"
+      }
+    ]
+  },
+
+  "korea_policy": {
+    "current_rate": "2.50%",
+    "original_text": "금융통화위원회는 다음 통화정책방향 결정시까지 한국은행 기준금리를 현재의 2.50% 수준에서 유지하여 통화정책을 운용하기로 하였다.",
+    "rate_decision_date": "2026-01-15",
+    "policy_direction": "동결 장기화",
+    "next_mpc_date": "2026-02-26",
+    "forecast_1y": "2.50%",
+    "policy_stance_change": {
+      "previous": "완화 편향",
+      "current": "중립 -> 보수",
+      "original_text": "작년 4분기 한은의 통화정책운용이 '완화 기조'에서 '중립적 판단'으로의 이동이라면 이번 1월 금통위는 '중립적 판단'에서 '동결 장기화'로의 전환이라고 볼 수 있다."
+    },
+    "key_factors": [
+      "환율 변동성 확대 (원/달러 1,400원대 중후반)",
+      "물가 상방 리스크 (고환율 영향)",
+      "금융안정 리스크 (부동산, 가계부채)",
+      "한미 금리차 125bp"
+    ],
+    "forward_guidance_change": "기준금리의 추가 인하 여부 및 시기 결정 문구 삭제 - 사실상 인하 사이클 종료 시사",
+    "scenario": {
+      "optimistic": "하반기 경기 둔화 시 1회 인하 가능 (2.25%)",
+      "base": "연중 2.50% 동결 유지",
+      "pessimistic": "환율 급등 시 동결 또는 인상 압력"
+    },
+    "verified": true,
+    "sources": [
+      {
+        "name": "한국은행",
+        "url": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10095711",
+        "original_text": "물가상승률이 점차 안정될 것으로 예상되는 가운데 성장은 개선세를 이어가고 있고 금융안정 측면의 리스크도 지속되고 있는 만큼 현재의 기준금리 수준을 유지하면서 대내외 정책 여건을 점검해 나가는 것이 적절하다고 판단하였다."
+      },
+      {
+        "name": "iM증권",
+        "url": "https://m.imfnsec.com:442/upload/R_E05/2026/01/[15121652]_252328.pdf",
+        "original_text": "한은 판단변수 이변 없다면 사실상 인하 사이클은 종료"
+      },
+      {
+        "name": "교보증권",
+        "url": "https://file.alphasquare.co.kr/media/pdfs/market-report/1%EC%9B%9420260116%EA%B5%90%EB%B3%B4%EC%A6%9D%EA%B6%8C",
+        "original_text": "예상보다 매파적이었던 금통위. 급한 불부터 끄기"
+      }
+    ]
+  },
+
+  "treasury_yields": {
+    "us_10y": {
+      "current": "4.26%",
+      "ytd_change": "+0.05%p",
+      "original_text": "The yield on the 10-year note finished January 30, 2026 at 4.26%."
+    },
+    "us_2y": {
+      "current": "3.52%",
+      "monthly_change": "+0.16%p",
+      "yoy_change": "-0.61%p",
+      "original_text": "The 2-year note ended at 3.52%"
+    },
+    "us_30y": {
+      "current": "4.87%",
+      "original_text": "The 30-year note ended at 4.87%"
+    },
+    "korea_10y": {
+      "current": "3.57%",
+      "ytd_change": "+0.19%p"
+    },
+    "yield_curve_status": {
+      "10y_2y_spread": "+0.74%p",
+      "status": "정상 (Normal)",
+      "note": "Warsh 지명 후 장단기 스프레드 확대 예상"
+    },
+    "short_term_analysis": {
+      "observation": "단기채 수익률 월간 +0.16%p 상승",
+      "drivers": [
+        "Fed 금리 인하 기대 약화",
+        "인플레이션 잔존 우려",
+        "Warsh 지명에 따른 정책 불확실성"
+      ],
+      "original_text": "Over the past month, the yield has edged up by 0.16 points, though it remains 0.61 points lower than a year ago."
+    },
+    "sources": [
+      {
+        "name": "Advisor Perspectives",
+        "url": "https://www.advisorperspectives.com/dshort/updates/2026/01/30/treasury-yields-snapshot-january-30-2026",
+        "date": "2026-01-30"
+      },
+      {
+        "name": "Trading Economics",
+        "url": "https://tradingeconomics.com/united-states/2-year-note-yield"
+      },
+      {
+        "name": "FRED",
+        "url": "https://fred.stlouisfed.org/series/DGS2"
+      }
+    ]
+  },
+
+  "usd_krw": {
+    "current": 1429,
+    "original_text": "The South Korean won strengthened to around 1,428 per dollar on Wednesday, extending gains to its strongest level in almost three months, tracking broad US dollar weakness.",
+    "ytd_change": "-0.6%",
+    "forecast_range": {
+      "q1_2026": "1,400-1,450",
+      "six_month": {
+        "optimistic": "1,380-1,410",
+        "base": "1,410-1,450",
+        "pessimistic": "1,450-1,500"
+      },
+      "twelve_month": {
+        "optimistic": "1,370-1,400",
+        "base": "1,400-1,440",
+        "pessimistic": "1,440-1,516"
+      }
+    },
+    "key_drivers": {
+      "positive_for_won": [
+        "트럼프의 약달러 선호 발언",
+        "외국인 한국 주식 순매수 (반도체, 자동차, 배터리)",
+        "KOSPI 사상 최고 기록"
+      ],
+      "negative_for_won": [
+        "한미 금리차 125bp",
+        "미국 관세 위협 지속",
+        "거주자 해외투자 자금 유출",
+        "지정학적 리스크"
+      ]
+    },
+    "analyst_forecasts": {
+      "nh_futures": {
+        "range": "1,410-1,540",
+        "average": "1,450",
+        "original_text": "NH Futures projected that the won's weakness will continue next year, leaving little downward pressure on the won-dollar exchange rate."
+      },
+      "bofa": {
+        "q1_target": "1,435",
+        "original_text": "The currency's rally accelerated after the Korean Mini... reaching Bank of America's first-quarter 2026 forecast of 1,435 ahead of schedule."
+      },
+      "long_forecast": {
+        "dec_2026": "1,407",
+        "original_text": "USD to KRW exchange rate is forecasted to hit 1,409.88 by the end of 2026"
+      }
+    },
+    "hedge_recommendation": {
+      "strategy": "분산 헤지 (50% 환노출 / 50% 환헤지)",
+      "rationale": [
+        "환율 방향성 불확실성 높음",
+        "트럼프의 약달러 정책 vs 한미 금리차",
+        "Warsh 체제의 Fed 정책 불확실성",
+        "단기 변동성 확대 예상"
+      ]
+    },
+    "sources": [
+      {
+        "name": "Trading Economics",
+        "url": "https://tradingeconomics.com/south-korea/currency"
+      },
+      {
+        "name": "NH Futures/KRX",
+        "url": "https://biz.chosun.com/en/en-finance/2025/12/04/GWRYRVIDWFD3JLJAIUFIVBDWUM/"
+      },
+      {
+        "name": "Bank of America via Investing.com",
+        "url": "https://www.investing.com/news/forex-news/bofa-revises-usdkrw-forecast-amid-government-intervention-93CH-4424972"
+      },
+      {
+        "name": "Long Forecast",
+        "url": "https://longforecast.com/dollar-to-won-usd-to-krw-forecast-2017-2018-2019-2020-2021"
+      }
+    ]
+  },
+
+  "bitcoin_analysis": {
+    "current_price": 83366,
+    "ytd_change": "-12%",
+    "correlation_with_rates": {
+      "relationship": "역상관 (Inverse Correlation)",
+      "mechanism": "금리 상승 -> 기회비용 증가 -> 위험자산 수요 감소",
+      "current_environment": "고금리 유지 환경에서 비트코인 약세 지속",
+      "original_text": "Generally, lower interest rates mean higher prices for cryptocurrencies. You should consider the interest-rate environment when making trading/investment decisions."
+    },
+    "recent_dynamics": {
+      "sp500_correlation": "31% (기존 68%에서 하락)",
+      "institutional_flows": "ETF에서 $243M 유출",
+      "original_text": "Bitcoin's correlation with the S&P 500 has collapsed from 68% to 31%, reflecting institutional adoption treating Bitcoin as a core diversification asset rather than speculative equity proxy."
+    },
+    "warsh_impact_on_btc": {
+      "short_term": "중립-부정적 (정책 불확실성 증가)",
+      "medium_term": "Warsh의 금리 인하 성향 시 긍정적 가능성",
+      "key_levels": "$80,000-$90,000 지지/저항 구간"
+    },
+    "outlook": {
+      "bull_case": "Fed 금리 인하 시 유동성 확대로 반등 가능",
+      "base_case": "고금리 유지 시 횡보 또는 약세 지속",
+      "bear_case": "인플레이션 재발 + 금리 인상 시 추가 하락"
+    },
+    "sources": [
+      {
+        "name": "CoinLedger",
+        "url": "https://coinledger.io/learn/how-do-interest-rates-impact-crypto-prices"
+      },
+      {
+        "name": "AInvest",
+        "url": "https://www.ainvest.com/news/navigating-bitcoin-fed-rate-pause-strategic-entry-points-2026-2601/"
+      },
+      {
+        "name": "Gate.io Web3",
+        "url": "https://web3.gate.com/crypto-wiki/article/how-does-federal-reserve-monetary-policy-impact-bitcoin-price-in-2026-inflation-data-and-stock-market-correlation-analysis-20260117"
+      }
+    ]
+  },
+
+  "scenarios": {
+    "bull": {
+      "probability": "25%",
+      "description": "Warsh가 예상보다 dovish하게 행동, Fed 금리 인하 2-3회, 인플레이션 2%대 안착, 원화 강세",
+      "fed_rate": "3.00-3.25%",
+      "bok_rate": "2.25%",
+      "usd_krw": "1,370-1,400",
+      "triggers": [
+        "Warsh의 금리 인하 지지 발언",
+        "미국 경기 연착륙 성공",
+        "트럼프의 관세 완화"
+      ]
+    },
+    "base": {
+      "probability": "50%",
+      "description": "Fed 1회 인하 또는 동결, BOK 동결 유지, 환율 현 수준 유지, 변동성 지속",
+      "fed_rate": "3.25-3.75%",
+      "bok_rate": "2.50%",
+      "usd_krw": "1,400-1,450",
+      "triggers": [
+        "점진적 인플레이션 하락",
+        "미중 관세 협상 진전",
+        "한미 금리차 유지"
+      ]
+    },
+    "bear": {
+      "probability": "25%",
+      "description": "인플레이션 재발, Fed 금리 인상 가능성, BOK 동결/인상 압력, 원화 약세",
+      "fed_rate": "3.75-4.25%",
+      "bok_rate": "2.50-2.75%",
+      "usd_krw": "1,450-1,540",
+      "triggers": [
+        "인플레이션 3%대 재상승",
+        "트럼프 관세 전면 시행",
+        "지정학적 리스크 확대",
+        "한국 정치 불안정"
+      ]
+    }
+  },
+
+  "special_analysis": {
+    "kevin_warsh_fed_leadership": {
+      "background": "2006-2011 Fed 이사 경력, 2008 금융위기 대응 경험",
+      "policy_philosophy": [
+        "금리 정책에는 유연 (인하 가능성 열어둠)",
+        "대차대조표 정책에는 보수 (QE 축소 선호)",
+        "forward guidance 최소화 (정책 예측 불가성 증가)",
+        "Fed의 mission creep 비판 (기후, 사회 이슈에서 후퇴 예상)"
+      ],
+      "market_implications": [
+        "단기 금리: 하락 압력 (인하 기대)",
+        "장기 금리: 상승 압력 (term premium 확대)",
+        "주식: 단기 변동성 후 안정화 예상",
+        "달러: 약세 가능성 (트럼프 약달러 선호와 일치)"
+      ],
+      "original_text": "Kevin Warsh's nomination suggests a policy regime that is more flexible on rates, more disciplined on the balance sheet, less communicative in its forward signaling, and influenced by a structural productivity narrative shaped by AI."
+    },
+    "short_term_bond_market": {
+      "observation": "2년물 수익률 월간 +0.16%p 상승 (3.52%)",
+      "drivers": [
+        "Fed 금리 인하 기대 약화",
+        "1월 FOMC 동결에 따른 실망 매도",
+        "Warsh 지명에 따른 정책 불확실성"
+      ],
+      "outlook": "Warsh 체제에서 단기물은 상대적 안정, 장기물은 상승 압력"
+    },
+    "bitcoin_rate_correlation": {
+      "current_correlation": "역상관 (금리 상승 시 BTC 하락)",
+      "institutional_shift": "S&P500 상관계수 68% -> 31%로 급락, 분산투자 자산으로 재평가",
+      "etf_dynamics": "BTC ETF에서 $243M 유출 vs ETH ETF로 $168-174M 유입",
+      "warsh_impact": "금리 인하 성향 시 BTC에 긍정적, 그러나 정책 불확실성은 단기 부정적"
+    }
+  },
+
+  "investment_implications": {
+    "fixed_income": {
+      "recommendation": "단기채 중심 포지션, 장기채 비중 축소",
+      "rationale": "Warsh 체제에서 장기금리 상승 압력 예상"
+    },
+    "currency": {
+      "recommendation": "환헤지 50% / 환노출 50% 분산 전략",
+      "rationale": "환율 방향성 불확실, 변동성 확대 예상"
+    },
+    "equity": {
+      "recommendation": "미국 성장주 비중 유지, 신흥국 선별 접근",
+      "rationale": "Fed 정책 불확실성 vs 경기 회복 기대"
+    },
+    "crypto": {
+      "recommendation": "비트코인 보수적 접근, 단기 매수 자제",
+      "rationale": "고금리 환경 + 정책 불확실성 = 위험자산 약세 가능"
+    }
+  },
+
+  "data_quality": {
+    "skill_verified": true,
+    "fed_rate_verified": true,
+    "bok_rate_verified": true,
+    "treasury_yields_verified": true,
+    "fx_rate_verified": true,
+    "cross_verification_count": {
+      "fed_rate": 4,
+      "bok_rate": 4,
+      "usd_krw": 4
+    },
+    "verification_timestamp": "2026-01-31 15:30:00",
+    "data_freshness": {
+      "fed_data": "2026-01-28 (FOMC 결정)",
+      "bok_data": "2026-01-15 (금통위 결정)",
+      "treasury_yields": "2026-01-30",
+      "fx_rates": "2026-01-28",
+      "warsh_nomination": "2026-01-30"
+    }
+  },
+
+  "sources_summary": [
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+    "https://tradingeconomics.com/united-states/interest-rate",
+    "https://www.jpmorgan.com/insights/markets-and-economy/economy/fed-meeting-january-2026",
+    "https://www.cnbc.com/2026/01/28/fed-rate-decision-january-2026.html",
+    "https://www.cnn.com/business/live-news/fed-chair-nominee-kevin-warsh-01-30-26",
+    "https://www.janushenderson.com/en-us/advisor/article/quick-view-kevin-warshs-nomination-and-the-next-era-of-u-s-monetary-policy/",
+    "https://www.morningstar.com/economy/what-kevin-warsh-fed-chair-could-mean-interest-rates",
+    "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10095711",
+    "https://tradingeconomics.com/south-korea/currency",
+    "https://www.advisorperspectives.com/dshort/updates/2026/01/30/treasury-yields-snapshot-january-30-2026",
+    "https://fred.stlouisfed.org/series/DGS2",
+    "https://coinledger.io/learn/how-do-interest-rates-impact-crypto-prices",
+    "https://biz.chosun.com/en/en-finance/2025/12/04/GWRYRVIDWFD3JLJAIUFIVBDWUM/"
+  ]
+}

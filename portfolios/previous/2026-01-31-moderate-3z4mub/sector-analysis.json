@@ -1,0 +1,135 @@
+{
+  "status": "SUCCESS",
+  "analysis_date": "2026-01-31",
+  "sectors": [
+    {
+      "name": "기술/반도체",
+      "outlook": "neutral",
+      "growth_forecast": "8-10%",
+      "key_drivers": [
+        "AI 데이터센터 수요",
+        "GPU·HBM 메모리 수요 확대",
+        "글로벌 반도체 시장 성장 지속"
+      ],
+      "risks": [
+        "KOSPI 반도체 집중도 심화",
+        "미국 기술주 집중도 상승",
+        "수출 규제·공급망 리스크"
+      ],
+      "overvaluation_concern": "KOSPI 상승이 삼성전자·SK하이닉스 중심으로 집중되며 지수 왜곡 우려가 제기되고, S&P500 기술 섹터 집중도가 역사적 고점 수준이라는 분석이 존재해 과열 리스크를 경계.",
+      "weight_recommendation": "neutral",
+      "original_text": "WSTS는 2026년까지 반도체 시장의 강한 모멘텀 지속을 언급했고, KOSPI는 반도체 편중으로 '미라지' 우려가 제기됨. S&P500은 기술 집중도가 사상 최고 수준이라는 보도.",
+      "sources": [
+        "https://www.wsts.org/76/Global-Semiconductor-Market-Approaches-1T-in-2026",
+        "https://omdia.tech.informa.com/-/media/tech/omdia/assetfamily/2025/12/04/2026-trends-to-watch-semiconductors/2026-trends-to-watch-semiconductors-pdf.pdf",
+        "https://koreajoongangdaily.joins.com/news/2026-01-07/opinion/editorials/Kospi-tops-4500-but-semiconductor-mirage-warrants-caution/2494214",
+        "https://markets.financialcontent.com/stocks/article/marketminute-2026-1-28-the-tech-tsunami-s-and-p-500-hits-7000-as-tech-concentration-reaches-historic-34"
+      ],
+      "verified": true
+    },
+    {
+      "name": "로봇/자동화",
+      "outlook": "positive",
+      "growth_forecast": "1-5%",
+      "key_drivers": [
+        "AI 기반 자율화·지능화",
+        "제조업 인력 부족 대응",
+        "스마트팩토리 투자"
+      ],
+      "risks": [
+        "산업 자동화 경기 민감도",
+        "통합·데이터 품질·보안 병목",
+        "설비투자 지연 가능성"
+      ],
+      "weight_recommendation": "neutral",
+      "original_text": "IFR은 2026년 로봇 산업 트렌드로 AI·자율화 확대를 강조했고, Deloitte는 산업용 로봇이 완만한 성장세를 유지한다고 분석.",
+      "sources": [
+        "https://ifr.org/ifr-press-releases/news/top-5-global-robotics-trends-2026",
+        "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-for-robots-drones.html",
+        "https://www.rolandberger.com/en/Insights/Publications/Industrial-automation-update-2026.html"
+      ],
+      "verified": true
+    },
+    {
+      "name": "헬스케어",
+      "outlook": "neutral",
+      "growth_forecast": "3-6%",
+      "key_drivers": [
+        "바이오·의료기기 혁신",
+        "고령화에 따른 의료 수요",
+        "디지털 헬스·데이터 활용 확대"
+      ],
+      "risks": [
+        "규제·허가 불확실성",
+        "약가·보험수가 압력",
+        "임상 실패 위험"
+      ],
+      "weight_recommendation": "neutral",
+      "original_text": "Deloitte와 EY는 2026년 헬스케어가 성장 여지가 있으나 복합 리스크에 대한 회복탄력성이 필요하다고 언급.",
+      "sources": [
+        "https://www.deloitte.com/us/en/insights/industry/health-care/life-sciences-and-health-care-industry-outlooks/2026-life-sciences-executive-outlook.html",
+        "https://www.ey.com/en_us/insights/strategy/healthcare-sector-outlook-in-2026",
+        "https://www.deloitte.com/us/en/Industries/life-sciences-health-care/blogs/health-care/three-key-trends-likely-to-shape-medtech.html"
+      ],
+      "verified": true
+    },
+    {
+      "name": "에너지",
+      "outlook": "positive",
+      "growth_forecast": "5-12%",
+      "key_drivers": [
+        "원자력 투자 재개",
+        "재생에너지·저탄소 전환 투자",
+        "전력망·저장 인프라 확대"
+      ],
+      "risks": [
+        "정책·인허가 지연",
+        "프로젝트 금융·원가 부담",
+        "공급망 병목"
+      ],
+      "weight_recommendation": "overweight",
+      "original_text": "IEA는 원자력 확대 기회와 투자 필요를 강조했고, BNEF는 에너지 전환 투자 동향을 추적하며 재생·저탄소 투자 확대를 제시.",
+      "sources": [
+        "https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy",
+        "https://www.iea.org/reports/world-energy-investment-2025/executive-summary",
+        "https://about.bnef.com/energy-transition-investment/"
+      ],
+      "verified": true
+    },
+    {
+      "name": "원자재",
+      "outlook": "negative",
+      "growth_forecast": "-10-0%",
+      "key_drivers": [
+        "금·은 급락 및 변동성 확대",
+        "달러·금리 기대 변화",
+        "구리 수급 불확실성"
+      ],
+      "risks": [
+        "추가 급락 및 포지션 청산",
+        "거시 불확실성 확대",
+        "정책·관세 변수"
+      ],
+      "gold_silver_crash_analysis": "1월 말 금·은이 급락했다는 보도가 있었고, 단기 급락은 과열 포지션 청산과 변동성 확대 신호로 해석된다. 구조적으로는 정책 불확실성과 금리·달러 경로가 가격에 민감하게 반영되는 국면.",
+      "safe_haven_alternatives": "단기 국채·현금성 자산, 투자등급 크레딧, 변동성 낮은 배당주 등으로 방어적 분산을 고려.",
+      "weight_recommendation": "underweight",
+      "original_text": "금·은 급락(금 -12%, 은 -35% 보도) 관련 기사와, 에너지 전환에 따른 구리 수요 전망 및 가격 변동성 요인이 언급됨.",
+      "sources": [
+        "https://coindesk.com/markets/2026/01/30/precious-metals-crash-with-silver-plunging-32-gold-11-bitcoin-slips-back-to-usd82-000",
+        "https://m.economictimes.com/news/international/us/3-trillion-wiped-out-from-gold-and-silver-in-minutes-and-was-it-complete-manipulation-heres-complete-truth-and-gold-and-silver-price-drop-explained/articleshow/127783518.cms",
+        "https://www.iea.org/reports/copper-2",
+        "https://goldmansachs.com/insights/articles/why-record-high-copper-prices-arent-forecast-to-last"
+      ],
+      "verified": true
+    }
+  ],
+  "sector_correlation": {
+    "tech_ai_group": [
+      "반도체",
+      "AI",
+      "로봇"
+    ],
+    "concentration_warning": "40% 한도 주의"
+  },
+  "skill_verified": true
+}

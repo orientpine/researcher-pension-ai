@@ -1,0 +1,366 @@
+{
+  "status": "SUCCESS",
+  "analysis_date": "2026-01-19",
+  "skill_used": "web-search-verifier (exa_web_search_exa)",
+  "market_context": {
+    "vix": 15.86,
+    "vix_interpretation": "낮은 변동성 - 시장 안도감 또는 과도한 낙관",
+    "sp500": 6940.01,
+    "sp500_note": "사상 최고치 부근",
+    "kospi": 4905,
+    "kospi_note": "역대 최고치 경신 (YoY +93.97%)",
+    "us_10y_yield": "4.23%",
+    "japan_10y_yield": "2.275%",
+    "japan_note": "27년래 최고 - 글로벌 채권 시장 스트레스 신호"
+  },
+  "risks": [
+    {
+      "category": "지정학적",
+      "name": "대만해협 긴장 및 반도체 공급망",
+      "description": "중국-대만 간 긴장 고조로 글로벌 반도체 공급망에 심각한 위협. 대만은 전 세계 반도체의 60% 이상, 첨단 칩의 90% 이상을 생산. 전면 분쟁 시 글로벌 GDP 최대 10% 감소 예상.",
+      "impact": "HIGH",
+      "likelihood": "보통",
+      "affected_assets": ["반도체 섹터", "기술주", "글로벌 제조업", "아시아 신흥국"],
+      "mitigation": "반도체 섹터 과도한 집중 회피, 지역 분산 투자, 대체 공급망 수혜 기업 주목",
+      "original_text": "A full-scale conflict or blockade in the Taiwan Strait could wipe out up to 10% of global GDP, a shock comparable to the 2008 financial crisis. Even a limited blockade could cost the global economy $2.7 trillion in the first year alone. Taiwan produces over 60% of global semiconductors and more than 90% of advanced chips.",
+      "sources": [
+        {"name": "E2Open", "url": "https://www.e2open.com/blog/china-taiwan-tensions-how-to-prepare-your-supply-chain-to-mitigate-risk/"},
+        {"name": "Efficio Consulting", "url": "https://www.efficioconsulting.com/en-us/resources/all/china-taiwan-tensions-impacts-on-global-supply-chains-and-semiconductor-availability/"},
+        {"name": "AInvest", "url": "https://www.ainvest.com/news/taiwan-cross-strait-talent-controls-geopolitical-risks-semiconductor-supply-chain-implications-2601/"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "지정학적",
+      "name": "트럼프 2.0 관세 정책 및 무역 분쟁",
+      "description": "트럼프 행정부의 광범위한 관세 부과로 가계당 연간 $1,100-1,500 세금 증가 효과. 미국 가중평균 관세율 15.8%로 1943년 이후 최고. 중국, 캐나다, 멕시코, EU 대상 IEEPA 관세 시행 중.",
+      "impact": "HIGH",
+      "likelihood": "높음",
+      "affected_assets": ["수출 의존 기업", "자동차", "반도체", "농산물", "신흥국 통화"],
+      "mitigation": "내수 중심 기업 선호, 관세 협상 수혜 섹터 주목, 달러 강세 헤지",
+      "original_text": "The Trump tariffs amount to an average tax increase per US household of $1,100 in 2025 and $1,500 in 2026. Under the tariffs imposed and scheduled as of November 1, the weighted average applied tariff rate on all imports rises to 15.8 percent—the highest average rate since 1943. The Trump tariffs are the largest US tax increase as a percent of GDP (0.47 percent for 2025) since 1993.",
+      "sources": [
+        {"name": "Tax Foundation", "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"},
+        {"name": "Reed Smith - Trade Compliance", "url": "https://www.tradecomplianceresourcehub.com/2026/01/14/trump-2-0-tariff-tracker/"},
+        {"name": "BIS Working Papers", "url": "https://www.bis.org/publ/work1316.pdf"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "지정학적",
+      "name": "중동 분쟁 및 유가 변동성",
+      "description": "이란 내 시위와 미-이스라엘의 대이란 압박으로 유가 급등 위험. 이란 원유 수출 완전 차단 시 2026년 4분기 브렌트유 $91/배럴까지 상승 가능. 2025년 6월 이스라엘-이란 갈등 시 브렌트유 $63.90→$78.85 급등 선례.",
+      "impact": "HIGH",
+      "likelihood": "보통",
+      "affected_assets": ["에너지 섹터", "항공", "운송", "소비재", "인플레이션 연동 자산"],
+      "mitigation": "에너지 섹터 비중 유지 또는 확대, 인플레이션 헤지 상품 고려",
+      "original_text": "If Iran's oil exports were completely removed from the market starting in February, an extreme scenario we currently view as unlikely, Brent could rise to an average of $71/bbl in 2Q 2026. If the disruption persisted through the rest of 2026, Brent could average $91/bbl in 4Q 2026. BNEF estimates Brent crude to average $55 per barrel in 2026, assuming the situation in Iran does not disturb global oil markets.",
+      "sources": [
+        {"name": "BloombergNEF", "url": "https://about.bnef.com/insights/commodities/oil-can-hit-91-a-barrel-in-late-2026-on-iran-disruption/"},
+        {"name": "Economy Middle East", "url": "https://economymiddleeast.com/news/oil-markets-in-2026-more-uncertainty-and-geopolitical-stress/"},
+        {"name": "Reuters", "url": "https://www.reuters.com/business/energy/oil-prices-rise-iran-israel-conflict-fans-supply-worries-2025-06-17/"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "지정학적",
+      "name": "한반도 리스크",
+      "description": "북한의 핵/미사일 개발 지속 및 미-북 대화 재개 불확실성. 김정은의 '자위적 핵 억지력' 강화 발언, 미국의 베네수엘라 군사작전 후 북한의 반미 연대 강화. 이란 분쟁 시 북한 개입 가능성까지 제기.",
+      "impact": "MEDIUM",
+      "likelihood": "낮음",
+      "affected_assets": ["한국 주식", "방산주", "엔화(안전자산)", "한국 국채"],
+      "mitigation": "한국 비중 과도한 집중 회피, 방산 섹터 일부 편입, 엔화 헤지",
+      "original_text": "North Korea is likely to reinforce the justification for its 'self-defensive' nuclear development following the US military operation against Venezuelan President Nicolás Maduro on January 3, reducing the likelihood of renewed United States–North Korea dialogue. Kim Jong Un oversaw a missile launch the same day and called for expanding a 'strong and reliable nuclear deterrent,' citing 'recent geopolitical crises.'",
+      "sources": [
+        {"name": "Chatham House", "url": "https://www.chathamhouse.org/2026/01/north-korea-2026-will-us-and-south-korea-push-talks-succeed"},
+        {"name": "ISW/AEI", "url": "https://understandingwar.org/research/china-taiwan/korean-peninsula-update-january-13-2026/"},
+        {"name": "38 North", "url": "https://www.38north.org/nk-briefing/north-korea-briefing-vol-3-winter-2025/"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "지정학적",
+      "name": "우크라이나 전쟁 및 유럽 에너지 리스크",
+      "description": "우크라이나 전쟁 장기화로 유럽 에너지 인프라 공격 위험 증가. EU의 러시아 '그림자 선단' 제재, 러시아 자산 동결 활용으로 보복 가능성. 러시아의 유럽 에너지 인프라(파이프라인, LNG 터미널) 타격 우려.",
+      "impact": "MEDIUM",
+      "likelihood": "보통",
+      "affected_assets": ["유럽 주식", "천연가스", "유틸리티", "유로화"],
+      "mitigation": "유럽 비중 축소 또는 선별적 접근, LNG 관련주 모니터링",
+      "original_text": "Amid US-brokered talks to end the almost four-year war in Ukraine, Europe is ramping up sanctions on Russia's 'shadow fleet' while phasing out Russian energy imports. All this raises the risk of Russian reprisals targeting critical European energy infrastructure.",
+      "sources": [
+        {"name": "Energy Intelligence", "url": "https://www.energyintel.com/0000019b-3101-d02f-adfb-f791f46b0000"},
+        {"name": "Stimson Center", "url": "https://www.stimson.org/2026/top-ten-global-risks-for-2026/"},
+        {"name": "Axpo", "url": "https://www.axpo.com/group/en/news-and-stories/magazine/energy-market/weather-risks-and-geopolitics-continue-to-shape-european-energy-.html"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "경제",
+      "name": "스태그플레이션 / 인플레이션 재발",
+      "description": "미국 CPI 2.7%로 하락했으나 여전히 목표 상회. 관세 충격, 정부 부채 확대, 연준 독립성 위협 등으로 인플레이션 재발 우려. 스태그플레이션 시 채권-주식 동반 하락으로 분산 효과 상실.",
+      "impact": "HIGH",
+      "likelihood": "보통",
+      "affected_assets": ["채권", "성장주", "소비재", "부동산"],
+      "mitigation": "실물자산(금, 원자재) 비중 확대, 단기채 선호, 가치주 비중 확대",
+      "original_text": "When central-bank credibility erodes, inflation can persist even as growth slows—creating stagflation, in which bonds fail to diversify equities. In our stagflation scenario, a global diversified portfolio could lose roughly 11%. Inflation ranks third in Risk.net's Top 10 investment risks, even though US CPI fell to 2.7%. Sticky inflation can break expected asset correlations, making bonds and equities move together and reducing diversification.",
+      "sources": [
+        {"name": "MSCI Research", "url": "https://www.msci.com/research-and-insights/blog-post/macro-scenarios-in-focus-central-bank-credibility-and-portfolio-risk"},
+        {"name": "Risk.net", "url": "https://www.risk.net/investing/7962946/sticky-fears-about-sticky-inflation"},
+        {"name": "Nomura", "url": "https://www.nomuraconnects.com/focused-thinking-posts/us-outlook-2026-balancing-accelerating-growth-and-sticky-inflation/"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "경제",
+      "name": "미국 경기 침체 리스크",
+      "description": "은행권 설문에서 2026년 미국 및 글로벌 경기침체 우려 높음. 관세 변동성, 규제 불확실성, 연준 신뢰 하락 등이 주요 요인. 다만 AI 주도 투자와 완화적 통화정책으로 연착륙 가능성도 상존.",
+      "impact": "HIGH",
+      "likelihood": "보통",
+      "affected_assets": ["경기민감주", "하이일드 채권", "소형주", "신흥국"],
+      "mitigation": "경기방어주 비중 확대, 고품질 채권 선호, 현금 비중 일부 유지",
+      "original_text": "American Banker's 2026 Predictions report: Bankers fear that a recession will likely happen in both the U.S. and global economies. Tariff volatility is a highly likely threat to the banking industry in 2026. Roughly a third of bankers lost faith in the Federal Reserve Board to some degree last year.",
+      "sources": [
+        {"name": "American Banker", "url": "https://www.americanbanker.com/news/exclusive-research-bankers-fear-recession-in-2026"},
+        {"name": "iShares", "url": "https://www.ishares.com/us/insights/fed-outlook-2026-interest-rate-forecast"},
+        {"name": "Brookings", "url": "https://www.brookings.edu/articles/economic-issues-to-watch-in-2026/"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "경제",
+      "name": "정부 부채 위기",
+      "description": "미국 국가부채 $38.5조 돌파, 이자 비용만 연간 $1조에 육박하며 곧 메디케어 예산 초과 전망. G7 대부분 국가 GDP 대비 부채 100% 초과. 투자자들이 더 높은 금리를 요구하면서 채권 시장 스트레스 증가 가능.",
+      "impact": "MEDIUM",
+      "likelihood": "높음",
+      "affected_assets": ["장기 국채", "달러", "재정 취약 국가 채권"],
+      "mitigation": "장기 듀레이션 축소, 물가연동채(TIPS) 고려, 달러 약세 헤지",
+      "original_text": "America's $38 trillion national debt is so big just the interest will soon cost more than Medicare. U.S. debt to GDP stands at 125%, according to IMF calculations. The trajectory has headed north for decades, but universal government intervention during COVID accelerated the trend. With the exception of Germany, advanced economies are awash in debt.",
+      "sources": [
+        {"name": "Fortune", "url": "https://fortune.com/2026/01/15/national-debt-today-interest-payments-per-year/"},
+        {"name": "RSM US", "url": "https://rsmus.com/insights/economics/growth-of-government-debt-and-consequences.html"},
+        {"name": "Empower", "url": "https://www.empower.com/investment-insights/global-debt-problem"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "시장",
+      "name": "밸류에이션 고평가 (CAPE)",
+      "description": "S&P 500 Shiller CAPE 비율 39.42로 역사적 평균(16-18)의 2배 이상. 1999년 닷컴버블, 2020-22년 수준과 동일. 10년 기대수익률 0.5-1.5%로 장기 평균 4.8% 크게 하회. 밸류에이션 회귀 시 25-83% 조정 가능성.",
+      "impact": "HIGH",
+      "likelihood": "보통",
+      "affected_assets": ["미국 대형 성장주", "기술주", "S&P 500 ETF"],
+      "mitigation": "가치주/배당주 비중 확대, 비미국 주식 분산, 리밸런싱 주기 단축",
+      "original_text": "S&P 500's Shiller CAPE ratio has reached 39.42 as of December 2025, a level not seen since the dot-com bubble of 1999 and the post-pandemic peak of 2020–2022. This valuation, more than double the historical average of 16–18, signals an exceptionally expensive market. Experts warn of potential 25-83% corrections if valuations revert, with 10-year returns projected at 0.5-1.5% vs. 4.8% long-term average.",
+      "sources": [
+        {"name": "AInvest", "url": "https://www.ainvest.com/news/shiller-cape-ratio-precarious-valuation-500-cautionary-outlook-long-term-investors-2601/"},
+        {"name": "Economic Times", "url": "https://m.economictimes.com/news/international/us/is-us-stock-market-extremely-overvalued-what-the-shiller-cape-says-about-u-s-stock-valuations-today-and-what-elevated-cape-levels-have-meant-historically/articleshow/126589276.cms"},
+        {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/01/10/stock-market-3-times-155-years-history-what-next/"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "시장",
+      "name": "Magnificent 7 집중 리스크",
+      "description": "2025년 Magnificent 7 중 다수가 S&P 500 수익률 하회. AI 투자 대비 수익 실현 지연 우려. 빅테크 $440B+ CapEx 투자 부담. AI 서사 약화 시 시장 전체에 광범위한 영향.",
+      "impact": "HIGH",
+      "likelihood": "보통",
+      "affected_assets": ["NVIDIA", "Microsoft", "Apple", "Meta", "Alphabet", "Amazon", "Tesla", "나스닥 100"],
+      "mitigation": "동일가중 ETF 활용, 소형주/가치주 분산, 비기술 섹터 비중 확대",
+      "original_text": "For the first time since 2022, when the Federal Reserve started raising interest rates, the majority of the Magnificent 7 tech giants performed worse than the S&P 500 Index. While the Bloomberg Magnificent 7 Index rose 25% in 2025, compared with 16% for the S&P 500, that was only because of the enormous gains by Alphabet Inc. and Nvidia Corp. Wall Street fears a Magnificent 7 meltdown in 2026 as AI disappointment risks grow.",
+      "sources": [
+        {"name": "Fortune/Bloomberg", "url": "https://fortune.com/2026/01/11/magnificent-7-stock-market-dominance-cracking-nvidia-microsoft-apple-meta-alphabet-amazon-tesla/"},
+        {"name": "Chronicle Journal/Market Minute", "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-1-13-the-great-tech-reckoning-why-wall-street-fears-a-magnificent-7-meltdown-in-2026"},
+        {"name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4860572-the-weakest-links-within-the-ai-bubble"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "시장",
+      "name": "AI 버블 리스크",
+      "description": "AI 인프라에 $2.9조+ 투자 중, 데이터센터 건설 급증. AGI(범용인공지능) 실현 지연 시 2008년 금융위기급 붕괴 우려. AI 고드프리 Yoshua Bengio의 '벽에 부딪힐 수 있다' 경고.",
+      "impact": "HIGH",
+      "likelihood": "보통",
+      "affected_assets": ["AI 관련주", "데이터센터 REITs", "반도체 장비", "클라우드"],
+      "mitigation": "AI 수혜 2차 기업(전력, 냉각) 분산, AI 비관련 섹터 비중 유지",
+      "original_text": "Will the race to artificial general intelligence (AGI) lead us to a land of financial plenty – or will it end in a 2008-style bust? An estimated $2.9tn being spent on datacentres, the more than $4tn stock market capitalisation of Nvidia. 'We could hit a wall,' warns Yoshua Bengio, one of the 'godfathers' of modern AI. If AI narrative fades, several large AI-related firms could be hurt badly.",
+      "sources": [
+        {"name": "The Guardian", "url": "https://www.theguardian.com/technology/2026/jan/17/why-trillions-dollars-risk-no-guarantee-ai-reward"},
+        {"name": "Fortune/Bloomberg", "url": "https://fortune.com/2026/01/04/is-ai-boom-bubble-pop-tech-stocks-sp500-bull-run/"},
+        {"name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4860572-the-weakest-links-within-the-ai-bubble"}
+      ],
+      "verified": true
+    },
+    {
+      "category": "부동산/신용",
+      "name": "상업용 부동산 리파이낸싱 위기",
+      "description": "2026년 $1.5-1.8조 CRE 대출 만기 도래 - 역대 최대 규모. 저금리 시대(3-4%) 대출이 고금리 환경에서 리파이낸싱 난항. 오피스 공실률 상승, 자산가치 하락으로 차환 실패 위험.",
+      "impact": "MEDIUM",
+      "likelihood": "높음",
+      "affected_assets": ["지역 은행", "오피스 REITs", "CMBS", "상업용 모기지"],
+      "mitigation": "지역은행 익스포저 축소, 오피스 REITs 회피, 멀티패밀리/물류 선호",
+      "original_text": "A massive wave of commercial real estate (CRE) debt is coming due in 2026, often called the 'refinancing wall.' By the end of 2026 well over $1.5 trillion will have reached maturity. Some estimates put 2026 maturities as high as $1.8 trillion. Many loans were originated during an ultra-low-rate period at 3% to 4% and now face refinance rates nearly double.",
+      "sources": [
+        {"name": "MMG Real Estate Advisors", "url": "https://mmgrea.com/2026-cre-refinancing-wall/"},
+        {"name": "CRE Daily", "url": "https://www.credaily.com/briefs/debt-maturities-rise-amid-2026-cre-pressure/"},
+        {"name": "Deloitte", "url": "https://www.deloitte.com/us/en/insights/industry/financial-services/commercial-real-estate-outlook.html"}
+      ],
+      "verified": true
+    }
+  ],
+  "scenarios": {
+    "optimistic": {
+      "name": "Soft Landing (연착륙)",
+      "conditions": [
+        "인플레이션 2% 목표 접근, 연준 추가 금리 인하 (3.0% 수준까지)",
+        "트럼프 관세 협상 타결, 무역 갈등 완화",
+        "AI 생산성 향상 가시화, 기업 실적 성장 지속",
+        "지정학적 리스크 관리 가능 수준 유지",
+        "실업률 4.0% 수준 안정"
+      ],
+      "market_impact": {
+        "sp500": "+8~12%",
+        "kospi": "+10~15%",
+        "bonds": "금리 하락으로 채권 가격 상승, 장기채 수혜",
+        "dollar": "완만한 약세"
+      },
+      "asset_allocation": {
+        "stocks": "60-70%",
+        "bonds": "20-25%",
+        "alternatives": "10-15%",
+        "recommendation": "성장주 중심 유지, 신흥국 비중 확대, 장기채 비중 일부 확대"
+      },
+      "original_text": "We expect risky assets to outperform in 2026 amid an AI boom, easing fiscal and monetary policies and abating trade tensions. Strong AI-driven earnings growth to overcome elevated valuations. The most likely path for Fed policy in 2026 is for the central bank to bring rates down from the current range of 3.50% to 3.75% to closer to 3%. We forecast an increase in real GDP growth to 2.4% Q4/Q4, unemployment rate to reverse its recent uptrend, falling to 4.0% by year-end 2026.",
+      "sources": [
+        {"name": "Standard Chartered", "url": "https://www.sc.com/en/uploads/sites/66/content/docs/wm-global-market-outlook-blowing-bubbles-12-december-2025.pdf"},
+        {"name": "iShares", "url": "https://www.ishares.com/us/insights/fed-outlook-2026-interest-rate-forecast"},
+        {"name": "Nomura", "url": "https://www.nomuraconnects.com/focused-thinking-posts/us-outlook-2026-balancing-accelerating-growth-and-sticky-inflation/"}
+      ]
+    },
+    "base": {
+      "name": "Muddle Through (완만한 성장)",
+      "conditions": [
+        "인플레이션 2.5-3.0% 수준에서 고착화",
+        "연준 금리 인하 1-2회에 그침 (3.25-3.5%)",
+        "관세 불확실성 지속, 부분적 협상 진전",
+        "AI 투자 지속되나 수익 실현 지연",
+        "경기 성장 둔화 (GDP 1.5-2.0%)"
+      ],
+      "market_impact": {
+        "sp500": "+3~7%",
+        "kospi": "+5~10%",
+        "bonds": "횡보, 단기채 소폭 우위",
+        "dollar": "강보합"
+      },
+      "asset_allocation": {
+        "stocks": "50-55%",
+        "bonds": "30-35%",
+        "alternatives": "15%",
+        "recommendation": "가치주 비중 확대, 배당주 선호, 단기-중기채 중심"
+      },
+      "original_text": "Bank of America projects a modest gain of just 3% year-over-year, citing solid earnings growth. Many banks acknowledge elevated valuations, especially in large technology companies. Some also note that rate cuts may only occur if economic momentum slows. Inflation will likely moderate as tariff shocks wane, but sticky services inflation will keep core PCE above 2%.",
+      "sources": [
+        {"name": "Griffin Asset Management", "url": "https://www.griffinasset.com/wall-streets-2026-stock-market-outlook-explained/"},
+        {"name": "Hartford Funds", "url": "https://www.hartfordfunds.com/dam/en/docs/pub/whitepapers/WP878.pdf"},
+        {"name": "Nomura", "url": "https://www.nomuraconnects.com/focused-thinking-posts/us-outlook-2026-balancing-accelerating-growth-and-sticky-inflation/"}
+      ]
+    },
+    "pessimistic": {
+      "name": "Hard Landing / Tail Risk (경착륙)",
+      "conditions": [
+        "스태그플레이션 현실화 (인플레이션 4%+, 성장 1% 미만)",
+        "연준 독립성 훼손, 정책 신뢰 하락",
+        "관세 전쟁 전면화, 글로벌 무역 위축",
+        "AI 버블 붕괴, 기술주 대폭 조정",
+        "지정학적 충격 (대만, 이란 등) 현실화"
+      ],
+      "market_impact": {
+        "sp500": "-15~-25%",
+        "kospi": "-10~-20%",
+        "bonds": "스태그플레이션 시 채권도 손실, 인플레이션 헤지 자산 선호",
+        "dollar": "초기 강세 후 불확실"
+      },
+      "asset_allocation": {
+        "stocks": "30-40%",
+        "bonds": "30-35%",
+        "alternatives": "25-30% (금, 원자재, 현금)",
+        "recommendation": "방어적 포지션, 금 비중 확대, 현금 보유, 경기방어주 선호"
+      },
+      "original_text": "When central-bank credibility erodes, inflation can persist even as growth slows—creating stagflation, in which bonds fail to diversify equities. In our stagflation scenario, a global diversified portfolio could lose roughly 11%. By contrast, a recession with falling yields could limit losses to around 5% through bond gains. S&P 500 CAPE ratio at 39.42 - potential 25-83% corrections if valuations revert. We expect returns for U.S. stocks—particularly growth stocks—to be muted over the next five to 10 years.",
+      "sources": [
+        {"name": "MSCI Research", "url": "https://www.msci.com/research-and-insights/blog-post/macro-scenarios-in-focus-central-bank-credibility-and-portfolio-risk"},
+        {"name": "Vanguard", "url": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/vemo/2026-outlook-economic-upside-stock-market-downside.html"},
+        {"name": "AInvest", "url": "https://www.ainvest.com/news/shiller-cape-ratio-precarious-valuation-500-cautionary-outlook-long-term-investors-2601/"}
+      ]
+    }
+  },
+  "risk_matrix": {
+    "high_impact_high_likelihood": [
+      "트럼프 2.0 관세 정책 및 무역 분쟁",
+      "정부 부채 위기",
+      "상업용 부동산 리파이낸싱 위기"
+    ],
+    "high_impact_medium_likelihood": [
+      "대만해협 긴장 및 반도체 공급망",
+      "중동 분쟁 및 유가 변동성",
+      "스태그플레이션 / 인플레이션 재발",
+      "미국 경기 침체 리스크",
+      "밸류에이션 고평가 (CAPE)",
+      "Magnificent 7 집중 리스크",
+      "AI 버블 리스크"
+    ],
+    "high_impact_low_likelihood": [
+      "한반도 리스크 (전면 군사 충돌)"
+    ],
+    "medium_impact_medium_likelihood": [
+      "우크라이나 전쟁 및 유럽 에너지 리스크"
+    ]
+  },
+  "tail_risk_events": [
+    {
+      "event": "대만해협 봉쇄 또는 군사 충돌",
+      "description": "중국의 대만 봉쇄 또는 침공 시 글로벌 GDP 10% 감소, 반도체 공급 차단으로 전 산업 마비 가능",
+      "hedge_strategy": "반도체 섹터 익스포저 제한, 비아시아 시장 분산, 금 및 안전자산 비중 확대, 방산주 일부 편입"
+    },
+    {
+      "event": "연준 독립성 훼손으로 인한 신뢰 위기",
+      "description": "정치적 압력으로 연준 신뢰 하락 시 인플레이션 고착화, 채권-주식 동반 하락",
+      "hedge_strategy": "TIPS(물가연동채), 금, 단기채 선호, 글로벌 채권 분산, 달러 외 통화 익스포저"
+    },
+    {
+      "event": "AI 투자 버블 붕괴",
+      "description": "AGI 실현 지연, 기업 AI 투자 ROI 미실현 시 기술주 대폭락, 2000년 닷컴버블 재현 우려",
+      "hedge_strategy": "기술주 비중 축소, 가치주/배당주 확대, 동일가중 ETF 활용, 비기술 섹터 분산"
+    },
+    {
+      "event": "이란 원유 수출 완전 차단",
+      "description": "미-이스라엘의 대이란 군사작전으로 이란 원유(일 330만 배럴) 완전 차단 시 유가 $90+ 급등",
+      "hedge_strategy": "에너지 섹터 오버웨이트, 인플레이션 헤지 상품, 소비재 섹터 언더웨이트"
+    },
+    {
+      "event": "글로벌 CRE 채무불이행 연쇄",
+      "description": "$1.8조 CRE 대출 만기 집중으로 지역은행 및 CMBS 시장 스트레스, 금융시스템 전이 위험",
+      "hedge_strategy": "지역은행 익스포저 최소화, 대형은행 선별, 오피스 REITs 회피"
+    }
+  ],
+  "portfolio_implications": {
+    "current_market_assessment": "VIX 15.86의 낮은 변동성은 시장 안도감을 반영하나, CAPE 39.42의 극단적 고평가와 다수의 지정학적 리스크를 고려할 때 과도한 낙관은 경계 필요",
+    "key_recommendations": [
+      "미국 대형 성장주 집중 완화, 가치주/배당주 비중 확대",
+      "비미국 선진국(일본, 유럽 선별) 및 신흥국(인도) 분산",
+      "금 5-10% 편입으로 테일 리스크 헤지",
+      "듀레이션 축소, 단기-중기 고품질 채권 선호",
+      "현금 또는 초단기 채권 5-10% 유지로 기회 포착 대비",
+      "리밸런싱 주기 단축 (분기→월간 모니터링)"
+    ],
+    "sectors_to_favor": ["헬스케어", "필수소비재", "유틸리티", "배당 귀족주", "금/원자재"],
+    "sectors_to_avoid": ["고베타 성장주 과집중", "오피스 REITs", "지역은행", "관세 민감 제조업"]
+  },
+  "data_quality": {
+    "skill_verified": true,
+    "all_risks_verified": true,
+    "verification_timestamp": "2026-01-19T17:45:00+09:00",
+    "total_sources_cited": 36,
+    "cross_verification_passed": true
+  },
+  "disclaimer": "본 분석은 투자 조언이 아니며, 교육 및 정보 제공 목적으로만 작성되었습니다. 모든 투자 결정은 개인의 판단과 책임 하에 이루어져야 합니다. 확률 수치(%)는 의도적으로 배제되었으며, 정성적 표현(높음/보통/낮음)만 사용되었습니다."
+}
