@@ -17,7 +17,7 @@
 투자자 프로필과 함께 명령을 실행합니다:
 
 ```
-/investments-portfolio:portfolio-orchestrator 나를 위한 새로운 포트폴리오를 구성해줘.
+/investments-portfolio:portfolio-analyze 나를 위한 새로운 포트폴리오를 구성해줘.
 
 | 항목 | 내용 |
 |------|------|
