@@ -91,6 +91,7 @@ researcher-pension-ai/
 ├── consultations/          # AI 투자 컨설테이션 보고서
 ├── docs/                   # 기술 문서·개선 계획
 ├── examples/               # 사용 예제
+├── resource/               # 원본 CSV/XLSX (과학기술공제회 상품제안서)
 ├── DISCLAIMER.md           # 투자 면책 조항
 └── AGENTS.md               # 프로젝트 지식베이스
 ```
@@ -110,6 +111,52 @@ researcher-pension-ai/
 
 ---
 
+## 펀드 데이터 업데이트
+
+매월 과학기술공제회에서 새 상품제안서(CSV)가 발행되면, `data-updater` 스킬로 펀드 데이터를 갱신합니다.
+
+### resource/ 폴더
+
+원본 CSV/XLSX 파일을 보관합니다:
+
+```
+resource/
+├── 25년12월_상품제안서_퇴직연금(DCIRP).csv
+├── 25년12월_상품제안서_퇴직연금(DCIRP).xlsx
+├── 26년01월_상품제안서_퇴직연금(DCIRP).csv
+├── 26년01월_상품제안서_퇴직연금(DCIRP).xlsx
+├── 26년03월_상품제안서_퇴직연금(DCIRP).csv
+└── 26년03월_상품제안서_퇴직연금(DCIRP).xlsx
+```
+
+> 새 CSV를 받으면 `resource/` 폴더에 추가한 뒤 아래 명령을 실행합니다.
+
+### 업데이트 실행
+
+```
+/investments-portfolio:data-updater resource/26년03월_상품제안서_퇴직연금(DCIRP).csv
+```
+
+자동으로 수행되는 작업:
+
+1. CSV 파싱 및 검증 (UTF-8, 헤더 확인)
+2. `funds/fund_data.json` 생성 (펀드 기본정보·수익률)
+3. `funds/fund_fees.json` 생성 (수수료 정보)
+4. `funds/fund_classification.json` 생성 (자산 분류)
+5. `funds/all/` 전체 펀드 데이터 저장 (2,015개)
+6. 기존 파일 자동 백업 (`funds/archive/`)
+
+### 예금금리 업데이트 (선택)
+
+예금금리는 웹에서 조회할 수 없는 과학기술공제회 내부 금리이므로, 직접 입력해야 합니다:
+
+```
+/investments-portfolio:data-updater 예금금리 업데이트
+과학기술인공제회 1년: 4.9%
+우리은행 1년: 2.75%
+```
+
+---
 ## 라이선스
 
 이 프로젝트의 코드와 분류 데이터는 자유롭게 사용할 수 있습니다.  
